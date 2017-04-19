@@ -297,7 +297,7 @@ baidu_analytics: e5af71dc023cd2b9b7691d458518d79a
 # Disqus
 disqus:
   enable: true
-  shortname: xhxt2008
+  shortname: https-xhxt2008-github-io
   count: true
 
 # Hypercomments
@@ -324,7 +324,7 @@ changyan:
 # Available value:
 #    button | slide
 # Warning: Baidu Share does not support https.
-#baidushare:
+baidushare: true
 ##  type: button
 
 # Share
