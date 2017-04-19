@@ -296,8 +296,8 @@ baidu_analytics: e5af71dc023cd2b9b7691d458518d79a
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: xhxt2008
   count: true
 
 # Hypercomments
