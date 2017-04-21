@@ -71,3 +71,24 @@ deploy:
   type: git
   repository: https://github.com/xhxt2008/xhxt2008.github.io.git
   branch: master
+  
+algolia:
+  applicationID: PL4J1UJAWN
+  apiKey: 3b885b1224d6d4c5694dc8dfcf071095
+  adminApiKey: 28a4ccbd770a44ee561c6dceb7445326
+  indexName: xhxt2008
+  chunkSize: 5000
+# Extensions
+Plugins:
+- hexo-generator-feed
+- hexo-generator-sitemap
+
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
+#sitemap
+sitemap:
+  path: sitemap.xml
