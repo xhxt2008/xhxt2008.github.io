@@ -324,17 +324,20 @@ changyan:
 # Available value:
 #    button | slide
 # Warning: Baidu Share does not support https.
-baidushare: true
+#baidushare: true
 ##  type: button
 
 # Share
-#jiathis:
+#jiathis: true
 # Warning: JiaThis does not support https.
-#add_this_id:
+add_this_id: ra-5903cb005d29b4c8
 
 # Share
 #duoshuo_share: true
 
+#Share
+#sharesdk: true
+shareSDKappkey: 1d70ea559e144
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
 #google_site_verification:
