@@ -17,7 +17,7 @@ rss:
 since: 2017
 
 # icon between year and author @Footer
-authoricon: heart
+authoricon: moon-o
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
