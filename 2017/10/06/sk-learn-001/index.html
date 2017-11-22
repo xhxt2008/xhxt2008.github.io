@@ -89,21 +89,21 @@
 
 
 
-<meta name="description" content="sk-learn学习笔记，简单的knn分类和数据可视化实践。官方示例 1234567&amp;gt;&amp;gt;&amp;gt;import numpy as np&amp;gt;&amp;gt;&amp;gt;from sklearn import datasets&amp;gt;&amp;gt;&amp;gt;iris = datasets.load_iris()&amp;gt;&amp;gt;&amp;gt;iris_X = iris.data   #iris是一组关于花蕊四个性状">
+<meta name="description" content="官方示例 1234567&amp;gt;&amp;gt;&amp;gt;import numpy as np&amp;gt;&amp;gt;&amp;gt;from sklearn import datasets&amp;gt;&amp;gt;&amp;gt;iris = datasets.load_iris()&amp;gt;&amp;gt;&amp;gt;iris_X = iris.data   #iris是一组关于花蕊四个性状的数据集&amp;gt;&amp;gt;&amp;gt;iris_y = iris.">
 <meta name="keywords" content="机器学习,数据可视化,数据挖掘,knn">
 <meta property="og:type" content="article">
 <meta property="og:title" content="sk-learn学习笔记，简单的knn分类和数据可视化实践">
 <meta property="og:url" content="https://xhxt2008.github.io/2017/10/06/sk-learn-001/index.html">
 <meta property="og:site_name" content="天道宫">
-<meta property="og:description" content="sk-learn学习笔记，简单的knn分类和数据可视化实践。官方示例 1234567&amp;gt;&amp;gt;&amp;gt;import numpy as np&amp;gt;&amp;gt;&amp;gt;from sklearn import datasets&amp;gt;&amp;gt;&amp;gt;iris = datasets.load_iris()&amp;gt;&amp;gt;&amp;gt;iris_X = iris.data   #iris是一组关于花蕊四个性状">
+<meta property="og:description" content="官方示例 1234567&amp;gt;&amp;gt;&amp;gt;import numpy as np&amp;gt;&amp;gt;&amp;gt;from sklearn import datasets&amp;gt;&amp;gt;&amp;gt;iris = datasets.load_iris()&amp;gt;&amp;gt;&amp;gt;iris_X = iris.data   #iris是一组关于花蕊四个性状的数据集&amp;gt;&amp;gt;&amp;gt;iris_y = iris.">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://oonaavjvi.bkt.clouddn.com/sk001.jpg">
 <meta property="og:image" content="http://oonaavjvi.bkt.clouddn.com/WX20171016-044038@2x.png">
 <meta property="og:image" content="http://oonaavjvi.bkt.clouddn.com/sk002.jpg">
-<meta property="og:updated_time" content="2017-10-16T19:03:34.000Z">
+<meta property="og:updated_time" content="2017-10-16T19:19:31.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="sk-learn学习笔记，简单的knn分类和数据可视化实践">
-<meta name="twitter:description" content="sk-learn学习笔记，简单的knn分类和数据可视化实践。官方示例 1234567&amp;gt;&amp;gt;&amp;gt;import numpy as np&amp;gt;&amp;gt;&amp;gt;from sklearn import datasets&amp;gt;&amp;gt;&amp;gt;iris = datasets.load_iris()&amp;gt;&amp;gt;&amp;gt;iris_X = iris.data   #iris是一组关于花蕊四个性状">
+<meta name="twitter:description" content="官方示例 1234567&amp;gt;&amp;gt;&amp;gt;import numpy as np&amp;gt;&amp;gt;&amp;gt;from sklearn import datasets&amp;gt;&amp;gt;&amp;gt;iris = datasets.load_iris()&amp;gt;&amp;gt;&amp;gt;iris_X = iris.data   #iris是一组关于花蕊四个性状的数据集&amp;gt;&amp;gt;&amp;gt;iris_y = iris.">
 <meta name="twitter:image" content="http://oonaavjvi.bkt.clouddn.com/sk001.jpg">
 
 
@@ -446,7 +446,7 @@
       
 
       
-        <h1 id="sk-learn学习笔记，简单的knn分类和数据可视化实践。"><a href="#sk-learn学习笔记，简单的knn分类和数据可视化实践。" class="headerlink" title="sk-learn学习笔记，简单的knn分类和数据可视化实践。"></a>sk-learn学习笔记，简单的knn分类和数据可视化实践。</h1><h2 id="官方示例"><a href="#官方示例" class="headerlink" title="官方示例"></a>官方示例</h2> <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&gt;&gt;&gt;<span class="keyword">import</span> numpy <span class="keyword">as</span> np</div><div class="line">&gt;&gt;&gt;<span class="keyword">from</span> sklearn <span class="keyword">import</span> datasets</div><div class="line">&gt;&gt;&gt;iris = datasets.load_iris()</div><div class="line">&gt;&gt;&gt;iris_X = iris.data   <span class="comment">#iris是一组关于花蕊四个性状的数据集</span></div><div class="line">&gt;&gt;&gt;iris_y = iris.target     <span class="comment">#这些花蕊相对均匀的分为三个类别</span></div><div class="line">&gt;&gt;&gt;np.unique(iris_y)</div><div class="line">array([<span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>])</div></pre></td></tr></table></figure>
+        <h2 id="官方示例"><a href="#官方示例" class="headerlink" title="官方示例"></a>官方示例</h2> <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&gt;&gt;&gt;<span class="keyword">import</span> numpy <span class="keyword">as</span> np</div><div class="line">&gt;&gt;&gt;<span class="keyword">from</span> sklearn <span class="keyword">import</span> datasets</div><div class="line">&gt;&gt;&gt;iris = datasets.load_iris()</div><div class="line">&gt;&gt;&gt;iris_X = iris.data   <span class="comment">#iris是一组关于花蕊四个性状的数据集</span></div><div class="line">&gt;&gt;&gt;iris_y = iris.target     <span class="comment">#这些花蕊相对均匀的分为三个类别</span></div><div class="line">&gt;&gt;&gt;np.unique(iris_y)</div><div class="line">array([<span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>])</div></pre></td></tr></table></figure>
 <p>读出sk-learn自带的数据集</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Split iris data in train and test data</span></div><div class="line"><span class="comment"># A random permutation, to split the data randomly</span></div><div class="line">&gt;&gt;&gt;np.random.seed(<span class="number">0</span>)</div><div class="line">&gt;&gt;&gt;indices = np.random.permutation(len(iris_X))</div><div class="line">&gt;&gt;&gt;iris_X_train = iris_X[indices[:<span class="number">-10</span>]]</div><div class="line">&gt;&gt;&gt;iris_y_train = iris_y[indices[:<span class="number">-10</span>]]</div><div class="line">&gt;&gt;&gt;iris_X_test  = iris_X[indices[<span class="number">-10</span>:]]</div><div class="line">&gt;&gt;&gt;iris_y_test  = iris_y[indices[<span class="number">-10</span>:]]</div><div class="line">&gt;&gt;&gt;len(iris_X_train)</div><div class="line"><span class="number">140</span></div></pre></td></tr></table></figure>
 <p>先把数据打乱，再把形状数据和类别数据分别切成训练集和测试集。事实上iris数据集共有150条数据，我们取140条作为训练集，10条作为测试集。</p>
@@ -550,6 +550,10 @@
 
           <div class="post-nav-prev post-nav-item">
             
+              <a href="/2017/11/22/Face-expression-recognition/" rel="prev" title="Paper survey about Face Expression Recognition">
+                Paper survey about Face Expression Recognition <i class="fa fa-chevron-right"></i>
+              </a>
+            
           </div>
         </div>
       
@@ -633,7 +637,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-count">4</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -655,7 +659,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">11</span>
+                <span class="site-state-item-count">17</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -708,7 +712,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#sk-learn学习笔记，简单的knn分类和数据可视化实践。"><span class="nav-number">1.</span> <span class="nav-text">sk-learn学习笔记，简单的knn分类和数据可视化实践。</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#官方示例"><span class="nav-number">1.1.</span> <span class="nav-text">官方示例</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#一些思考"><span class="nav-number">1.2.</span> <span class="nav-text">一些思考</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#官方示例"><span class="nav-number">1.</span> <span class="nav-text">官方示例</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#一些思考"><span class="nav-number">2.</span> <span class="nav-text">一些思考</span></a></li></ol></div>
             
 
           </div>
@@ -930,7 +934,7 @@
   
 
   
-  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
   <script>AV.initialize("LaBprMloitgyMfBaMDQqoCJk-gzGzoHsz", "dtKAdBd3d5YBQj20QDX5eELK");</script>
   <script>
     function showTime(Counter) {
@@ -1035,10 +1039,11 @@
   </script>
 
 
-
   
 
   
+  
+
 
   
 

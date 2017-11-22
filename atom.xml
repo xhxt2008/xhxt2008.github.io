@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xhxt2008.github.io/"/>
-  <updated>2017-10-16T19:03:34.000Z</updated>
+  <updated>2017-11-22T07:51:24.000Z</updated>
   <id>https://xhxt2008.github.io/</id>
   
   <author>
@@ -16,13 +16,96 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Paper survey about Face Expression Recognition</title>
+    <link href="https://xhxt2008.github.io/2017/11/22/Face-expression-recognition/"/>
+    <id>https://xhxt2008.github.io/2017/11/22/Face-expression-recognition/</id>
+    <published>2017-11-22T07:41:12.000Z</published>
+    <updated>2017-11-22T07:51:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>表情認識（Face Expression Recognition）は、成熟した技術でした。表情認識確かに国籍認識と共通点が多かったです。</p>
+<h2 id="まずは顔に表す感情の定義として。"><a href="#まずは顔に表す感情の定義として。" class="headerlink" title="まずは顔に表す感情の定義として。"></a>まずは顔に表す感情の定義として。</h2><p>普通六つの分類があります：楽しく、悲しく、怒る、驚く、嫌い、怖い。<br>    そして、表情認識のプロセスは、主に：</p>
+<ul>
+<li>前の処理。サイズ、明るさ、仕草の平均化。</li>
+<li>特徴の抽出。</li>
+<li>分類。<a id="more"></a>
+<h2 id="特徴の抽出の方法にしては："><a href="#特徴の抽出の方法にしては：" class="headerlink" title="特徴の抽出の方法にしては："></a>特徴の抽出の方法にしては：</h2></li>
+</ul>
+<ol>
+<li>幾何学的特徴、人の五官の位置を探して、それぞれの大きさ、距離、形状などを用いて、表情を識別します。</li>
+<li>PCAやICA。総体的に特徴を抽出方法</li>
+<li>LBP。局部の特徴を抽出。</li>
+<li>Gabor filters。画像信号を時空から頻度に変えて、特徴を抽出。（フェーリエやガウシャン変化を用いる）、よくANNやSVMと一緒に使われる。</li>
+<li>optical flow。動画で使う方法。「７」</li>
+<li>neural networkで特徴を選ぶ研究もあります。</li>
+</ol>
+<h2 id="分類にしては："><a href="#分類にしては：" class="headerlink" title="分類にしては："></a>分類にしては：</h2><ol>
+<li>Linear classifier「１」</li>
+<li>ANN</li>
+<li>SVM</li>
+<li>HMM(Hidden Markov Model)</li>
+</ol>
+<h2 id="今の主な研究方向："><a href="#今の主な研究方向：" class="headerlink" title="今の主な研究方向："></a>今の主な研究方向：</h2><ol>
+<li>視覚と聴覚（audio-visual）を組み合わせして、表情の識別、音声認識の性能向上「３」。</li>
+<li>サンプルが少ない場合の識別「４」。</li>
+<li>表情認識を顔識別の性能向上での応用「５、６」。</li>
+<li>表情認識を使って、生徒が授業に集中しているのかどうかの研究「8」。（応用が新しい）</li>
+<li>アルゴリズム的な革新</li>
+</ol>
+<h2 id="基礎な表情認識は携帯アプリまであります。（Polygram）"><a href="#基礎な表情認識は携帯アプリまであります。（Polygram）" class="headerlink" title="基礎な表情認識は携帯アプリまであります。（Polygram）"></a>基礎な表情認識は携帯アプリまであります。（Polygram）</h2><p> <img src="http://oonaavjvi.bkt.clouddn.com/%E5%9B%BE%E7%89%87%201.jpg" alt="image"><br>Polygramは自撮りをシェアするアプリで、他の観客の写真を見る時の気分を認識できます。画像に示しているのは驚きの表情。</p>
+<h2 id="自分の考え："><a href="#自分の考え：" class="headerlink" title="自分の考え："></a>自分の考え：</h2><ol>
+<li>視覚と聴覚（audio-visual）を組み合わせだけではなく、体温や心拍を含めれば、認識の性能はさらにアップできますはずです。このような技術は、運転手状態管理に役に立てるかもしれません。</li>
+<li>片方の光源のジャミングに関してけれど。去年参加した連携大学の授業で、アイシン精機はとても完成度高いな技術を展示しました。</li>
+<li>新し応用については、今オンライン教育が盛んて、どうやって表情認識をオンライン教育に応用できるのは、役に立てます。オンラインテストも同じです。</li>
+</ol>
+<h2 id="後書き"><a href="#後書き" class="headerlink" title="後書き"></a>後書き</h2><p>表情認識は面白い研究方向です、今後の研究や就職に役に立てると思います。しかし、私はそれについて専門知識は不十分です、そして成熟した技術なため、本当に役に立てると方向を決めても、新しい方法を提案して、実現し難い場合もあります。<br>そこで、表情認識研究する同時に、前のテーマ：株の予測も同時にやると思います。新し成果や自分の考えがあれば、先生に報告します。</p>
+<h2 id="参考文献："><a href="#参考文献：" class="headerlink" title="参考文献："></a>参考文献：</h2><ol>
+<li>J Anil, “Literature survey on face and face expression recognition”, 2016</li>
+<li>Yani Zhu, “Face expression recognition based on equable principal component analysis and linear regression classification”, 2016</li>
+<li>Ashish Tawari, “Face Expression Recognition by Cross Modal Data Association”, 2013</li>
+<li>Guodong Guo, “Learning from examples in the small sample case: face expression recognition”, 2005</li>
+<li>Ali Moeini, “Real-World and Rapid Face Recognition Toward Pose and Expression Variations via Feature Library Matrix”, 2015</li>
+<li>Mihai Gavrilescu, “Study on using individual differences in facial expressions for a face recognition system immune to spoofing attack”, 2016</li>
+<li>Chao-Kuei Hsieh, “An Optical Flow-Based Approach to Robust Face Recognition Under Expression Variations”, 2010</li>
+<li>Jacob Whitehill, “he Faces of Engagement: Automatic Recognition of Student Engagementfrom Facial Expressions”, 2014</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;表情認識（Face Expression Recognition）は、成熟した技術でした。表情認識確かに国籍認識と共通点が多かったです。&lt;/p&gt;
+&lt;h2 id=&quot;まずは顔に表す感情の定義として。&quot;&gt;&lt;a href=&quot;#まずは顔に表す感情の定義として。&quot; class=&quot;headerlink&quot; title=&quot;まずは顔に表す感情の定義として。&quot;&gt;&lt;/a&gt;まずは顔に表す感情の定義として。&lt;/h2&gt;&lt;p&gt;普通六つの分類があります：楽しく、悲しく、怒る、驚く、嫌い、怖い。&lt;br&gt;    そして、表情認識のプロセスは、主に：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;前の処理。サイズ、明るさ、仕草の平均化。&lt;/li&gt;
+&lt;li&gt;特徴の抽出。&lt;/li&gt;
+&lt;li&gt;分類。
+    
+    </summary>
+    
+      <category term="技术" scheme="https://xhxt2008.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="人脸表情识别" scheme="https://xhxt2008.github.io/tags/%E4%BA%BA%E8%84%B8%E8%A1%A8%E6%83%85%E8%AF%86%E5%88%AB/"/>
+    
+      <category term="人脸识别" scheme="https://xhxt2008.github.io/tags/%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB/"/>
+    
+      <category term="表情识别" scheme="https://xhxt2008.github.io/tags/%E8%A1%A8%E6%83%85%E8%AF%86%E5%88%AB/"/>
+    
+      <category term="论文查找" scheme="https://xhxt2008.github.io/tags/%E8%AE%BA%E6%96%87%E6%9F%A5%E6%89%BE/"/>
+    
+      <category term="未翻译" scheme="https://xhxt2008.github.io/tags/%E6%9C%AA%E7%BF%BB%E8%AF%91/"/>
+    
+      <category term="日文" scheme="https://xhxt2008.github.io/tags/%E6%97%A5%E6%96%87/"/>
+    
+  </entry>
+  
+  <entry>
     <title>sk-learn学习笔记，简单的knn分类和数据可视化实践</title>
     <link href="https://xhxt2008.github.io/2017/10/06/sk-learn-001/"/>
     <id>https://xhxt2008.github.io/2017/10/06/sk-learn-001/</id>
     <published>2017-10-06T04:54:32.000Z</published>
-    <updated>2017-10-16T19:03:34.000Z</updated>
+    <updated>2017-10-16T19:19:31.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="sk-learn学习笔记，简单的knn分类和数据可视化实践。"><a href="#sk-learn学习笔记，简单的knn分类和数据可视化实践。" class="headerlink" title="sk-learn学习笔记，简单的knn分类和数据可视化实践。"></a>sk-learn学习笔记，简单的knn分类和数据可视化实践。</h1><h2 id="官方示例"><a href="#官方示例" class="headerlink" title="官方示例"></a>官方示例</h2> <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&gt;&gt;&gt;<span class="keyword">import</span> numpy <span class="keyword">as</span> np</div><div class="line">&gt;&gt;&gt;<span class="keyword">from</span> sklearn <span class="keyword">import</span> datasets</div><div class="line">&gt;&gt;&gt;iris = datasets.load_iris()</div><div class="line">&gt;&gt;&gt;iris_X = iris.data   <span class="comment">#iris是一组关于花蕊四个性状的数据集</span></div><div class="line">&gt;&gt;&gt;iris_y = iris.target     <span class="comment">#这些花蕊相对均匀的分为三个类别</span></div><div class="line">&gt;&gt;&gt;np.unique(iris_y)</div><div class="line">array([<span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>])</div></pre></td></tr></table></figure>
+    <content type="html"><![CDATA[<h2 id="官方示例"><a href="#官方示例" class="headerlink" title="官方示例"></a>官方示例</h2> <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&gt;&gt;&gt;<span class="keyword">import</span> numpy <span class="keyword">as</span> np</div><div class="line">&gt;&gt;&gt;<span class="keyword">from</span> sklearn <span class="keyword">import</span> datasets</div><div class="line">&gt;&gt;&gt;iris = datasets.load_iris()</div><div class="line">&gt;&gt;&gt;iris_X = iris.data   <span class="comment">#iris是一组关于花蕊四个性状的数据集</span></div><div class="line">&gt;&gt;&gt;iris_y = iris.target     <span class="comment">#这些花蕊相对均匀的分为三个类别</span></div><div class="line">&gt;&gt;&gt;np.unique(iris_y)</div><div class="line">array([<span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>])</div></pre></td></tr></table></figure>
 <p>读出sk-learn自带的数据集</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Split iris data in train and test data</span></div><div class="line"><span class="comment"># A random permutation, to split the data randomly</span></div><div class="line">&gt;&gt;&gt;np.random.seed(<span class="number">0</span>)</div><div class="line">&gt;&gt;&gt;indices = np.random.permutation(len(iris_X))</div><div class="line">&gt;&gt;&gt;iris_X_train = iris_X[indices[:<span class="number">-10</span>]]</div><div class="line">&gt;&gt;&gt;iris_y_train = iris_y[indices[:<span class="number">-10</span>]]</div><div class="line">&gt;&gt;&gt;iris_X_test  = iris_X[indices[<span class="number">-10</span>:]]</div><div class="line">&gt;&gt;&gt;iris_y_test  = iris_y[indices[<span class="number">-10</span>:]]</div><div class="line">&gt;&gt;&gt;len(iris_X_train)</div><div class="line"><span class="number">140</span></div></pre></td></tr></table></figure>
 <p>先把数据打乱，再把形状数据和类别数据分别切成训练集和测试集。事实上iris数据集共有150条数据，我们取140条作为训练集，10条作为测试集。</p>
@@ -51,7 +134,7 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;sk-learn学习笔记，简单的knn分类和数据可视化实践。&quot;&gt;&lt;a href=&quot;#sk-learn学习笔记，简单的knn分类和数据可视化实践。&quot; class=&quot;headerlink&quot; title=&quot;sk-learn学习笔记，简单的knn分类和数据可视化实践。&quot;&gt;&lt;/a&gt;sk-learn学习笔记，简单的knn分类和数据可视化实践。&lt;/h1&gt;&lt;h2 id=&quot;官方示例&quot;&gt;&lt;a href=&quot;#官方示例&quot; class=&quot;headerlink&quot; title=&quot;官方示例&quot;&gt;&lt;/a&gt;官方示例&lt;/h2&gt; &lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; numpy &lt;span class=&quot;keyword&quot;&gt;as&lt;/span&gt; np&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;span class=&quot;keyword&quot;&gt;from&lt;/span&gt; sklearn &lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; datasets&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;gt;&amp;gt;&amp;gt;iris = datasets.load_iris()&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;gt;&amp;gt;&amp;gt;iris_X = iris.data   &lt;span class=&quot;comment&quot;&gt;#iris是一组关于花蕊四个性状的数据集&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;gt;&amp;gt;&amp;gt;iris_y = iris.target     &lt;span class=&quot;comment&quot;&gt;#这些花蕊相对均匀的分为三个类别&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;gt;&amp;gt;&amp;gt;np.unique(iris_y)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;array([&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;])&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+      &lt;h2 id=&quot;官方示例&quot;&gt;&lt;a href=&quot;#官方示例&quot; class=&quot;headerlink&quot; title=&quot;官方示例&quot;&gt;&lt;/a&gt;官方示例&lt;/h2&gt; &lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; numpy &lt;span class=&quot;keyword&quot;&gt;as&lt;/span&gt; np&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;span class=&quot;keyword&quot;&gt;from&lt;/span&gt; sklearn &lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; datasets&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;gt;&amp;gt;&amp;gt;iris = datasets.load_iris()&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;gt;&amp;gt;&amp;gt;iris_X = iris.data   &lt;span class=&quot;comment&quot;&gt;#iris是一组关于花蕊四个性状的数据集&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;gt;&amp;gt;&amp;gt;iris_y = iris.target     &lt;span class=&quot;comment&quot;&gt;#这些花蕊相对均匀的分为三个类别&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;gt;&amp;gt;&amp;gt;np.unique(iris_y)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;array([&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;])&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;读出sk-learn自带的数据集&lt;/p&gt;
 &lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;10&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# Split iris data in train and test data&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# A random permutation, to split the data randomly&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;gt;&amp;gt;&amp;gt;np.random.seed(&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;gt;&amp;gt;&amp;gt;indices = np.random.permutation(len(iris_X))&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;gt;&amp;gt;&amp;gt;iris_X_train = iris_X[indices[:&lt;span class=&quot;number&quot;&gt;-10&lt;/span&gt;]]&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;gt;&amp;gt;&amp;gt;iris_y_train = iris_y[indices[:&lt;span class=&quot;number&quot;&gt;-10&lt;/span&gt;]]&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;gt;&amp;gt;&amp;gt;iris_X_test  = iris_X[indices[&lt;span class=&quot;number&quot;&gt;-10&lt;/span&gt;:]]&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;gt;&amp;gt;&amp;gt;iris_y_test  = iris_y[indices[&lt;span class=&quot;number&quot;&gt;-10&lt;/span&gt;:]]&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;gt;&amp;gt;&amp;gt;len(iris_X_train)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;number&quot;&gt;140&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;先把数据打乱，再把形状数据和类别数据分别切成训练集和测试集。事实上iris数据集共有150条数据，我们取140条作为训练集，10条作为测试集。&lt;/p&gt;
@@ -78,7 +161,7 @@
     <link href="https://xhxt2008.github.io/2017/07/11/%E7%AC%91/"/>
     <id>https://xhxt2008.github.io/2017/07/11/笑/</id>
     <published>2017-07-11T14:54:34.000Z</published>
-    <updated>2017-08-14T13:12:57.000Z</updated>
+    <updated>2017-11-02T09:39:51.000Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://oonaavjvi.bkt.clouddn.com/sunset.jpg" alt="image"></p>
 <p>作曲 : bassy</p>
