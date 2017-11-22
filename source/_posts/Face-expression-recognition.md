@@ -8,7 +8,7 @@ tags:
   - 论文查找
   - 未翻译
   - 日文	
-categories: 技术
+categories: 研究
 ---
 表情認識（Face Expression Recognition）は、成熟した技術でした。表情認識確かに国籍認識と共通点が多かったです。
 ## まずは顔に表す感情の定義として。
