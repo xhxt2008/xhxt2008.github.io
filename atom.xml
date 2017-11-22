@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xhxt2008.github.io/"/>
-  <updated>2017-11-22T07:51:24.000Z</updated>
+  <updated>2017-11-22T08:39:45.000Z</updated>
   <id>https://xhxt2008.github.io/</id>
   
   <author>
@@ -16,11 +16,56 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Paper survey about Timing-Based Facial Expression Recognition of Kyoto University　by Prof. Kawashima 　</title>
+    <link href="https://xhxt2008.github.io/2017/11/22/paper-survey-kyoto/"/>
+    <id>https://xhxt2008.github.io/2017/11/22/paper-survey-kyoto/</id>
+    <published>2017-11-22T08:23:11.000Z</published>
+    <updated>2017-11-22T08:39:45.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>顔画像の時系列変化を分析する研究は面白くて、すごい研究と思います。この研究の核心は：ハイブリッド・ダイナミカル・システム（HDS）、その意味は、離散事象系と力学系モデルの統合である、複雑な技術です。さらに、離散事象系はただ、力学系線形システムのパラメーターを推定するため使われています、一番重要なのは力学系線形システム。</p>
+<h2 id="プロセスとしては「１」："><a href="#プロセスとしては「１」：" class="headerlink" title="プロセスとしては「１」："></a>プロセスとしては「１」：</h2><p>１.    特徴抽出。マイクやカメラでキャプチャーしたデー タを特徴抽出することで時系列特徴ベクトル(観測ベク トル)が得られる「２」、って書きましたけど、特徴抽出の方法に対して、全く説明されていません。私なりに考えたですけど、このように目や鼻と口をはっきり分別できるっていう時点で、幾何学的な特徴抽出と思われます。<br><img src="http://oonaavjvi.bkt.clouddn.com/kyoto%20face1.png" alt="image"><br> <a id="more"></a><br>２.    線形システムの階層的クラスタリング。適当な基準で比較的短い区間に分節化し，分節化された各区間で，それぞれ線形システムを同定する。そして、全てのシステムのKL距離（Kullback- Leibler (KL) divergence）を元付き、クラスタリングをやりつづ。（ここは離散事象系を意味するステップです、時間と関係なく、クラスタリングします）<br>３.    EM アルゴリズムによるパラメタ調整。一段階目で得られた線形システムの個数を，この段階 では固定し，EM アルゴリズムを適用する.一段階目の 線形システムのクラスタリングによって，各線形システ ムのパラメタは大まかに推定されている.これにより， EM アルゴリズムの初期値依存性が解決されることになる.<br> <img src="http://oonaavjvi.bkt.clouddn.com/kyoto%20face2.png" alt="image"><br>このステップは一番大事です、詳しくは「２、３」で説明されました、まだよく理解していません。抽象的に理解すると：笑い出すという動きは、どうやって線形システムで描写できますか。例えば、目を細めにして、その同時に、口があけまし、口の両端は上になど。時間とともに線的人の表情をまとめる。そのパラメーター調整はEMアルゴリズムで学習します。</p>
+<h2 id="応用として："><a href="#応用として：" class="headerlink" title="応用として："></a>応用として：</h2><p>このシステムは静止画像ではなく、動画に応用しています。作り笑いと心からの笑いを区別できます（口は笑いましたけど、目はまだわらていません）（違う線形システム？）。ロボット視覚で応用できます。<br><img src="http://oonaavjvi.bkt.clouddn.com/kyoto%20face3.png" alt="image"></p>
+<h2 id="感想："><a href="#感想：" class="headerlink" title="感想："></a>感想：</h2><p>この研究は長年に渡して、力学系モデリングをベースにして、面白くて、役に立てる研究と思います。<br>私のプランでは、データ科学をベースにする、学習方法の改善、あるいは、新し応用を見つけ。具体的には、まだいろいろ調べて、考え中ですけれど、一応先生に報告します。</p>
+<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ol>
+<li><a href="http://vision.kuee.kyoto-u.ac.jp/~hiroaki/publication/Kawashima_2010_ISCIE.pdf" target="_blank" rel="external">http://vision.kuee.kyoto-u.ac.jp/~hiroaki/publication/Kawashima_2010_ISCIE.pdf</a></li>
+<li><a href="http://vision.kuee.kyoto-u.ac.jp/~hiroaki/publication/Kawashima_2004_IBIS.pdf" target="_blank" rel="external">http://vision.kuee.kyoto-u.ac.jp/~hiroaki/publication/Kawashima_2004_IBIS.pdf</a></li>
+<li><a href="http://vision.kuee.kyoto-u.ac.jp/~hiroaki/publication/Kawashima_2005_IEICE-EA.pdf" target="_blank" rel="external">http://vision.kuee.kyoto-u.ac.jp/~hiroaki/publication/Kawashima_2005_IEICE-EA.pdf</a></li>
+<li><a href="http://vision.kuee.kyoto-u.ac.jp/~hiroaki/research/05-hyojyofu.html" target="_blank" rel="external">http://vision.kuee.kyoto-u.ac.jp/~hiroaki/research/05-hyojyofu.html</a></li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;顔画像の時系列変化を分析する研究は面白くて、すごい研究と思います。この研究の核心は：ハイブリッド・ダイナミカル・システム（HDS）、その意味は、離散事象系と力学系モデルの統合である、複雑な技術です。さらに、離散事象系はただ、力学系線形システムのパラメーターを推定するため使われています、一番重要なのは力学系線形システム。&lt;/p&gt;
+&lt;h2 id=&quot;プロセスとしては「１」：&quot;&gt;&lt;a href=&quot;#プロセスとしては「１」：&quot; class=&quot;headerlink&quot; title=&quot;プロセスとしては「１」：&quot;&gt;&lt;/a&gt;プロセスとしては「１」：&lt;/h2&gt;&lt;p&gt;１.    特徴抽出。マイクやカメラでキャプチャーしたデー タを特徴抽出することで時系列特徴ベクトル(観測ベク トル)が得られる「２」、って書きましたけど、特徴抽出の方法に対して、全く説明されていません。私なりに考えたですけど、このように目や鼻と口をはっきり分別できるっていう時点で、幾何学的な特徴抽出と思われます。&lt;br&gt;&lt;img src=&quot;http://oonaavjvi.bkt.clouddn.com/kyoto%20face1.png&quot; alt=&quot;image&quot;&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="研究" scheme="https://xhxt2008.github.io/categories/%E7%A0%94%E7%A9%B6/"/>
+    
+    
+      <category term="人脸表情识别" scheme="https://xhxt2008.github.io/tags/%E4%BA%BA%E8%84%B8%E8%A1%A8%E6%83%85%E8%AF%86%E5%88%AB/"/>
+    
+      <category term="表情识别" scheme="https://xhxt2008.github.io/tags/%E8%A1%A8%E6%83%85%E8%AF%86%E5%88%AB/"/>
+    
+      <category term="时间序列" scheme="https://xhxt2008.github.io/tags/%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97/"/>
+    
+      <category term="动态表情" scheme="https://xhxt2008.github.io/tags/%E5%8A%A8%E6%80%81%E8%A1%A8%E6%83%85/"/>
+    
+      <category term="论文查找" scheme="https://xhxt2008.github.io/tags/%E8%AE%BA%E6%96%87%E6%9F%A5%E6%89%BE/"/>
+    
+      <category term="未翻译" scheme="https://xhxt2008.github.io/tags/%E6%9C%AA%E7%BF%BB%E8%AF%91/"/>
+    
+      <category term="日文" scheme="https://xhxt2008.github.io/tags/%E6%97%A5%E6%96%87/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Paper survey about Face Expression Recognition</title>
     <link href="https://xhxt2008.github.io/2017/11/22/Face-expression-recognition/"/>
     <id>https://xhxt2008.github.io/2017/11/22/Face-expression-recognition/</id>
     <published>2017-11-22T07:41:12.000Z</published>
-    <updated>2017-11-22T07:51:24.000Z</updated>
+    <updated>2017-11-22T08:40:27.000Z</updated>
     
     <content type="html"><![CDATA[<p>表情認識（Face Expression Recognition）は、成熟した技術でした。表情認識確かに国籍認識と共通点が多かったです。</p>
 <h2 id="まずは顔に表す感情の定義として。"><a href="#まずは顔に表す感情の定義として。" class="headerlink" title="まずは顔に表す感情の定義として。"></a>まずは顔に表す感情の定義として。</h2><p>普通六つの分類があります：楽しく、悲しく、怒る、驚く、嫌い、怖い。<br>    そして、表情認識のプロセスは、主に：</p>
@@ -81,12 +126,10 @@
     
     </summary>
     
-      <category term="技术" scheme="https://xhxt2008.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="研究" scheme="https://xhxt2008.github.io/categories/%E7%A0%94%E7%A9%B6/"/>
     
     
       <category term="人脸表情识别" scheme="https://xhxt2008.github.io/tags/%E4%BA%BA%E8%84%B8%E8%A1%A8%E6%83%85%E8%AF%86%E5%88%AB/"/>
-    
-      <category term="人脸识别" scheme="https://xhxt2008.github.io/tags/%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB/"/>
     
       <category term="表情识别" scheme="https://xhxt2008.github.io/tags/%E8%A1%A8%E6%83%85%E8%AF%86%E5%88%AB/"/>
     
@@ -95,6 +138,8 @@
       <category term="未翻译" scheme="https://xhxt2008.github.io/tags/%E6%9C%AA%E7%BF%BB%E8%AF%91/"/>
     
       <category term="日文" scheme="https://xhxt2008.github.io/tags/%E6%97%A5%E6%96%87/"/>
+    
+      <category term="人脸识别" scheme="https://xhxt2008.github.io/tags/%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB/"/>
     
   </entry>
   
