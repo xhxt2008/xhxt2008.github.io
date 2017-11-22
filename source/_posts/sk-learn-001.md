@@ -8,8 +8,6 @@ tags:
 	- knn
 categories: 技术
 ---
-# sk-learn学习笔记，简单的knn分类和数据可视化实践。
-
 
 ## 官方示例
  ``` Python
