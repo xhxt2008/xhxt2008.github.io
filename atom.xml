@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xhxt2008.github.io/"/>
-  <updated>2017-11-22T08:39:45.000Z</updated>
+  <updated>2017-11-22T08:47:12.000Z</updated>
   <id>https://xhxt2008.github.io/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Paper survey about Timing-Based Facial Expression Recognition of Kyoto University　by Prof. Kawashima 　</title>
+    <title>Paper survey about Timing-Based Facial Expression Recognition of Kyoto University by Prof. Kawashima 　</title>
     <link href="https://xhxt2008.github.io/2017/11/22/paper-survey-kyoto/"/>
     <id>https://xhxt2008.github.io/2017/11/22/paper-survey-kyoto/</id>
     <published>2017-11-22T08:23:11.000Z</published>
-    <updated>2017-11-22T08:39:45.000Z</updated>
+    <updated>2017-11-22T08:47:12.000Z</updated>
     
     <content type="html"><![CDATA[<p>顔画像の時系列変化を分析する研究は面白くて、すごい研究と思います。この研究の核心は：ハイブリッド・ダイナミカル・システム（HDS）、その意味は、離散事象系と力学系モデルの統合である、複雑な技術です。さらに、離散事象系はただ、力学系線形システムのパラメーターを推定するため使われています、一番重要なのは力学系線形システム。</p>
 <h2 id="プロセスとしては「１」："><a href="#プロセスとしては「１」：" class="headerlink" title="プロセスとしては「１」："></a>プロセスとしては「１」：</h2><p>１.    特徴抽出。マイクやカメラでキャプチャーしたデー タを特徴抽出することで時系列特徴ベクトル(観測ベク トル)が得られる「２」、って書きましたけど、特徴抽出の方法に対して、全く説明されていません。私なりに考えたですけど、このように目や鼻と口をはっきり分別できるっていう時点で、幾何学的な特徴抽出と思われます。<br><img src="http://oonaavjvi.bkt.clouddn.com/kyoto%20face1.png" alt="image"><br> <a id="more"></a><br>２.    線形システムの階層的クラスタリング。適当な基準で比較的短い区間に分節化し，分節化された各区間で，それぞれ線形システムを同定する。そして、全てのシステムのKL距離（Kullback- Leibler (KL) divergence）を元付き、クラスタリングをやりつづ。（ここは離散事象系を意味するステップです、時間と関係なく、クラスタリングします）<br>３.    EM アルゴリズムによるパラメタ調整。一段階目で得られた線形システムの個数を，この段階 では固定し，EM アルゴリズムを適用する.一段階目の 線形システムのクラスタリングによって，各線形システ ムのパラメタは大まかに推定されている.これにより， EM アルゴリズムの初期値依存性が解決されることになる.<br> <img src="http://oonaavjvi.bkt.clouddn.com/kyoto%20face2.png" alt="image"><br>このステップは一番大事です、詳しくは「２、３」で説明されました、まだよく理解していません。抽象的に理解すると：笑い出すという動きは、どうやって線形システムで描写できますか。例えば、目を細めにして、その同時に、口があけまし、口の両端は上になど。時間とともに線的人の表情をまとめる。そのパラメーター調整はEMアルゴリズムで学習します。</p>
