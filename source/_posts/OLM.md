@@ -1,5 +1,5 @@
 ---
-title: Mining Opinion Leaders in Big Social Network 
+title: Paper Survey about Mining Opinion Leaders in Big Social Network 
 date: 2017-11-30 14:14:21
 tags:
   - 未翻译
@@ -35,6 +35,7 @@ In a social network, the opinion leader means the influential person who may be 
 ### Opinion Analysis And Mining 
 - Opinion Observer system: An opinion Observer system could analyze and compare the consumer opinions among competing products. Opinion Observer also uses language pattern mining method to extract product features from the Pros and Cons in a specific type of reviews. CopeOpi is an opinion mining system.
 - Thesauruses: When mining opinion or analyzing sentiment, many thesauruses are generally utilized for measuring the orientation or the property of comment, such as WordNet and General Inquire for English lexicon, HowNet and NTUSD for Chinese lexicon. 
+
 ###  Opinion Leader Mining 
 - Opinion leaders are domain-sensitive
 - There are many papers modified PageRank algorithm to find opinion leaders, such as OpinionRank, LeaderRank and Dynamic OpinionRank. 
