@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xhxt2008.github.io/"/>
-  <updated>2017-11-30T05:23:01.000Z</updated>
+  <updated>2017-11-30T05:28:31.000Z</updated>
   <id>https://xhxt2008.github.io/</id>
   
   <author>
@@ -20,9 +20,9 @@
     <link href="https://xhxt2008.github.io/2017/11/30/OLM/"/>
     <id>https://xhxt2008.github.io/2017/11/30/OLM/</id>
     <published>2017-11-30T05:14:21.000Z</published>
-    <updated>2017-11-30T05:23:01.000Z</updated>
+    <updated>2017-11-30T05:28:31.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p> By identifying the opinion leaders, companies or governments can manipulate the selling or guiding public opinion, respectively. Additionally, detecting the influential comments is able to understand the source and trend of public opinion formation. However, mining opinion leaders in a huge social network is a challenge task because of the complexity of graph processing and leadership analysis. In this study, a novel algorithm, OLMiner, is proposed to efficiently find the opinion leaders from a huge social network.</p>
+    <content type="html"><![CDATA[<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p> By identifying the opinion leaders, companies or governments can manipulate the selling or guiding public opinion, respectively. Additionally, detecting the influential comments is able to understand the source and trend of public opinion formation. However, mining opinion leaders in a huge social network is a challenge task because of the complexity of graph processing and leadership analysis. In this study, a novel algorithm, OLMiner, is proposed to efficiently find the opinion leaders from a huge social network.<br><a id="more"></a></p>
 <h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><h3 id="Opinion-leaders"><a href="#Opinion-leaders" class="headerlink" title="Opinion leaders"></a>Opinion leaders</h3><p>In a social network, the opinion leader means the influential person who may be an expert in a specific domain and have lots of people following his/her comments or ideas. opinion leaders are usually the information generator and message senders who familiar with the media by a secondary transmission. </p>
 <h3 id="Past-research-utilize-the-characteristic-analysis-to-find-opinion-leaders"><a href="#Past-research-utilize-the-characteristic-analysis-to-find-opinion-leaders" class="headerlink" title="Past research: utilize the characteristic analysis to find opinion leaders."></a>Past research: utilize the characteristic analysis to find opinion leaders.</h3><ul>
 <li>the number of posted articles</li>
@@ -128,7 +128,7 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;Abstract&quot;&gt;&lt;a href=&quot;#Abstract&quot; class=&quot;headerlink&quot; title=&quot;Abstract&quot;&gt;&lt;/a&gt;Abstract&lt;/h2&gt;&lt;p&gt; By identifying the opinion leaders, companies
+      &lt;h2 id=&quot;Abstract&quot;&gt;&lt;a href=&quot;#Abstract&quot; class=&quot;headerlink&quot; title=&quot;Abstract&quot;&gt;&lt;/a&gt;Abstract&lt;/h2&gt;&lt;p&gt; By identifying the opinion leaders, companies or governments can manipulate the selling or guiding public opinion, respectively. Additionally, detecting the influential comments is able to understand the source and trend of public opinion formation. However, mining opinion leaders in a huge social network is a challenge task because of the complexity of graph processing and leadership analysis. In this study, a novel algorithm, OLMiner, is proposed to efficiently find the opinion leaders from a huge social network.&lt;br&gt;
     
     </summary>
     
