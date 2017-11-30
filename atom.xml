@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xhxt2008.github.io/"/>
-  <updated>2017-11-30T05:28:31.000Z</updated>
+  <updated>2017-11-30T05:32:51.000Z</updated>
   <id>https://xhxt2008.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://xhxt2008.github.io/2017/11/30/OLM/"/>
     <id>https://xhxt2008.github.io/2017/11/30/OLM/</id>
     <published>2017-11-30T05:14:21.000Z</published>
-    <updated>2017-11-30T05:28:31.000Z</updated>
+    <updated>2017-11-30T05:32:51.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p> By identifying the opinion leaders, companies or governments can manipulate the selling or guiding public opinion, respectively. Additionally, detecting the influential comments is able to understand the source and trend of public opinion formation. However, mining opinion leaders in a huge social network is a challenge task because of the complexity of graph processing and leadership analysis. In this study, a novel algorithm, OLMiner, is proposed to efficiently find the opinion leaders from a huge social network.<br><a id="more"></a></p>
 <h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><h3 id="Opinion-leaders"><a href="#Opinion-leaders" class="headerlink" title="Opinion leaders"></a>Opinion leaders</h3><p>In a social network, the opinion leader means the influential person who may be an expert in a specific domain and have lots of people following his/her comments or ideas. opinion leaders are usually the information generator and message senders who familiar with the media by a secondary transmission. </p>
@@ -65,8 +65,8 @@
 <li>output OL;</li>
 </ol>
 </blockquote>
-<h4 id="1-granularity-checking"><a href="#1-granularity-checking" class="headerlink" title="1. granularity checking"></a>1. granularity checking</h4><p>check the size of input data to decide running on a single computer or cloud environment. </p>
-<h4 id="2-Social-Network-Construction"><a href="#2-Social-Network-Construction" class="headerlink" title="2. Social Network Construction"></a>2. Social Network Construction</h4><ul>
+<h3 id="1-granularity-checking"><a href="#1-granularity-checking" class="headerlink" title="1. granularity checking"></a>1. granularity checking</h3><p>check the size of input data to decide running on a single computer or cloud environment. </p>
+<h3 id="2-Social-Network-Construction"><a href="#2-Social-Network-Construction" class="headerlink" title="2. Social Network Construction"></a>2. Social Network Construction</h3><ul>
 <li>We segment 24 hours into four sections:<br><img src="http://oonaavjvi.bkt.clouddn.com/OLM02.png" alt="image"></li>
 </ul>
 <ul>
@@ -76,18 +76,18 @@
 <li>The similarity <strong>sim(u, v)</strong> is defined as the common adjacent users of u and v,<br><img src="http://oonaavjvi.bkt.clouddn.com/OLM03.png" alt="image"></li>
 <li>The weight <strong>w(u, v)</strong> of edge (u, v) in E.<br><img src="http://oonaavjvi.bkt.clouddn.com/OLM04.png" alt="image"></li>
 </ul>
-<h4 id="3-Community-Structure-Detection"><a href="#3-Community-Structure-Detection" class="headerlink" title="3. Community Structure Detection"></a>3. Community Structure Detection</h4><p><img src="http://oonaavjvi.bkt.clouddn.com/OLM05.jpg" alt="image"></p>
+<h3 id="3-Community-Structure-Detection"><a href="#3-Community-Structure-Detection" class="headerlink" title="3. Community Structure Detection"></a>3. Community Structure Detection</h3><p><img src="http://oonaavjvi.bkt.clouddn.com/OLM05.jpg" alt="image"></p>
 <ol>
 <li>Firstly, capture the community structure of social network to reduce the execution time for finding opinion leaders. </li>
 <li>Then, we use 2nd-stage clustering to analyze the characteristics of uses and shrink the size of the candidate set.</li>
-<li>Finally, we pick k users have better leadership quality from candidate set as opinion leaders. <h5 id="Modularity-gain"><a href="#Modularity-gain" class="headerlink" title="Modularity gain"></a>Modularity gain</h5></li>
+<li>Finally, we pick k users have better leadership quality from candidate set as opinion leaders. <h4 id="Modularity-gain"><a href="#Modularity-gain" class="headerlink" title="Modularity gain"></a>Modularity gain</h4></li>
 </ol>
 <ul>
 <li>Given a social network G = (V, E, W) and its clustering result C = {c1, c2, …, cp}, the modularity function is defined as:<br><img src="http://oonaavjvi.bkt.clouddn.com/OLM06.jpg" alt="image"></li>
-<li>OLMiner utilizes the modularity gain as the terminated criteria.<h5 id="Significant-Community"><a href="#Significant-Community" class="headerlink" title="Significant Community"></a>Significant Community</h5></li>
+<li>OLMiner utilizes the modularity gain as the terminated criteria.<h4 id="Significant-Community"><a href="#Significant-Community" class="headerlink" title="Significant Community"></a>Significant Community</h4></li>
 <li>The set of significant community Cs is defined as follows:<br><img src="http://oonaavjvi.bkt.clouddn.com/OLM07.jpg" alt="image"></li>
 </ul>
-<h4 id="4-Opinion-Leader-Candidate-Generation"><a href="#4-Opinion-Leader-Candidate-Generation" class="headerlink" title="4. Opinion Leader Candidate Generation"></a>4. Opinion Leader Candidate Generation</h4><p><img src="http://oonaavjvi.bkt.clouddn.com/OLM08.jpg" alt="image"><br>Different from others, we use kmean clustering to build the candidate set, the kmean clustering can effectively shrink the size of candidate set.</p>
+<h3 id="4-Opinion-Leader-Candidate-Generation"><a href="#4-Opinion-Leader-Candidate-Generation" class="headerlink" title="4. Opinion Leader Candidate Generation"></a>4. Opinion Leader Candidate Generation</h3><p><img src="http://oonaavjvi.bkt.clouddn.com/OLM08.jpg" alt="image"><br>Different from others, we use kmean clustering to build the candidate set, the kmean clustering can effectively shrink the size of candidate set.</p>
 <ul>
 <li>Candidate Generation Algorithm(kmean)</li>
 </ul>
@@ -112,7 +112,7 @@
 <ul>
 <li>Given a clustering result CKi = {cki1, cki2, …, ckin} in a significant community ci, the score of ckij is evaluated as,<br><img src="http://oonaavjvi.bkt.clouddn.com/OLM09.jpg" alt="image"></li>
 </ul>
-<h4 id="5-Opinion-Leader-Selection"><a href="#5-Opinion-Leader-Selection" class="headerlink" title="5. Opinion Leader Selection"></a>5. Opinion Leader Selection</h4><ul>
+<h3 id="5-Opinion-Leader-Selection"><a href="#5-Opinion-Leader-Selection" class="headerlink" title="5. Opinion Leader Selection"></a>5. Opinion Leader Selection</h3><ul>
 <li>First, we use the total number of nodes in significant communities to decide how many opinion leaders are allocated to each significant community.<br><img src="http://oonaavjvi.bkt.clouddn.com/OLM10.jpg" alt="image"></li>
 <li>Then, we first sort the clusters in decreasing order based on the score of cluster (line 4, Algorithm 5). Then, OLMiner picks the nodes in high-score cluster until we reach the number of desired opinion leaders k</li>
 </ul>
