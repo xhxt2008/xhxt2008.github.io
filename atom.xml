@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xhxt2008.github.io/"/>
-  <updated>2017-11-30T05:32:51.000Z</updated>
+  <updated>2017-11-30T06:10:20.000Z</updated>
   <id>https://xhxt2008.github.io/</id>
   
   <author>
@@ -16,11 +16,91 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Mining Opinion Leaders in Big Social Network</title>
+    <title>Paper Survey about Do They All Look the Same, Deciphering Chinese, Japanese a</title>
+    <link href="https://xhxt2008.github.io/2017/11/30/look-same/"/>
+    <id>https://xhxt2008.github.io/2017/11/30/look-same/</id>
+    <published>2017-11-30T06:07:45.000Z</published>
+    <updated>2017-11-30T06:10:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h1><p>This study is about what extend Chinese, Japanese and Korean faces can be classified and which facial attributes offer the most important cues. First, we propose a novel way of obtaining large numbers of facial images with nationality labels. Then we train state-of-the-art neural networks with these labeled images. We are able to achieve an accuracy of 75.03% in the classification task, with chances being 33.33% and human accuracy 38.89% . Further, we train multiple facial attribute classifiers to identify the most distinctive features for each group.<br><a id="more"></a></p>
+<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><ul>
+<li>China, Japan and Korea are three of the world’s largest economies  with a large population. And they look very similar. </li>
+<li><p>Some suggest that the main differences derive from mannerism and fashion. There also exist quite a few websites that put up Asian face classification chall-enges, which prove the difficulty of distinguishing them.</p>
+</li>
+<li><p>Randomly shuffled<br><img src="http://oonaavjvi.bkt.clouddn.com/look01.jpg" alt="image"></p>
+</li>
+<li>Grouped<br><img src="http://oonaavjvi.bkt.clouddn.com/look02.jpg" alt="image"></li>
+</ul>
+<h1 id="Related-Literature"><a href="#Related-Literature" class="headerlink" title="Related Literature"></a>Related Literature</h1><ul>
+<li>(Farfade, Saberian, and Li 2015; Levi and Hassner 2015; Fu, He, and Hou 2014; Wang, Li, and Luo 2016) have both achieved very high accuracy in face detection, gender and race classification.</li>
+<li>(Liu et al. 2015), which has achieved state-of-the-art perfor-mance, trains two networks, the first one for face localization and the second for attribute classification. Our work follows (Liu et al. 2015), and uses the same dataset as theirs, except that (1) for simplicity we use OpenCV to locate faces and (2) for ac- curacy we train a separate neural network for each attribute. </li>
+</ul>
+<h1 id="Data-Collection-and-Pre-processing"><a href="#Data-Collection-and-Pre-processing" class="headerlink" title="Data Collection and Pre-processing"></a>Data Collection and Pre-processing</h1><ul>
+<li>We have two main data sources: Twitter and the CelebA dataset. We derive from Twitter the labeled Chinese, Japanese and Korean images, which are later used as input to the Resnet. We use CelebA to train the facial attribute classifiers. These classifiers are then used to classify the labeled Twitter images. </li>
+<li>Twitter Images<br><img src="http://oonaavjvi.bkt.clouddn.com/look03.jpg" alt="image"></li>
+<li>CelebA Images,<br>The CelebA dataset contains 202,599 images taken from ten thousand individuals. In this work, we follow Liu.’s practice in dividing the training, developing, and testing dataset. We use OpenCV to locate faces in each subset and eventually have 148,829 images for training, 18,255 images for development, and 18,374 images for testing.</li>
+</ul>
+<h1 id="Experiments"><a href="#Experiments" class="headerlink" title="Experiments"></a>Experiments</h1><h2 id="We-conduct-two-experiments"><a href="#We-conduct-two-experiments" class="headerlink" title="We conduct two experiments."></a>We conduct two experiments.</h2><ul>
+<li>In the first experiment, we use the labeled Twitter images to fine-tune the Resnet and investigate to what extent Chinese, Japanese and Koreans can be classified. </li>
+<li>In our second experiment, we train 40 facial attribute classifiers and examine which attributes contain the most important cues in distinguishing the three groups. </li>
+</ul>
+<h2 id="Face-Classification"><a href="#Face-Classification" class="headerlink" title="Face Classification"></a>Face Classification</h2><ul>
+<li>We split our dataset into development set, validation set, and test set ( 8: 1: 1) and experiment with different architectures from shallow networks (3-5 layers) to the 16-layer VGG and 50-layer ResNet. In our experiments, all networks would converge (Figure 4), but we observe that accuracy of 75.03% with Resnet shows the best result.<br><img src="http://oonaavjvi.bkt.clouddn.com/look04.jpg" alt="image"></li>
+<li>In Table 2, we report the confusion matrix for the testing images. Note that all the three peoples look equally “confusing” to the computer: the off-diagonal elements are roughly equal. The result we achieve answers in a definitive manner that Chinese, Japanese and Koreans are distinguishable. But it also suggests that this is a challenging task, which leads to our experiment on facial attribute classificatio<br><img src="http://oonaavjvi.bkt.clouddn.com/look05.jpg" alt="image"></li>
+</ul>
+<h2 id="Attribute-Classification"><a href="#Attribute-Classification" class="headerlink" title="Attribute Classification"></a>Attribute Classification</h2><p>We construct a separate neural network for each of the 40 attributes in the CelebA dataset. The neural nets all share the same structure.<br><img src="http://oonaavjvi.bkt.clouddn.com/look06.jpg" alt="image"></p>
+<h2 id="Female"><a href="#Female" class="headerlink" title="Female"></a>Female</h2><p><img src="http://oonaavjvi.bkt.clouddn.com/look07.jpg" alt="image"></p>
+<h2 id="Male"><a href="#Male" class="headerlink" title="Male"></a>Male</h2><p><img src="http://oonaavjvi.bkt.clouddn.com/look08.jpg" alt="image"></p>
+<p>In Figures, we report the percentage of individuals that possess the corresponding facial attributes.</p>
+<ol>
+<li>Bangs are most popular among Japanese and least popular among Chinese. </li>
+<li>Japanese smile the most and Chinese the least. </li>
+<li>Japanese have the most eyebags, followed by Koreans. </li>
+<li>Chinese are the most likely to have bushy eyebrows. </li>
+<li>Koreans are the mostly likely to have black hair and Japanese are the least likely. </li>
+</ol>
+<h1 id="Discussion"><a href="#Discussion" class="headerlink" title="Discussion"></a>Discussion</h1><p>While our paper focuses on country comparisons, we also briefly summarize some of the significant findings on cross- country gender differentials that are either cultural or social in nature. </p>
+<ul>
+<li>females tend to smile more than males </li>
+<li>men are twice more likely to be wearing glasses than women </li>
+</ul>
+<h1 id="Limitations"><a href="#Limitations" class="headerlink" title="Limitations"></a>Limitations</h1><p>Our work is built on the assumption that Twitter users, celebrity followers in particular, are representative of the demographics of the entire population. This assumption may not exactly hold as various demographic dimensions such as gender and age are skewed in Twitter (Mislove et al. 2011). Nonetheless, we believe the direction of our estimates will remain consistent, as several of our findings are confirmed by social stereotypes and research on other regions. Also, this concern could be alleviated to some extent by examining several other celebrities.</p>
+<h1 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h1><ul>
+<li>In this paper, we have demonstrated that Chinese, Japanese and Koreans do look different. By assembling a large data set of labeled images and experimenting with different neural network architectures, we have achieved a remarkable accuracy 75.03%, almost twice as high as the human average accuracy. </li>
+<li>We have also examined 40 facial attributes of the three populations in an effort to identify the important cues that assist classification. Our study has shown that Chinese, Japanese and Koreans do differ in several dimensions but overall are very similar. </li>
+<li>Our work, which complements existing APIs such as Microsoft Cognitive Services and Face++, could find wide applications in tourism, e-commerce, social media marketing, criminal justice and even counter-terrorism.</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Abstract&quot;&gt;&lt;a href=&quot;#Abstract&quot; class=&quot;headerlink&quot; title=&quot;Abstract&quot;&gt;&lt;/a&gt;Abstract&lt;/h1&gt;&lt;p&gt;This study is about what extend Chinese, Japanese and Korean faces can be classified and which facial attributes offer the most important cues. First, we propose a novel way of obtaining large numbers of facial images with nationality labels. Then we train state-of-the-art neural networks with these labeled images. We are able to achieve an accuracy of 75.03% in the classification task, with chances being 33.33% and human accuracy 38.89% . Further, we train multiple facial attribute classifiers to identify the most distinctive features for each group.&lt;br&gt;
+    
+    </summary>
+    
+      <category term="研究" scheme="https://xhxt2008.github.io/categories/%E7%A0%94%E7%A9%B6/"/>
+    
+    
+      <category term="人脸表情识别" scheme="https://xhxt2008.github.io/tags/%E4%BA%BA%E8%84%B8%E8%A1%A8%E6%83%85%E8%AF%86%E5%88%AB/"/>
+    
+      <category term="人脸识别" scheme="https://xhxt2008.github.io/tags/%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB/"/>
+    
+      <category term="表情识别" scheme="https://xhxt2008.github.io/tags/%E8%A1%A8%E6%83%85%E8%AF%86%E5%88%AB/"/>
+    
+      <category term="未翻译" scheme="https://xhxt2008.github.io/tags/%E6%9C%AA%E7%BF%BB%E8%AF%91/"/>
+    
+      <category term="神经网络" scheme="https://xhxt2008.github.io/tags/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
+    
+      <category term="英文" scheme="https://xhxt2008.github.io/tags/%E8%8B%B1%E6%96%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Paper Survey about Mining Opinion Leaders in Big Social Network</title>
     <link href="https://xhxt2008.github.io/2017/11/30/OLM/"/>
     <id>https://xhxt2008.github.io/2017/11/30/OLM/</id>
     <published>2017-11-30T05:14:21.000Z</published>
-    <updated>2017-11-30T05:32:51.000Z</updated>
+    <updated>2017-11-30T06:13:05.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p> By identifying the opinion leaders, companies or governments can manipulate the selling or guiding public opinion, respectively. Additionally, detecting the influential comments is able to understand the source and trend of public opinion formation. However, mining opinion leaders in a huge social network is a challenge task because of the complexity of graph processing and leadership analysis. In this study, a novel algorithm, OLMiner, is proposed to efficiently find the opinion leaders from a huge social network.<br><a id="more"></a></p>
 <h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><h3 id="Opinion-leaders"><a href="#Opinion-leaders" class="headerlink" title="Opinion leaders"></a>Opinion leaders</h3><p>In a social network, the opinion leader means the influential person who may be an expert in a specific domain and have lots of people following his/her comments or ideas. opinion leaders are usually the information generator and message senders who familiar with the media by a secondary transmission. </p>
@@ -41,7 +121,9 @@
 </ol>
 <h2 id="Related-Works"><a href="#Related-Works" class="headerlink" title="Related Works"></a>Related Works</h2><h3 id="Opinion-Analysis-And-Mining"><a href="#Opinion-Analysis-And-Mining" class="headerlink" title="Opinion Analysis And Mining"></a>Opinion Analysis And Mining</h3><ul>
 <li>Opinion Observer system: An opinion Observer system could analyze and compare the consumer opinions among competing products. Opinion Observer also uses language pattern mining method to extract product features from the Pros and Cons in a specific type of reviews. CopeOpi is an opinion mining system.</li>
-<li>Thesauruses: When mining opinion or analyzing sentiment, many thesauruses are generally utilized for measuring the orientation or the property of comment, such as WordNet and General Inquire for English lexicon, HowNet and NTUSD for Chinese lexicon. <h3 id="Opinion-Leader-Mining"><a href="#Opinion-Leader-Mining" class="headerlink" title="Opinion Leader Mining"></a>Opinion Leader Mining</h3></li>
+<li>Thesauruses: When mining opinion or analyzing sentiment, many thesauruses are generally utilized for measuring the orientation or the property of comment, such as WordNet and General Inquire for English lexicon, HowNet and NTUSD for Chinese lexicon. </li>
+</ul>
+<h3 id="Opinion-Leader-Mining"><a href="#Opinion-Leader-Mining" class="headerlink" title="Opinion Leader Mining"></a>Opinion Leader Mining</h3><ul>
 <li>Opinion leaders are domain-sensitive</li>
 <li>There are many papers modified PageRank algorithm to find opinion leaders, such as OpinionRank, LeaderRank and Dynamic OpinionRank. </li>
 </ul>
@@ -137,15 +219,15 @@
     
       <category term="未翻译" scheme="https://xhxt2008.github.io/tags/%E6%9C%AA%E7%BF%BB%E8%AF%91/"/>
     
+      <category term="英文" scheme="https://xhxt2008.github.io/tags/%E8%8B%B1%E6%96%87/"/>
+    
+      <category term="数据挖掘" scheme="https://xhxt2008.github.io/tags/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/"/>
+    
       <category term="社交网络" scheme="https://xhxt2008.github.io/tags/%E7%A4%BE%E4%BA%A4%E7%BD%91%E7%BB%9C/"/>
     
       <category term="意见领袖" scheme="https://xhxt2008.github.io/tags/%E6%84%8F%E8%A7%81%E9%A2%86%E8%A2%96/"/>
     
-      <category term="数据挖掘" scheme="https://xhxt2008.github.io/tags/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/"/>
-    
       <category term="聚类" scheme="https://xhxt2008.github.io/tags/%E8%81%9A%E7%B1%BB/"/>
-    
-      <category term="英文" scheme="https://xhxt2008.github.io/tags/%E8%8B%B1%E6%96%87/"/>
     
   </entry>
   
@@ -178,13 +260,13 @@
       <category term="研究" scheme="https://xhxt2008.github.io/categories/%E7%A0%94%E7%A9%B6/"/>
     
     
-      <category term="未翻译" scheme="https://xhxt2008.github.io/tags/%E6%9C%AA%E7%BF%BB%E8%AF%91/"/>
-    
       <category term="人脸表情识别" scheme="https://xhxt2008.github.io/tags/%E4%BA%BA%E8%84%B8%E8%A1%A8%E6%83%85%E8%AF%86%E5%88%AB/"/>
     
       <category term="表情识别" scheme="https://xhxt2008.github.io/tags/%E8%A1%A8%E6%83%85%E8%AF%86%E5%88%AB/"/>
     
       <category term="论文查找" scheme="https://xhxt2008.github.io/tags/%E8%AE%BA%E6%96%87%E6%9F%A5%E6%89%BE/"/>
+    
+      <category term="未翻译" scheme="https://xhxt2008.github.io/tags/%E6%9C%AA%E7%BF%BB%E8%AF%91/"/>
     
       <category term="日文" scheme="https://xhxt2008.github.io/tags/%E6%97%A5%E6%96%87/"/>
     
@@ -263,8 +345,6 @@
       <category term="研究" scheme="https://xhxt2008.github.io/categories/%E7%A0%94%E7%A9%B6/"/>
     
     
-      <category term="未翻译" scheme="https://xhxt2008.github.io/tags/%E6%9C%AA%E7%BF%BB%E8%AF%91/"/>
-    
       <category term="人脸表情识别" scheme="https://xhxt2008.github.io/tags/%E4%BA%BA%E8%84%B8%E8%A1%A8%E6%83%85%E8%AF%86%E5%88%AB/"/>
     
       <category term="人脸识别" scheme="https://xhxt2008.github.io/tags/%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB/"/>
@@ -272,6 +352,8 @@
       <category term="表情识别" scheme="https://xhxt2008.github.io/tags/%E8%A1%A8%E6%83%85%E8%AF%86%E5%88%AB/"/>
     
       <category term="论文查找" scheme="https://xhxt2008.github.io/tags/%E8%AE%BA%E6%96%87%E6%9F%A5%E6%89%BE/"/>
+    
+      <category term="未翻译" scheme="https://xhxt2008.github.io/tags/%E6%9C%AA%E7%BF%BB%E8%AF%91/"/>
     
       <category term="日文" scheme="https://xhxt2008.github.io/tags/%E6%97%A5%E6%96%87/"/>
     
@@ -325,11 +407,11 @@
       <category term="技术" scheme="https://xhxt2008.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="数据挖掘" scheme="https://xhxt2008.github.io/tags/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/"/>
-    
       <category term="机器学习" scheme="https://xhxt2008.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     
       <category term="数据可视化" scheme="https://xhxt2008.github.io/tags/%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96/"/>
+    
+      <category term="数据挖掘" scheme="https://xhxt2008.github.io/tags/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/"/>
     
       <category term="knn" scheme="https://xhxt2008.github.io/tags/knn/"/>
     
