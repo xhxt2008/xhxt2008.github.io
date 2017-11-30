@@ -60,9 +60,9 @@ Output: OL: a set of opinion leaders
 06. OL  Leader_Selection (Candi_set, k);
 07. output OL;
 
-#### 1. granularity checking
+### 1. granularity checking
 check the size of input data to decide running on a single computer or cloud environment. 
-#### 2. Social Network Construction
+### 2. Social Network Construction
 - We segment 24 hours into four sections:
 ![image](http://oonaavjvi.bkt.clouddn.com/OLM02.png)
 
@@ -75,20 +75,20 @@ check the size of input data to decide running on a single computer or cloud env
 - The weight **w(u, v)** of edge (u, v) in E.
 ![image](http://oonaavjvi.bkt.clouddn.com/OLM04.png)
 
-#### 3. Community Structure Detection
+### 3. Community Structure Detection
 ![image](http://oonaavjvi.bkt.clouddn.com/OLM05.jpg)
 1. Firstly, capture the community structure of social network to reduce the execution time for finding opinion leaders. 
 2. Then, we use 2nd-stage clustering to analyze the characteristics of uses and shrink the size of the candidate set.
 3. Finally, we pick k users have better leadership quality from candidate set as opinion leaders. 
-##### Modularity gain 
+#### Modularity gain 
 - Given a social network G = (V, E, W) and its clustering result C = {c1, c2, …, cp}, the modularity function is defined as:
 ![image](http://oonaavjvi.bkt.clouddn.com/OLM06.jpg)
 - OLMiner utilizes the modularity gain as the terminated criteria.
-##### Significant Community
+#### Significant Community
 - The set of significant community Cs is defined as follows:
 ![image](http://oonaavjvi.bkt.clouddn.com/OLM07.jpg)
 
-#### 4. Opinion Leader Candidate Generation
+### 4. Opinion Leader Candidate Generation
 ![image](http://oonaavjvi.bkt.clouddn.com/OLM08.jpg)
 Different from others, we use kmean clustering to build the candidate set, the kmean clustering can effectively shrink the size of candidate set.
 - Candidate Generation Algorithm(kmean)
@@ -112,7 +112,7 @@ Output: Candi_set: a candidate set
 - Given a clustering result CKi = {cki1, cki2, ..., ckin} in a significant community ci, the score of ckij is evaluated as, 
 ![image](http://oonaavjvi.bkt.clouddn.com/OLM09.jpg)
 
-#### 5. Opinion Leader Selection
+### 5. Opinion Leader Selection
 - First, we use the total number of nodes in significant communities to decide how many opinion leaders are allocated to each significant community.
 ![image](http://oonaavjvi.bkt.clouddn.com/OLM10.jpg)
 - Then, we first sort the clusters in decreasing order based on the score of cluster (line 4, Algorithm 5). Then, OLMiner picks the nodes in high-score cluster until we reach the number of desired opinion leaders k
