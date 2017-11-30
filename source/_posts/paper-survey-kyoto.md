@@ -1,5 +1,5 @@
 ---
-title: Paper survey about Timing-Based Facial Expression Recognition of Kyoto University　by Prof. Kawashima 　
+title: Paper survey about Timing-Based Facial Expression Recognition of Kyoto University by Prof. Kawashima 　
 date: 2017-11-22 17:23:11
 tags: 
   - 人脸表情识别
