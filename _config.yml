@@ -4,10 +4,10 @@
 
 # Site
 title: 天道宫
-subtitle: 副标题
+subtitle: 技术是手段而不是目的
 description: 技术是手段而不是目的
 author: Tsukiyo
-language: zh-Hans
+language: zh-CN
 timezone:
 
 # URL
@@ -40,7 +40,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
 
 # Category & Tag
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: maupassant
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -92,3 +92,6 @@ feed:
 #sitemap
 sitemap:
   path: sitemap.xml
+
+#mathjax
+mathjax: true  
