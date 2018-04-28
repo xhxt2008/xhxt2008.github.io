@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>天道宫</title>
-  <subtitle>副标题</subtitle>
+  <subtitle>技术是手段而不是目的</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xhxt2008.github.io/"/>
-  <updated>2017-11-30T06:10:20.000Z</updated>
+  <updated>2018-04-28T16:39:23.000Z</updated>
   <id>https://xhxt2008.github.io/</id>
   
   <author>
@@ -20,10 +20,10 @@
     <link href="https://xhxt2008.github.io/2017/11/30/look-same/"/>
     <id>https://xhxt2008.github.io/2017/11/30/look-same/</id>
     <published>2017-11-30T06:07:45.000Z</published>
-    <updated>2017-11-30T06:10:20.000Z</updated>
+    <updated>2018-04-28T16:39:23.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h1><p>This study is about what extend Chinese, Japanese and Korean faces can be classified and which facial attributes offer the most important cues. First, we propose a novel way of obtaining large numbers of facial images with nationality labels. Then we train state-of-the-art neural networks with these labeled images. We are able to achieve an accuracy of 75.03% in the classification task, with chances being 33.33% and human accuracy 38.89% . Further, we train multiple facial attribute classifiers to identify the most distinctive features for each group.<br><a id="more"></a></p>
-<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><ul>
+    <content type="html"><![CDATA[<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>This study is about what extend Chinese, Japanese and Korean faces can be classified and which facial attributes offer the most important cues. First, we propose a novel way of obtaining large numbers of facial images with nationality labels. Then we train state-of-the-art neural networks with these labeled images. We are able to achieve an accuracy of 75.03% in the classification task, with chances being 33.33% and human accuracy 38.89% . Further, we train multiple facial attribute classifiers to identify the most distinctive features for each group. </p>
+<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><ul>
 <li>China, Japan and Korea are three of the world’s largest economies  with a large population. And they look very similar. </li>
 <li><p>Some suggest that the main differences derive from mannerism and fashion. There also exist quite a few websites that put up Asian face classification chall-enges, which prove the difficulty of distinguishing them.</p>
 </li>
@@ -31,26 +31,26 @@
 </li>
 <li>Grouped<br><img src="http://oonaavjvi.bkt.clouddn.com/look02.jpg" alt="image"></li>
 </ul>
-<h1 id="Related-Literature"><a href="#Related-Literature" class="headerlink" title="Related Literature"></a>Related Literature</h1><ul>
+<h2 id="Related-Literature"><a href="#Related-Literature" class="headerlink" title="Related Literature"></a>Related Literature</h2><ul>
 <li>(Farfade, Saberian, and Li 2015; Levi and Hassner 2015; Fu, He, and Hou 2014; Wang, Li, and Luo 2016) have both achieved very high accuracy in face detection, gender and race classification.</li>
 <li>(Liu et al. 2015), which has achieved state-of-the-art perfor-mance, trains two networks, the first one for face localization and the second for attribute classification. Our work follows (Liu et al. 2015), and uses the same dataset as theirs, except that (1) for simplicity we use OpenCV to locate faces and (2) for ac- curacy we train a separate neural network for each attribute. </li>
 </ul>
-<h1 id="Data-Collection-and-Pre-processing"><a href="#Data-Collection-and-Pre-processing" class="headerlink" title="Data Collection and Pre-processing"></a>Data Collection and Pre-processing</h1><ul>
+<h2 id="Data-Collection-and-Pre-processing"><a href="#Data-Collection-and-Pre-processing" class="headerlink" title="Data Collection and Pre-processing"></a>Data Collection and Pre-processing</h2><ul>
 <li>We have two main data sources: Twitter and the CelebA dataset. We derive from Twitter the labeled Chinese, Japanese and Korean images, which are later used as input to the Resnet. We use CelebA to train the facial attribute classifiers. These classifiers are then used to classify the labeled Twitter images. </li>
 <li>Twitter Images<br><img src="http://oonaavjvi.bkt.clouddn.com/look03.jpg" alt="image"></li>
 <li>CelebA Images,<br>The CelebA dataset contains 202,599 images taken from ten thousand individuals. In this work, we follow Liu.’s practice in dividing the training, developing, and testing dataset. We use OpenCV to locate faces in each subset and eventually have 148,829 images for training, 18,255 images for development, and 18,374 images for testing.</li>
 </ul>
-<h1 id="Experiments"><a href="#Experiments" class="headerlink" title="Experiments"></a>Experiments</h1><h2 id="We-conduct-two-experiments"><a href="#We-conduct-two-experiments" class="headerlink" title="We conduct two experiments."></a>We conduct two experiments.</h2><ul>
+<h2 id="Experiments"><a href="#Experiments" class="headerlink" title="Experiments"></a>Experiments</h2><h3 id="We-conduct-two-experiments"><a href="#We-conduct-two-experiments" class="headerlink" title="We conduct two experiments."></a>We conduct two experiments.</h3><ul>
 <li>In the first experiment, we use the labeled Twitter images to fine-tune the Resnet and investigate to what extent Chinese, Japanese and Koreans can be classified. </li>
 <li>In our second experiment, we train 40 facial attribute classifiers and examine which attributes contain the most important cues in distinguishing the three groups. </li>
 </ul>
-<h2 id="Face-Classification"><a href="#Face-Classification" class="headerlink" title="Face Classification"></a>Face Classification</h2><ul>
+<h3 id="Face-Classification"><a href="#Face-Classification" class="headerlink" title="Face Classification"></a>Face Classification</h3><ul>
 <li>We split our dataset into development set, validation set, and test set ( 8: 1: 1) and experiment with different architectures from shallow networks (3-5 layers) to the 16-layer VGG and 50-layer ResNet. In our experiments, all networks would converge (Figure 4), but we observe that accuracy of 75.03% with Resnet shows the best result.<br><img src="http://oonaavjvi.bkt.clouddn.com/look04.jpg" alt="image"></li>
 <li>In Table 2, we report the confusion matrix for the testing images. Note that all the three peoples look equally “confusing” to the computer: the off-diagonal elements are roughly equal. The result we achieve answers in a definitive manner that Chinese, Japanese and Koreans are distinguishable. But it also suggests that this is a challenging task, which leads to our experiment on facial attribute classificatio<br><img src="http://oonaavjvi.bkt.clouddn.com/look05.jpg" alt="image"></li>
 </ul>
-<h2 id="Attribute-Classification"><a href="#Attribute-Classification" class="headerlink" title="Attribute Classification"></a>Attribute Classification</h2><p>We construct a separate neural network for each of the 40 attributes in the CelebA dataset. The neural nets all share the same structure.<br><img src="http://oonaavjvi.bkt.clouddn.com/look06.jpg" alt="image"></p>
-<h2 id="Female"><a href="#Female" class="headerlink" title="Female"></a>Female</h2><p><img src="http://oonaavjvi.bkt.clouddn.com/look07.jpg" alt="image"></p>
-<h2 id="Male"><a href="#Male" class="headerlink" title="Male"></a>Male</h2><p><img src="http://oonaavjvi.bkt.clouddn.com/look08.jpg" alt="image"></p>
+<h3 id="Attribute-Classification"><a href="#Attribute-Classification" class="headerlink" title="Attribute Classification"></a>Attribute Classification</h3><p>We construct a separate neural network for each of the 40 attributes in the CelebA dataset. The neural nets all share the same structure.<br><img src="http://oonaavjvi.bkt.clouddn.com/look06.jpg" alt="image"></p>
+<h3 id="Female"><a href="#Female" class="headerlink" title="Female"></a>Female</h3><p><img src="http://oonaavjvi.bkt.clouddn.com/look07.jpg" alt="image"></p>
+<h3 id="Male"><a href="#Male" class="headerlink" title="Male"></a>Male</h3><p><img src="http://oonaavjvi.bkt.clouddn.com/look08.jpg" alt="image"></p>
 <p>In Figures, we report the percentage of individuals that possess the corresponding facial attributes.</p>
 <ol>
 <li>Bangs are most popular among Japanese and least popular among Chinese. </li>
@@ -59,13 +59,13 @@
 <li>Chinese are the most likely to have bushy eyebrows. </li>
 <li>Koreans are the mostly likely to have black hair and Japanese are the least likely. </li>
 </ol>
-<h1 id="Discussion"><a href="#Discussion" class="headerlink" title="Discussion"></a>Discussion</h1><p>While our paper focuses on country comparisons, we also briefly summarize some of the significant findings on cross- country gender differentials that are either cultural or social in nature. </p>
+<h2 id="Discussion"><a href="#Discussion" class="headerlink" title="Discussion"></a>Discussion</h2><p>While our paper focuses on country comparisons, we also briefly summarize some of the significant findings on cross- country gender differentials that are either cultural or social in nature. </p>
 <ul>
 <li>females tend to smile more than males </li>
 <li>men are twice more likely to be wearing glasses than women </li>
 </ul>
-<h1 id="Limitations"><a href="#Limitations" class="headerlink" title="Limitations"></a>Limitations</h1><p>Our work is built on the assumption that Twitter users, celebrity followers in particular, are representative of the demographics of the entire population. This assumption may not exactly hold as various demographic dimensions such as gender and age are skewed in Twitter (Mislove et al. 2011). Nonetheless, we believe the direction of our estimates will remain consistent, as several of our findings are confirmed by social stereotypes and research on other regions. Also, this concern could be alleviated to some extent by examining several other celebrities.</p>
-<h1 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h1><ul>
+<h2 id="Limitations"><a href="#Limitations" class="headerlink" title="Limitations"></a>Limitations</h2><p>Our work is built on the assumption that Twitter users, celebrity followers in particular, are representative of the demographics of the entire population. This assumption may not exactly hold as various demographic dimensions such as gender and age are skewed in Twitter (Mislove et al. 2011). Nonetheless, we believe the direction of our estimates will remain consistent, as several of our findings are confirmed by social stereotypes and research on other regions. Also, this concern could be alleviated to some extent by examining several other celebrities.</p>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><ul>
 <li>In this paper, we have demonstrated that Chinese, Japanese and Koreans do look different. By assembling a large data set of labeled images and experimenting with different neural network architectures, we have achieved a remarkable accuracy 75.03%, almost twice as high as the human average accuracy. </li>
 <li>We have also examined 40 facial attributes of the three populations in an effort to identify the important cues that assist classification. Our study has shown that Chinese, Japanese and Koreans do differ in several dimensions but overall are very similar. </li>
 <li>Our work, which complements existing APIs such as Microsoft Cognitive Services and Face++, could find wide applications in tourism, e-commerce, social media marketing, criminal justice and even counter-terrorism.</li>
@@ -74,7 +74,7 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;Abstract&quot;&gt;&lt;a href=&quot;#Abstract&quot; class=&quot;headerlink&quot; title=&quot;Abstract&quot;&gt;&lt;/a&gt;Abstract&lt;/h1&gt;&lt;p&gt;This study is about what extend Chinese, Japanese and Korean faces can be classified and which facial attributes offer the most important cues. First, we propose a novel way of obtaining large numbers of facial images with nationality labels. Then we train state-of-the-art neural networks with these labeled images. We are able to achieve an accuracy of 75.03% in the classification task, with chances being 33.33% and human accuracy 38.89% . Further, we train multiple facial attribute classifiers to identify the most distinctive features for each group.&lt;br&gt;
+      &lt;h2 id=&quot;Abstract&quot;&gt;&lt;a href=&quot;#Abstract&quot; class=&quot;headerlink&quot; title=&quot;Abstract&quot;&gt;&lt;/a&gt;Abstract&lt;/h2&gt;&lt;p&gt;This study is about what extend Chinese, Japan
     
     </summary>
     
@@ -281,7 +281,7 @@
     <link href="https://xhxt2008.github.io/2017/11/22/Face-expression-recognition/"/>
     <id>https://xhxt2008.github.io/2017/11/22/Face-expression-recognition/</id>
     <published>2017-11-22T07:41:12.000Z</published>
-    <updated>2017-11-22T08:40:27.000Z</updated>
+    <updated>2018-04-28T15:56:34.000Z</updated>
     
     <content type="html"><![CDATA[<p>表情認識（Face Expression Recognition）は、成熟した技術でした。表情認識確かに国籍認識と共通点が多かったです。</p>
 <h2 id="まずは顔に表す感情の定義として。"><a href="#まずは顔に表す感情の定義として。" class="headerlink" title="まずは顔に表す感情の定義として。"></a>まずは顔に表す感情の定義として。</h2><p>普通六つの分類があります：楽しく、悲しく、怒る、驚く、嫌い、怖い。<br>    そして、表情認識のプロセスは、主に：</p>
