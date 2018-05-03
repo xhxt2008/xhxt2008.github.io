@@ -8,8 +8,7 @@ tags:
   - 评论
 categories: 日志
 ---
-
-{% fi http://oonaavjvi.bkt.clouddn.com/main1.jpg, 人渣的本愿, 人渣的本愿 %}
+![人渣的本愿](http://oonaavjvi.bkt.clouddn.com/main1.jpg)
 
 《人渣的本愿》完结已经有两个月了，想看的应该早就看完了。这部动画描写了很多滥情的戏码，但是表达了一个非常积极正面的主题。这部动漫对情感问题的刻画入微，短短12话的内容可以说做到了面面俱到，是十分优秀的作品。但是，笔者观察到网上充满了对这部动画的曲解，和不公平的评论，也有一些好一点的，比如lex的[【Lex】三观炸裂？男默女泪？小评《人渣的本愿》](http://www.bilibili.com/video/av9501531/)。说的是不错的，但是太过照顾一部分人的心情了。另外一些称赞的声音也完全没有说到点子上。故作此文。
 
@@ -24,7 +23,7 @@ categories: 日志
 ### 花火有多可爱
 
 看过这部动漫的人，多半是花火的同情者，理由多是花火很可爱。我们来看一下作者是怎么说的。
-{% fi http://oonaavjvi.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170503011729.jpg, alt, %}
+![人渣的本愿](http://oonaavjvi.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170503011729.jpg)
 > 1. 被花火瞪着的男生感觉心里美滋滋
 > 2. 在电车上拍到痴汉的脸成功解救闺蜜
 > 3. 花火带球过人下面的男生眼睛都看直了
@@ -98,7 +97,7 @@ categories: 日志
 
 
 ### 大哥哥有喜欢的人了怎么办？
-{% fi http://oonaavjvi.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170505162434.jpg, alt, %}
+![image](http://oonaavjvi.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170505162434.jpg)
 > 女老师让大哥哥想起了他死去的妈妈
 
 大哥哥（男老师）喜欢女老师一开始就说了，但是理由在十分后面的地方才交待的。而且这个理由也有点敷衍的意思？反正我是不服的。女老师跟他妈妈很像，感情他妈妈也是个婊子？ 可能是受制于篇幅吧，这个动画里，男老师的地位有点路人。
@@ -180,7 +179,7 @@ categories: 日志
 > 花火跟麦组成一对的时候，她打趣的问麦会不会真的喜欢上她。麦的回答很干脆。
 
 她是认真的吗！？被帅哥喜欢上不好吗？我们来回忆一下，关于花火我们知道了什么。
-{% fi http://oonaavjvi.bkt.clouddn.com/rz023.jpg, alt,  %}
+![image](http://oonaavjvi.bkt.clouddn.com/rz023.jpg)¥
 > 花火从头到尾没有缺少过追求者
 
 花火从来不缺少追求者，但她的心里只有他的“大哥哥”，她对于追求者是无奈地，___在这个时间点___，甚至还有些不屑。她很善良，不愿意敷衍别人的感情，不愿意伤害别人。而男主又是一个绝不会喜欢上她的人，在某些地方与她也有些相似。
@@ -801,8 +800,10 @@ OP强烈地暗示，花火跟这个白衣少女是一个人。
 
 ---
 
-{% cq %} # 希望这部作品能够带给大家勇气 {% endcq %}
+<div align="center"><h1>希望这部作品能够带给大家勇气</h1></div>
 
-{% note success %} 本文原始链接：[深挖剧情（三观正直），如何正确观看《人渣的本愿》](https://xhxt2008.github.io/2017/05/02/kuzunohonkai/)    
+<p style="border-left-color:#008000; border-left-style: solid; border-left-width: 5px; background-color:#eeeeee; padding-left:5px;"><span style="color: #808080; font-size: 12px;">本文原始链接：[深挖剧情（三观正直），如何正确观看《人渣的本愿》](https://xhxt2008.github.io/2017/05/02/kuzunohonkai/)    
 作者：[Tsukiyo](https://xhxt2008.github.io/)    
-本文基于 [署名-非商业性使用-禁止演绎 3.0 中国大陆许可协议 (CC BY-NC-ND 3.0 CN)](https://creativecommons.org/licenses/by-nc-nd/3.0/cn/deed.zh) 发布，欢迎转载，但是必须保留本文的署名[Tsukiyo](https://xhxt2008.github.io/)及链接。如果要用于商业目的，请联系作者 。 {% endnote %}
+本文基于 [署名-非商业性使用-禁止演绎 3.0 中国大陆许可协议 (CC BY-NC-ND 3.0 CN)](https://creativecommons.org/licenses/by-nc-nd/3.0/cn/deed.zh) 发布，欢迎转载，但是必须保留本文的署名[Tsukiyo](https://xhxt2008.github.io/)及链接。如果要用于商业目的，请联系作者。
+</span></p>
+

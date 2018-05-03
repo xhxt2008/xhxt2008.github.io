@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 天道宫
-subtitle: 技术是手段而不是目的
+title: Tsukiyo
+subtitle: 天道宮
 description: 技术是手段而不是目的
 author: Tsukiyo
 language: zh-CN
@@ -80,8 +80,8 @@ algolia:
   chunkSize: 5000
 # Extensions
 Plugins:
-- hexo-generator-feed
-- hexo-generator-sitemap
+  - hexo-generator-feed
+  - hexo-generator-sitemap
 
 #Feed Atom
 feed:

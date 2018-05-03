@@ -1,5 +1,5 @@
 ---
-title: Paper Survey about Do They All Look the Same, Deciphering Chinese, Japanese a
+title: Paper Survey about Do They All Look the Same Deciphering Chinese, Japanese and Koreans by Fine-Grained Deep Learning.
 date: 2017-11-30 15:07:45
 toc: true
 tags: 
