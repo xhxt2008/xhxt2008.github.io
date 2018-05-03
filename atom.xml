@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>天道宫</title>
-  <subtitle>技术是手段而不是目的</subtitle>
+  <title>Tsukiyo</title>
+  <subtitle>天道宮</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xhxt2008.github.io/"/>
-  <updated>2018-04-28T16:39:23.000Z</updated>
+  <updated>2018-05-03T20:40:08.366Z</updated>
   <id>https://xhxt2008.github.io/</id>
   
   <author>
@@ -16,11 +16,73 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Paper Survey about Do They All Look the Same, Deciphering Chinese, Japanese a</title>
+    <title>Combining multiple feature selection methods for stock prediction Union, intersection, and multi-intersection approaches</title>
+    <link href="https://xhxt2008.github.io/2017/12/21/Combining-feature-selection/"/>
+    <id>https://xhxt2008.github.io/2017/12/21/Combining-feature-selection/</id>
+    <published>2017-12-21T10:07:05.000Z</published>
+    <updated>2018-05-03T20:40:08.366Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>To effectively predict stock price for investors is a very important research problem. In literature, data mining techniques have been applied to stock (market) prediction. Feature selection, a pre-processing step of data mining, aims at filtering out unrepresentative variables from a given dataset for effective prediction. As using different feature selection methods will lead to different features selected and thus affect the prediction performance, the purpose of this paper is to combine multiple feature selection methods to identify more representative variables for better prediction. </p>
+<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>Stock investments are a very popular investment activity around the world. In literature, some basic important factors, such as financial ratios, technical indexes, and macroeconomic indexes have been proved as the important factors of affecting stocks’ rise and fall. However, different studies select their factors (i.e. input variables) differently for their prediction models [3]. That is, the opinion of the important factors for stock prediction is somewhat different in related work since there is no exact answer to the question of what are the most representative variables. On the other hand, it is the fact that using different input variables can make the same prediction model performs differently. Therefore, constructing the optimal stock prediction model for investors is very challenging.<br><strong>Feature selection</strong> can be used to filter out redundant and/or irrelevant features from a chosen dataset resulting in more representative features for better prediction performances.<br>That is, the chosen feature selection method is supposed to select usable features for stock prediction. However, using different feature selection methods is likely to produce different results Therefore, if we could apply a number of different feature selection methods and then combine the selection results, we can not only understand the most important and representative variables that all the feature selection methods ‘agree’, but also further improve prediction performances over using one single feature selection methods. </p>
+<h2 id="Related-work"><a href="#Related-work" class="headerlink" title="Related work"></a>Related work</h2><p><img src="http://oonaavjvi.bkt.clouddn.com/FS01.png" alt="Related work"></p>
+<h2 id="Literature-review"><a href="#Literature-review" class="headerlink" title="Literature review"></a>Literature review</h2><h3 id="Stock-price-theory"><a href="#Stock-price-theory" class="headerlink" title="Stock price theory"></a>Stock price theory</h3><ul>
+<li>Stock prices mean the actual transaction price through the buyers and sellers in the market. Stock prices are determined by the laws of supply and demand. In theory, whether the price of a stock is high or low, it is decided by the buyers and sellers’ transactions in the open market. When supply and demand change, the stock price must be changed. </li>
+<li>Fama‘s Efficient Market Hypothesis supposes that the investment activity is a “Fair-Game Market”. It means all information has disclosed in the stock market, and reflects on stock prices. According to the difference of disclosed information, there are three kinds of Efficient Market Hypothesis：<ul>
+<li>The Weak Form Efficient Market </li>
+<li>The Semi-strong Form Efficient Market</li>
+<li>The Strong Form Efficient Market </li>
+</ul>
+</li>
+</ul>
+<h3 id="Stock-price-analysis-methods"><a href="#Stock-price-analysis-methods" class="headerlink" title="Stock price analysis methods"></a>Stock price analysis methods</h3><ul>
+<li><strong>Fundamental analysis</strong>: Fundamental analysis believes that every stock has its intrinsic value. If the share prices lower than the intrinsic value, it means the stock is undervalued. In addition, economic factors also belong to this category. </li>
+<li><strong>Technical analysis</strong>. Technical analysis, also known as “charting”, has been a part of financial practice for many decades. It studies the historical price and volume movement of a stock by using charts as the primary tool to forecast future price movements. This theory believes that the trends and patterns of an investment instrument’s price, volume, breadth, and the trading activities reflect most of the relevant market information that a decision maker can utilize to determine its value. </li>
+</ul>
+<h3 id="Feature-selection"><a href="#Feature-selection" class="headerlink" title="Feature selection"></a>Feature selection</h3><p>In many research problems, such as pattern recognition, it is important to choose a group of set of attributions with more prediction information. That is, if the number of irrelevant or redundant features is reduced drastically, the running time of a learning algorithm is also reduced. Moreover, a more general concept can be yielded. Performing feature selection can lead to many potential benefits, which are facilitating data visualization and data understanding, reducing the measurement and storage requirements, reducing training and utilization times, defying the curse of dimensionality to improve prediction performances, etc. </p>
+<h3 id="Principal-Component-Analysis-PCA"><a href="#Principal-Component-Analysis-PCA" class="headerlink" title="Principal Component Analysis (PCA)"></a>Principal Component Analysis (PCA)</h3><p>Principal Component Analysis (PCA) is a multivariate statistical technique. It aims at reducing the dimensionality of a dataset with a large number of interrelated variables. In particular, it extracts a small set of factors or components that are constituted of highly correlated elements, while retaining their original characters. After performing PCA, the uncorrelated variables which are called components, will replace the original variables.<br><img src="http://oonaavjvi.bkt.clouddn.com/FS02.png" alt="Principal Component Analysis"></p>
+<h3 id="GA-SVM"><a href="#GA-SVM" class="headerlink" title="GA-SVM"></a>GA-SVM</h3><p>The main idea of Genetic Algorithms (GA) is from Darwin’s theory of evolution from natural selection in the survival of the fittest. GA attempts to computationally mimic the processes by which natural selection operates.<br><img src="http://oonaavjvi.bkt.clouddn.com/FS03.jpg" alt="GA-SVM"></p>
+<h3 id="Classification-and-Regression-Trees-CART"><a href="#Classification-and-Regression-Trees-CART" class="headerlink" title="Classification and Regression Trees (CART)"></a>Classification and Regression Trees (CART)</h3><p>The Classification and Regression Trees (CART) is a statistical technique that can select from a large number of explanatory variables those that are most important in determining the response variable to be explained. The decision trees produced by CART are strictly binary, containing exactly two branches for each decision tree. The root node t is separated into two samples based on some condition. The samples that fit the condition will be separated into the left nodes (tl), and the others will be separated into the right nodes (tr).<br>In particular, a decision tree is based on the entropy theory that the attribute (or feature) with the highest information gain (or greatest entropy reduction) is chosen as the test attribute for the non-leaf node<br>$$g\left ( Y,A \right )=H\left ( Y \right )-H\left ( Y|A \right )$$</p>
+<p>Related work only applies one chosen feature selection method to filter out irrelevant variables. This motivates us to collect all relevant variables used for stock prediction in literature and then combining multiple feature selection methods to identify more representative variables for improving prediction performances. </p>
+<h2 id="Experimental-design"><a href="#Experimental-design" class="headerlink" title="Experimental design"></a>Experimental design</h2><h3 id="The-first-experimental-stage"><a href="#The-first-experimental-stage" class="headerlink" title="The first experimental stage"></a>The first experimental stage</h3><p><img src="http://oonaavjvi.bkt.clouddn.com/FS04.jpg" alt="The first experimental stage"></p>
+<h3 id="The-second-experimental-stage"><a href="#The-second-experimental-stage" class="headerlink" title="The second experimental stage"></a>The second experimental stage</h3><p><img src="http://oonaavjvi.bkt.clouddn.com/FS05.jpg" alt="The second experimental stage"></p>
+<h2 id="Results"><a href="#Results" class="headerlink" title="Results"></a>Results</h2><h3 id="Single-feature-selection-methods"><a href="#Single-feature-selection-methods" class="headerlink" title="Single feature selection methods"></a>Single feature selection methods</h3><p><img src="http://oonaavjvi.bkt.clouddn.com/FS06.png" alt="Single method"><br><img src="http://oonaavjvi.bkt.clouddn.com/FS07.png" alt="Single method"><br>Figures show the rate of prediction accuracy of the four different MLP models based on the one quarter and other-quarter based testing datasets respectively. As we can see, the results are slightly different if different testing datasets are considered.<br>We can find the models with feature selection are obviously better. And They have similar effects</p>
+<h3 id="Multiple-feature-selection-methods"><a href="#Multiple-feature-selection-methods" class="headerlink" title="Multiple feature selection methods"></a>Multiple feature selection methods</h3><p><img src="http://oonaavjvi.bkt.clouddn.com/FS08.png" alt="Multiple method"><br><img src="http://oonaavjvi.bkt.clouddn.com/FS09.png" alt="Multiple method"></p>
+<p>The results indicate that the intersection between PCA and GA outperforms the other combination approaches over the one quarter based testing dataset. On the other hand, combining multiple feature selection methods by the multi-intersection approach performs the best based on the other-quarter based testing dataset. However, the rates of prediction accuracy by both combination approaches over the two testing datasets do not have a big difference, i.e. less than 0.3%. </p>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><ul>
+<li>This paper compares three different feature selection methods, i.e. Principal Component Analysis (PCA), Genetic Algorithms (GA), and decision trees (CART) and combines them based on union, intersection, and multi- intersection approaches to examine their prediction accuracy and errors. </li>
+<li>The experimental results show that combining multiple feature selection methods can provide better prediction performances than using single feature selection methods. In particular, the intersection between PCA and GA and the multi-intersection of PCA, GA, and CART perform the best, which provide the highest rate of prediction accuracy and the lowest error rate of predicting stocks’ rise. </li>
+<li>Moreover, these two combined approaches select 14 and 17 important variables respectively from the 85 original variables, which filter out many unrepresentative variables. These variables can be used for practical investment decisions.</li>
+</ul>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul>
+<li>Qing-Guo Wang, “Linear, Adaptive and Nonlinear Trading Models for Singapore Stock Market with Random Forests”, 2012</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Abstract&quot;&gt;&lt;a href=&quot;#Abstract&quot; class=&quot;headerlink&quot; title=&quot;Abstract&quot;&gt;&lt;/a&gt;Abstract&lt;/h2&gt;&lt;p&gt;To effectively predict stock price for investo
+    
+    </summary>
+    
+      <category term="研究" scheme="https://xhxt2008.github.io/categories/%E7%A0%94%E7%A9%B6/"/>
+    
+    
+      <category term="特征选择" scheme="https://xhxt2008.github.io/tags/%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9/"/>
+    
+      <category term="特征工程" scheme="https://xhxt2008.github.io/tags/%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B/"/>
+    
+      <category term="未翻译" scheme="https://xhxt2008.github.io/tags/%E6%9C%AA%E7%BF%BB%E8%AF%91/"/>
+    
+      <category term="英文" scheme="https://xhxt2008.github.io/tags/%E8%8B%B1%E6%96%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Paper Survey about Do They All Look the Same Deciphering Chinese, Japanese and Koreans by Fine-Grained Deep Learning.</title>
     <link href="https://xhxt2008.github.io/2017/11/30/look-same/"/>
     <id>https://xhxt2008.github.io/2017/11/30/look-same/</id>
     <published>2017-11-30T06:07:45.000Z</published>
-    <updated>2018-04-28T16:39:23.000Z</updated>
+    <updated>2018-05-03T20:51:34.272Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>This study is about what extend Chinese, Japanese and Korean faces can be classified and which facial attributes offer the most important cues. First, we propose a novel way of obtaining large numbers of facial images with nationality labels. Then we train state-of-the-art neural networks with these labeled images. We are able to achieve an accuracy of 75.03% in the classification task, with chances being 33.33% and human accuracy 38.89% . Further, we train multiple facial attribute classifiers to identify the most distinctive features for each group. </p>
 <h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><ul>
@@ -81,17 +143,17 @@
       <category term="研究" scheme="https://xhxt2008.github.io/categories/%E7%A0%94%E7%A9%B6/"/>
     
     
+      <category term="未翻译" scheme="https://xhxt2008.github.io/tags/%E6%9C%AA%E7%BF%BB%E8%AF%91/"/>
+    
+      <category term="英文" scheme="https://xhxt2008.github.io/tags/%E8%8B%B1%E6%96%87/"/>
+    
       <category term="人脸表情识别" scheme="https://xhxt2008.github.io/tags/%E4%BA%BA%E8%84%B8%E8%A1%A8%E6%83%85%E8%AF%86%E5%88%AB/"/>
     
       <category term="人脸识别" scheme="https://xhxt2008.github.io/tags/%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB/"/>
     
       <category term="表情识别" scheme="https://xhxt2008.github.io/tags/%E8%A1%A8%E6%83%85%E8%AF%86%E5%88%AB/"/>
     
-      <category term="未翻译" scheme="https://xhxt2008.github.io/tags/%E6%9C%AA%E7%BF%BB%E8%AF%91/"/>
-    
       <category term="神经网络" scheme="https://xhxt2008.github.io/tags/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
-    
-      <category term="英文" scheme="https://xhxt2008.github.io/tags/%E8%8B%B1%E6%96%87/"/>
     
   </entry>
   
@@ -221,11 +283,11 @@
     
       <category term="英文" scheme="https://xhxt2008.github.io/tags/%E8%8B%B1%E6%96%87/"/>
     
-      <category term="数据挖掘" scheme="https://xhxt2008.github.io/tags/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/"/>
-    
       <category term="社交网络" scheme="https://xhxt2008.github.io/tags/%E7%A4%BE%E4%BA%A4%E7%BD%91%E7%BB%9C/"/>
     
       <category term="意见领袖" scheme="https://xhxt2008.github.io/tags/%E6%84%8F%E8%A7%81%E9%A2%86%E8%A2%96/"/>
+    
+      <category term="数据挖掘" scheme="https://xhxt2008.github.io/tags/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/"/>
     
       <category term="聚类" scheme="https://xhxt2008.github.io/tags/%E8%81%9A%E7%B1%BB/"/>
     
@@ -260,13 +322,13 @@
       <category term="研究" scheme="https://xhxt2008.github.io/categories/%E7%A0%94%E7%A9%B6/"/>
     
     
+      <category term="未翻译" scheme="https://xhxt2008.github.io/tags/%E6%9C%AA%E7%BF%BB%E8%AF%91/"/>
+    
       <category term="人脸表情识别" scheme="https://xhxt2008.github.io/tags/%E4%BA%BA%E8%84%B8%E8%A1%A8%E6%83%85%E8%AF%86%E5%88%AB/"/>
     
       <category term="表情识别" scheme="https://xhxt2008.github.io/tags/%E8%A1%A8%E6%83%85%E8%AF%86%E5%88%AB/"/>
     
       <category term="论文查找" scheme="https://xhxt2008.github.io/tags/%E8%AE%BA%E6%96%87%E6%9F%A5%E6%89%BE/"/>
-    
-      <category term="未翻译" scheme="https://xhxt2008.github.io/tags/%E6%9C%AA%E7%BF%BB%E8%AF%91/"/>
     
       <category term="日文" scheme="https://xhxt2008.github.io/tags/%E6%97%A5%E6%96%87/"/>
     
@@ -345,6 +407,8 @@
       <category term="研究" scheme="https://xhxt2008.github.io/categories/%E7%A0%94%E7%A9%B6/"/>
     
     
+      <category term="未翻译" scheme="https://xhxt2008.github.io/tags/%E6%9C%AA%E7%BF%BB%E8%AF%91/"/>
+    
       <category term="人脸表情识别" scheme="https://xhxt2008.github.io/tags/%E4%BA%BA%E8%84%B8%E8%A1%A8%E6%83%85%E8%AF%86%E5%88%AB/"/>
     
       <category term="人脸识别" scheme="https://xhxt2008.github.io/tags/%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB/"/>
@@ -352,8 +416,6 @@
       <category term="表情识别" scheme="https://xhxt2008.github.io/tags/%E8%A1%A8%E6%83%85%E8%AF%86%E5%88%AB/"/>
     
       <category term="论文查找" scheme="https://xhxt2008.github.io/tags/%E8%AE%BA%E6%96%87%E6%9F%A5%E6%89%BE/"/>
-    
-      <category term="未翻译" scheme="https://xhxt2008.github.io/tags/%E6%9C%AA%E7%BF%BB%E8%AF%91/"/>
     
       <category term="日文" scheme="https://xhxt2008.github.io/tags/%E6%97%A5%E6%96%87/"/>
     
@@ -389,7 +451,7 @@
 <p>这里重复之前的步骤，直接调用knn的包，把预测结果赋给predict。</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#计算预测精度的函数</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">accuricy</span><span class="params">(test_y,predict)</span>:</span></div><div class="line">    same=<span class="number">0</span></div><div class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">0</span>,len(test_y)):</div><div class="line">        a = test_y[i]</div><div class="line">        b = predict[i]</div><div class="line">        <span class="keyword">if</span> a==b:</div><div class="line"> <span class="comment">#       print(test_y[i])</span></div><div class="line">            same+=<span class="number">1</span></div><div class="line">    <span class="keyword">return</span> same*<span class="number">100</span> / len(test_y)</div></pre></td></tr></table></figure>
 <p>一个简单的计算学习精度的函数。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&gt;&gt;&gt;accuricy(iris_y_test,predict)</div><div class="line">90</div></pre></td></tr></table></figure>
+<figure class="highlight ruby"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&gt;&gt;</span>&gt;accuricy(iris_y_test,predict)</div><div class="line"><span class="number">90</span></div></pre></td></tr></table></figure>
 <p>这里我们可以发现即使这组数据去掉第四个特征，也能达到同样的学习性能（90%）。通过比较，我发现在去掉第一个特征的情况下，能达到100%的精度。<br>这里我是手动的删掉某一个特征，好像有一些算法可以科学的降低维度，如我最近在论文里读到的二元主成分分析，这也是我今后要学习的。</p>
 ]]></content>
     
@@ -407,11 +469,11 @@
       <category term="技术" scheme="https://xhxt2008.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
+      <category term="数据挖掘" scheme="https://xhxt2008.github.io/tags/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/"/>
+    
       <category term="机器学习" scheme="https://xhxt2008.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     
       <category term="数据可视化" scheme="https://xhxt2008.github.io/tags/%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96/"/>
-    
-      <category term="数据挖掘" scheme="https://xhxt2008.github.io/tags/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/"/>
     
       <category term="knn" scheme="https://xhxt2008.github.io/tags/knn/"/>
     
@@ -487,13 +549,13 @@
     <link href="https://xhxt2008.github.io/2017/05/02/kuzunohonkai/"/>
     <id>https://xhxt2008.github.io/2017/05/02/kuzunohonkai/</id>
     <published>2017-05-02T04:31:22.000Z</published>
-    <updated>2017-08-14T13:12:57.000Z</updated>
+    <updated>2018-05-03T21:47:33.020Z</updated>
     
-    <content type="html"><![CDATA[<span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="http://oonaavjvi.bkt.clouddn.com/main1.jpg" class="full-image" alt="人渣的本愿" title="人渣的本愿"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span>
+    <content type="html"><![CDATA[<p><img src="http://oonaavjvi.bkt.clouddn.com/main1.jpg" alt="人渣的本愿"></p>
 <p>《人渣的本愿》完结已经有两个月了，想看的应该早就看完了。这部动画描写了很多滥情的戏码，但是表达了一个非常积极正面的主题。这部动漫对情感问题的刻画入微，短短12话的内容可以说做到了面面俱到，是十分优秀的作品。但是，笔者观察到网上充满了对这部动画的曲解，和不公平的评论，也有一些好一点的，比如lex的<a href="http://www.bilibili.com/video/av9501531/" target="_blank" rel="external">【Lex】三观炸裂？男默女泪？小评《人渣的本愿》</a>。说的是不错的，但是太过照顾一部分人的心情了。另外一些称赞的声音也完全没有说到点子上。故作此文。</p>
 <p>这部动漫细节非常多，大量使用插叙，用了很多漫画的分镜技术表达复杂的感情。当然，开车情节也很多，还有百合元素。如果想仔细看的话，可以说很有内容很有看头。吃瓜群众们光是看看开车，享受一下优秀的制作，也是非常不错的。<br>话还是要从女主角，花火，说起。</p>
 <h1 id="警告！本文深度剧透，没看过作品的请谨慎观看"><a href="#警告！本文深度剧透，没看过作品的请谨慎观看" class="headerlink" title="==警告！本文深度剧透，没看过作品的请谨慎观看=="></a>==警告！本文深度剧透，没看过作品的请谨慎观看==</h1><a id="more"></a>
-<h2 id="约1-3话的剧情"><a href="#约1-3话的剧情" class="headerlink" title="约1~3话的剧情"></a>约1~3话的剧情</h2><h3 id="花火有多可爱"><a href="#花火有多可爱" class="headerlink" title="花火有多可爱"></a>花火有多可爱</h3><p>看过这部动漫的人，多半是花火的同情者，理由多是花火很可爱。我们来看一下作者是怎么说的。<br><span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="http://oonaavjvi.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170503011729.jpg" class="full-image" alt="alt"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span></p>
+<h2 id="约1-3话的剧情"><a href="#约1-3话的剧情" class="headerlink" title="约1~3话的剧情"></a>约1~3话的剧情</h2><h3 id="花火有多可爱"><a href="#花火有多可爱" class="headerlink" title="花火有多可爱"></a>花火有多可爱</h3><p>看过这部动漫的人，多半是花火的同情者，理由多是花火很可爱。我们来看一下作者是怎么说的。<br><img src="http://oonaavjvi.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170503011729.jpg" alt="人渣的本愿"></p>
 <blockquote>
 <ol>
 <li>被花火瞪着的男生感觉心里美滋滋</li>
@@ -545,7 +607,7 @@
 <li>被逼无奈型： 家里催我相亲了。。</li>
 <li><del>秀给人看型： 俗称朋友圈制霸。活在别人的眼睛和评论里，常常在人前表现亲密，看起来比实际幸福。跟吃饭之前没拍照，饭就白吃了是一个道理。</del></li>
 </ol>
-<h6 id="寂寞型的恋爱，也是可以转换成真爱的。如果恋爱关系中只有一方是寂寞型的，那么对于另一方是极不负责的。如果恋爱中的双方都是出于寂寞型的，那么更加认真的一方受到伤害的可能更大。"><a href="#寂寞型的恋爱，也是可以转换成真爱的。如果恋爱关系中只有一方是寂寞型的，那么对于另一方是极不负责的。如果恋爱中的双方都是出于寂寞型的，那么更加认真的一方受到伤害的可能更大。" class="headerlink" title="寂寞型的恋爱，也是可以转换成真爱的。如果恋爱关系中只有一方是寂寞型的，那么对于另一方是极不负责的。如果恋爱中的双方都是出于寂寞型的，那么更加认真的一方受到伤害的可能更大。"></a>寂寞型的恋爱，也是可以转换成真爱的。如果恋爱关系中只有一方是寂寞型的，那么对于另一方是极不负责的。如果恋爱中的双方都是出于寂寞型的，那么更加认真的一方受到伤害的可能更大。</h6><h3 id="大哥哥有喜欢的人了怎么办？"><a href="#大哥哥有喜欢的人了怎么办？" class="headerlink" title="大哥哥有喜欢的人了怎么办？"></a>大哥哥有喜欢的人了怎么办？</h3><span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="http://oonaavjvi.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170505162434.jpg" class="full-image" alt="alt"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span>
+<h6 id="寂寞型的恋爱，也是可以转换成真爱的。如果恋爱关系中只有一方是寂寞型的，那么对于另一方是极不负责的。如果恋爱中的双方都是出于寂寞型的，那么更加认真的一方受到伤害的可能更大。"><a href="#寂寞型的恋爱，也是可以转换成真爱的。如果恋爱关系中只有一方是寂寞型的，那么对于另一方是极不负责的。如果恋爱中的双方都是出于寂寞型的，那么更加认真的一方受到伤害的可能更大。" class="headerlink" title="寂寞型的恋爱，也是可以转换成真爱的。如果恋爱关系中只有一方是寂寞型的，那么对于另一方是极不负责的。如果恋爱中的双方都是出于寂寞型的，那么更加认真的一方受到伤害的可能更大。"></a>寂寞型的恋爱，也是可以转换成真爱的。如果恋爱关系中只有一方是寂寞型的，那么对于另一方是极不负责的。如果恋爱中的双方都是出于寂寞型的，那么更加认真的一方受到伤害的可能更大。</h6><h3 id="大哥哥有喜欢的人了怎么办？"><a href="#大哥哥有喜欢的人了怎么办？" class="headerlink" title="大哥哥有喜欢的人了怎么办？"></a>大哥哥有喜欢的人了怎么办？</h3><p><img src="http://oonaavjvi.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170505162434.jpg" alt="image"></p>
 <blockquote>
 <p>女老师让大哥哥想起了他死去的妈妈</p>
 </blockquote>
@@ -606,7 +668,7 @@
 <blockquote>
 <p>花火跟麦组成一对的时候，她打趣的问麦会不会真的喜欢上她。麦的回答很干脆。</p>
 </blockquote>
-<p>她是认真的吗！？被帅哥喜欢上不好吗？我们来回忆一下，关于花火我们知道了什么。<br><span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="http://oonaavjvi.bkt.clouddn.com/rz023.jpg" class="full-image" alt="alt"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span></p>
+<p>她是认真的吗！？被帅哥喜欢上不好吗？我们来回忆一下，关于花火我们知道了什么。<br><img src="http://oonaavjvi.bkt.clouddn.com/rz023.jpg" alt="image">¥</p>
 <blockquote>
 <p>花火从头到尾没有缺少过追求者</p>
 </blockquote>
@@ -1061,13 +1123,15 @@
 <p>那花火呢？ 或许在这部作品中，如果哪里出了一点问题，花火会不会堕落，成为女老师一样的情场愉快犯呢？<br><img src="http://oonaavjvi.bkt.clouddn.com/rz049.jpg" alt="image"></p>
 <p>花火到底是幸还是不幸？她没有跟最喜欢的大哥哥在一起，也失去了麦(男主)。但是呢？她身边有一群美好的人们，在她寂寞的时候安慰她，在她快要坠入深渊的时候，一巴掌把她打醒。<strong>最终让花火靠自己的力量站了起来，靠自己的双脚前进</strong>。</p>
 <hr>
-<blockquote class="blockquote-center"><h1 id="希望这部作品能够带给大家勇气"><a href="#希望这部作品能够带给大家勇气" class="headerlink" title="希望这部作品能够带给大家勇气"></a>希望这部作品能够带给大家勇气</h1></blockquote>
-<div class="note success"><p> 本文原始链接：<a href="https://xhxt2008.github.io/2017/05/02/kuzunohonkai/">深挖剧情（三观正直），如何正确观看《人渣的本愿》</a><br>作者：<a href="https://xhxt2008.github.io/">Tsukiyo</a><br>本文基于 <a href="https://creativecommons.org/licenses/by-nc-nd/3.0/cn/deed.zh" target="_blank" rel="external">署名-非商业性使用-禁止演绎 3.0 中国大陆许可协议 (CC BY-NC-ND 3.0 CN)</a> 发布，欢迎转载，但是必须保留本文的署名<a href="https://xhxt2008.github.io/">Tsukiyo</a>及链接。如果要用于商业目的，请联系作者 。 </p>
-</div>]]></content>
+<div align="center"><h1>希望这部作品能够带给大家勇气</h1></div>
+
+<p style="border-left-color:#008000; border-left-style: solid; border-left-width: 5px; background-color:#eeeeee; padding-left:5px;"><span style="color: #808080; font-size: 12px;">本文原始链接：<a href="https://xhxt2008.github.io/2017/05/02/kuzunohonkai/">深挖剧情（三观正直），如何正确观看《人渣的本愿》</a><br>作者：<a href="https://xhxt2008.github.io/">Tsukiyo</a><br>本文基于 <a href="https://creativecommons.org/licenses/by-nc-nd/3.0/cn/deed.zh" target="_blank" rel="external">署名-非商业性使用-禁止演绎 3.0 中国大陆许可协议 (CC BY-NC-ND 3.0 CN)</a> 发布，欢迎转载，但是必须保留本文的署名<a href="https://xhxt2008.github.io/">Tsukiyo</a>及链接。如果要用于商业目的，请联系作者。<br></span></p>
+
+]]></content>
     
     <summary type="html">
     
-      &lt;span itemprop=&quot;image&quot; itemscope=&quot;&quot; itemtype=&quot;http://schema.org/ImageObject&quot;&gt;&lt;img itemprop=&quot;url image&quot; src=&quot;http://oonaavjvi.bkt.clouddn.com/main1.jpg&quot; class=&quot;full-image&quot; alt=&quot;人渣的本愿&quot; title=&quot;人渣的本愿&quot;&gt;&lt;meta itemprop=&quot;width&quot; content=&quot;auto&quot;&gt;&lt;meta itemprop=&quot;height&quot; content=&quot;auto&quot;&gt;&lt;/span&gt;
+      &lt;p&gt;&lt;img src=&quot;http://oonaavjvi.bkt.clouddn.com/main1.jpg&quot; alt=&quot;人渣的本愿&quot;&gt;&lt;/p&gt;
 &lt;p&gt;《人渣的本愿》完结已经有两个月了，想看的应该早就看完了。这部动画描写了很多滥情的戏码，但是表达了一个非常积极正面的主题。这部动漫对情感问题的刻画入微，短短12话的内容可以说做到了面面俱到，是十分优秀的作品。但是，笔者观察到网上充满了对这部动画的曲解，和不公平的评论，也有一些好一点的，比如lex的&lt;a href=&quot;http://www.bilibili.com/video/av9501531/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;【Lex】三观炸裂？男默女泪？小评《人渣的本愿》&lt;/a&gt;。说的是不错的，但是太过照顾一部分人的心情了。另外一些称赞的声音也完全没有说到点子上。故作此文。&lt;/p&gt;
 &lt;p&gt;这部动漫细节非常多，大量使用插叙，用了很多漫画的分镜技术表达复杂的感情。当然，开车情节也很多，还有百合元素。如果想仔细看的话，可以说很有内容很有看头。吃瓜群众们光是看看开车，享受一下优秀的制作，也是非常不错的。&lt;br&gt;话还是要从女主角，花火，说起。&lt;/p&gt;
 &lt;h1 id=&quot;警告！本文深度剧透，没看过作品的请谨慎观看&quot;&gt;&lt;a href=&quot;#警告！本文深度剧透，没看过作品的请谨慎观看&quot; class=&quot;headerlink&quot; title=&quot;==警告！本文深度剧透，没看过作品的请谨慎观看==&quot;&gt;&lt;/a&gt;==警告！本文深度剧透，没看过作品的请谨慎观看==&lt;/h1&gt;
