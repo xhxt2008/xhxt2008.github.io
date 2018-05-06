@@ -9,6 +9,16 @@ tags:
 - 动态规划
 categories: 研究
 ---
+<script type="text/javascript" language="javascript">   
+function iFrameHeight() {   
+var ifm= document.getElementById("iframepage");   
+var subWeb = document.frames ? document.frames["iframepage"].document : ifm.contentDocument;   
+if(ifm != null && subWeb != null) {
+   ifm.height = subWeb.body.scrollHeight;
+   ifm.width = subWeb.body.scrollWidth;
+}   
+}   
+</script>
 以**数据作为驱动**的机器学习，正在快速的在各个领域，替代传统的**基于规则**的方法。那么有没有某个领域目前还无法替代呢？
 答案是肯定的。我们来看一个例子。
 > 我的一个朋友做的是环境方面的研究，具体对象是使用微生物处理工厂排放的污水。这就需要对污水中的生态环境进行建模。我们假设特征（X值）是水的温度，PH值，以及各种元素的含量等等，目标（Y值）是某种微生物的活性。
@@ -45,7 +55,7 @@ categories: 研究
 ## 那我们人脑又是如何实现的呢？
 推荐莫烦的视频说得非常通俗易懂[科普: 人工神经网络 VS 生物神经网络
 ](https://www.bilibili.com/video/av15997699)。
-<iframe src="//player.bilibili.com/player.html?aid=16938887&cid=27691025&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="720" height="480" > </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=16938887&cid=27691025&page=1" id="iframepage" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" onload="iFrameHeight()" > </iframe>
 
 简单说，生物神经网络是通过神经元细胞突触的链接完成电信号的传递，进行语言理解图像识别甚至思维的。神经元之间的连接可以通过后天的训练用进废退。人工神经网络充其量只能算是对生物神经网络一种粗糙的模仿。
 
@@ -60,7 +70,7 @@ categories: 研究
 - [京都大学大学院情報学研究科 知能情報学専攻](http://vision.kuee.kyoto-u.ac.jp/~hiroaki/index-j.html)
 - [北九州市立大学国際環境工学研究科](https://www.kitakyu-u.ac.jp/subject/graduate/env/)
 
-<p style="border-left-color:#008000; border-left-style: solid; border-left-width: 5px; background-color:#eeeeee; padding-left:5px;"><span style="color: #808080; font-size: 12px;">本文原始链接：[上帝的归上帝，恺撒的归凯撒，传统方法与深度学习之辨。](https://xhxt2008.github.io/2017/05/02/kuzunohonkai/)    
+<p style="border-left-color:#008000; border-left-style: solid; border-left-width: 5px; background-color:#eeeeee; padding-left:5px;"><span style="color: #808080; font-size: 12px;">本文原始链接：[上帝的归上帝，恺撒的归凯撒，传统方法与深度学习之辨。](https://xhxt2008.github.io/2018/05/07/deep-learning/)    
 作者：[Tsukiyo](https://xhxt2008.github.io/)    
 本文基于 [署名-非商业性使用-禁止演绎 3.0 中国大陆许可协议 (CC BY-NC-ND 3.0 CN)](https://creativecommons.org/licenses/by-nc-nd/3.0/cn/deed.zh) 发布，欢迎转载，但是必须保留本文的署名[Tsukiyo](https://xhxt2008.github.io/)及链接。如果要用于商业目的，请联系作者。
 </span></p>
