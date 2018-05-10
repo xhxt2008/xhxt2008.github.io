@@ -70,7 +70,9 @@ if(ifm != null && subWeb != null) {
 - [京都大学大学院情報学研究科 知能情報学専攻](http://vision.kuee.kyoto-u.ac.jp/~hiroaki/index-j.html)
 - [北九州市立大学国際環境工学研究科](https://www.kitakyu-u.ac.jp/subject/graduate/env/)
 
-<p style="border-left-color:#008000; border-left-style: solid; border-left-width: 5px; background-color:#eeeeee; padding-left:5px;"><span style="color: #808080; font-size: 12px;">本文原始链接：[上帝的归上帝，恺撒的归凯撒，传统方法与深度学习之辨。](https://xhxt2008.github.io/2018/05/07/deep-learning/)    
+---
+
+<p style="border-left-color:#008000; border-left-style: solid; border-left-width: 5px; background-color:#fafafa; padding-left:5px;"><span style="color: #808080; font-size: 12px;">本文原始链接：[简单易懂，什么是VC维](https://xhxt2008.github.io/2018/05/11/VC-dimension/)    
 作者：[Tsukiyo](https://xhxt2008.github.io/)    
 本文基于 [署名-非商业性使用-禁止演绎 3.0 中国大陆许可协议 (CC BY-NC-ND 3.0 CN)](https://creativecommons.org/licenses/by-nc-nd/3.0/cn/deed.zh) 发布，欢迎转载，但是必须保留本文的署名[Tsukiyo](https://xhxt2008.github.io/)及链接。如果要用于商业目的，请联系作者。
 </span></p>
