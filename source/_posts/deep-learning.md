@@ -72,7 +72,7 @@ if(ifm != null && subWeb != null) {
 
 ---
 
-<p style="border-left-color:#008000; border-left-style: solid; border-left-width: 5px; background-color:#fafafa; padding-left:5px;"><span style="color: #808080; font-size: 12px;">本文原始链接：[简单易懂，什么是VC维](https://xhxt2008.github.io/2018/05/11/VC-dimension/)    
+<p style="border-left-color:#008000; border-left-style: solid; border-left-width: 5px; background-color:#fafafa; padding-left:5px;"><span style="color: #808080; font-size: 12px;">本文原始链接：[上帝归上帝，恺撒归凯撒，传统方法与深度学习之辨。](https://xhxt2008.github.io/2018/05/07/deep-learning/)    
 作者：[Tsukiyo](https://xhxt2008.github.io/)    
 本文基于 [署名-非商业性使用-禁止演绎 3.0 中国大陆许可协议 (CC BY-NC-ND 3.0 CN)](https://creativecommons.org/licenses/by-nc-nd/3.0/cn/deed.zh) 发布，欢迎转载，但是必须保留本文的署名[Tsukiyo](https://xhxt2008.github.io/)及链接。如果要用于商业目的，请联系作者。
 </span></p>
