@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xhxt2008.github.io/"/>
-  <updated>2018-05-03T20:40:08.366Z</updated>
+  <updated>2018-05-10T20:01:01.032Z</updated>
   <id>https://xhxt2008.github.io/</id>
   
   <author>
@@ -14,6 +14,161 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>简单易懂，什么是VC维</title>
+    <link href="https://xhxt2008.github.io/2018/05/11/VC-dimension/"/>
+    <id>https://xhxt2008.github.io/2018/05/11/VC-dimension/</id>
+    <published>2018-05-11T05:50:03.000Z</published>
+    <updated>2018-05-10T20:01:01.032Z</updated>
+    
+    <content type="html"><![CDATA[<p>因为研究涉及到过拟合（overfitting），了解到VC维这个概念。VC维已经不是一个新鲜事物了，机器学习教材里面把他列为“进阶知识”。关于VC维介绍普遍比较晦涩难懂，我觉得也没必要用数学语言来定量了解这个概念，抽象的理解VC维的物理意义我觉得就够用了。毕竟据说VC维由于没办法很好的解释深度学习，已经是一个比较边缘化的知识了。</p>
+<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><blockquote>
+<p>VC维（外文名Vapnik-Chervonenkis Dimension）的概念是为了研究学习过程一致收敛的速度和推广性（Generalization performance），由统计学理论定义的有关函数集学习性能的一个重要指标。</p>
+</blockquote>
+<p>简单来说，VC维是用来衡量研究对象（数据集与学习模型）<strong>可学习性</strong>的指标。</p>
+<h2 id="如何理解可学习性？"><a href="#如何理解可学习性？" class="headerlink" title="如何理解可学习性？"></a>如何理解可学习性？</h2><p>对于机器学习（数据驱动的学习），首先我们要知道他的要素：<strong>训练集</strong>，<strong>测试集</strong>和<strong>学习算法</strong>。</p>
+<ol>
+<li>对于训练集来说，训练集要足够大，才能使结果收敛。</li>
+<li>对于测试集来说，测试集要有足够的代表性，不能偏差太大。</li>
+<li>对于学习算法来说，要足够复杂，以表达特征（X值）与学习目标（y值）之间的逻辑关系。</li>
+</ol>
+<p><img src="http://oonaavjvi.bkt.clouddn.com/VCD01.png" alt="可学习的条件"></p>
+<p>台大教授林轩田把他归纳成两点：</p>
+<ol>
+<li>我们能否使测试集的误差与训练集足够接近？</li>
+<li>我们能否使训练集上的误差足够小？</li>
+</ol>
+<p>笔者认为，前者可能更加好懂，但不是那么严谨吧。在<a href="https://xhxt2008.github.io/2018/05/07/deep-learning/">上一篇博客</a>中，那个关于水环境的例子。例子中我们认为数据条数太少，结果无法收敛，也就是说不符合训练集上误差足够小这一条。</p>
+<p><img src="http://oonaavjvi.bkt.clouddn.com/VCD07.jpg" alt="模型复杂度与拟合的关系"><br>另外模型过于复杂或者过于简单，也会分别导致不符合条件1，2的情况。这也就是所谓的过拟合与欠拟合，网上的介绍很多，具体不在这里展开了。</p>
+<p>从这里我们可以尝试得出一个结论：模型的可学习型，只与数据量与模型复杂度有关。与具体的研究对象，输入数据（X）的分布都无关。</p>
+<h2 id="回到VC维"><a href="#回到VC维" class="headerlink" title="回到VC维"></a>回到VC维</h2><p>从上面的推论，我们知道了可学习性与<strong>数据量</strong>和<strong>模型的复杂度</strong>有关。但只是泛泛但知道了，如何定量的计算和表达这种关系就需要引入VC维但概念了。网上关于VC维的介绍非常晦涩难懂，我们直接跳过公式先来看结论。详细请看：<a href="http://www.flickering.cn/machine_learning/2015/04/vc维的来龙去脉/" target="_blank" rel="external">VC维的来龙去脉</a></p>
+<p><img src="http://oonaavjvi.bkt.clouddn.com/vc_power2.png" alt="VC维"></p>
+<p>在这张图里，纵轴是错误率（1-精度），横轴是VC维，out-of-sample指的是测试集错误率，越小越好。in-sample-error指的是训练集错误率。</p>
+<p>我们可以看出：</p>
+<ol>
+<li>VC维跟模型复杂度是正相关的，以至于很多人误解VC维就是模型复杂度，当然这么理解好像也不会有什么不好的后果。</li>
+<li>测试集的错误率一开始很高，随着VC维增大而减小，在${d{vc}}^{*}$ 达到最小值，然后开始增大。我们就称这个$d{vc}$处为这个模型的VC维。</li>
+<li>训练集的错误率一直在减小。</li>
+</ol>
+<p>我们来看一下VC维的定义：</p>
+<blockquote>
+<p>一个假设空间H的VC dimension，是这个H最多能够shatter掉的点的数量，记为dvc(H)。</p>
+</blockquote>
+<ol>
+<li>假设空间可以看作模型的复杂度。</li>
+<li>shatter翻译成打散，指的是不管数据的分布如何，H都要把它区分开。</li>
+<li><em>“这个H最多能够shatter掉的点的数指的是无论数据的分布如何”</em>，这句话翻译成人话是，不管数据是怎样分布的，H最多能区分多少个数据。我们可以想像，越是复杂的H能够区分的数据点就越多，VC维也就越大。</li>
+</ol>
+<p>这个概念真是看的人头皮发麻，结合公式口感更佳，我们其实不妨就可以把VC维理解成模型复杂度没有关系。</p>
+<p><a href="http://www.flickering.cn" target="_blank" rel="external">火光摇曳</a>提到：</p>
+<blockquote>
+<p>根据前面的推导，我们知道VC维的大小：与学习算法A无关，与输入变量X的分布也无关，与我们求解的目标函数f 无关。它只与<strong>模型</strong>和<strong>假设空间</strong>有关。</p>
+</blockquote>
+<p>我们不管他说了什么，他这句话应该跟我前面尝试总结出的：“模型的可学习性，只与数据量与模型复杂度有关。”是等价的。</p>
+<h2 id="VC维理论的边缘化"><a href="#VC维理论的边缘化" class="headerlink" title="VC维理论的边缘化"></a>VC维理论的边缘化</h2><p>说了这么多，其实我还想告诉你，虽然这个理论读起来很晦涩，但是实际情况是它目前是一个被边缘化的知识。理由根据VC维理论，神经网络的VC维巨大，学习是不可行的。但是实际情况，神经网络却在一些领域表现良好。这又是什么原因呢？可能有以下的解释。</p>
+<ul>
+<li>数据量增多了</li>
+<li>神经网络共享权值导致参数变少，导致VC维下降了</li>
+<li>训练结束的时候，模型实际上对训练集还是欠拟合的</li>
+</ul>
+<p>Whatever，VC维在神经网络中看似是失效了。各位同学们也不要高兴得太早，我们总是需要有一个理论来定量的计算学习的可行性。而不是像现如今的大部分研究一样，只有一个实验结果，而对方法的改进拿不出靠谱的评价标准。</p>
+<p>我在这里抛砖引玉，希望各位同学们能戒骄戒躁，在理论建设的大楼上添砖加瓦。</p>
+<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ul>
+<li><a href="http://www.flickering.cn/machine_learning/2015/04/vc%E7%BB%B4%E7%9A%84%E6%9D%A5%E9%BE%99%E5%8E%BB%E8%84%89/" target="_blank" rel="external">VC维的来龙去脉</a></li>
+<li><a href="https://www.youtube.com/watch?v=XxPB9GlJEUk" target="_blank" rel="external">The VC Dimension :: Definition of VC Dimension @ Machine Learning Foundations (機器學習基石)
+</a></li>
+<li><a href="https://www.zhihu.com/question/38607822/answer/151561258" target="_blank" rel="external">如何通俗的理解机器学习中的VC维、shatter和break point？</a></li>
+<li><a href="https://www.zhihu.com/question/52398145/answer/209358209/" target="_blank" rel="external">机器学习中的目标函数、损失函数、代价函数有什么区别？</a></li>
+</ul>
+<hr>
+<p style="border-left-color:#008000; border-left-style: solid; border-left-width: 5px; background-color:#fafafa; padding-left:5px;"><span style="color: #808080; font-size: 12px;">本文原始链接：<a href="https://xhxt2008.github.io/2017/05/02/kuzunohonkai/">上帝的归上帝，恺撒的归凯撒，传统方法与深度学习之辨。</a><br>作者：<a href="https://xhxt2008.github.io/">Tsukiyo</a><br>本文基于 <a href="https://creativecommons.org/licenses/by-nc-nd/3.0/cn/deed.zh" target="_blank" rel="external">署名-非商业性使用-禁止演绎 3.0 中国大陆许可协议 (CC BY-NC-ND 3.0 CN)</a> 发布，欢迎转载，但是必须保留本文的署名<a href="https://xhxt2008.github.io/">Tsukiyo</a>及链接。如果要用于商业目的，请联系作者。<br></span></p> 
+
+
+
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;因为研究涉及到过拟合（overfitting），了解到VC维这个概念。VC维已经不是一个新鲜事物了，机器学习教材里面把他列为“进阶知识”。关于VC维介绍普遍比较晦涩难懂，我觉得也没必要用数学语言来定量了解这个概念，抽象的理解VC维的物理意义我觉得就够用了。毕竟据说VC维由于
+    
+    </summary>
+    
+      <category term="研究" scheme="https://xhxt2008.github.io/categories/%E7%A0%94%E7%A9%B6/"/>
+    
+    
+      <category term="机器学习" scheme="https://xhxt2008.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="VC维" scheme="https://xhxt2008.github.io/tags/VC%E7%BB%B4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>上帝归上帝，恺撒归凯撒，传统方法与深度学习之辨。</title>
+    <link href="https://xhxt2008.github.io/2018/05/07/deep-learning/"/>
+    <id>https://xhxt2008.github.io/2018/05/07/deep-learning/</id>
+    <published>2018-05-06T16:21:14.000Z</published>
+    <updated>2018-05-10T20:03:20.282Z</updated>
+    
+    <content type="html"><![CDATA[<p><script type="text/javascript" language="javascript"><br>function iFrameHeight() {<br>var ifm= document.getElementById(“iframepage”);<br>var subWeb = document.frames ? document.frames[“iframepage”].document : ifm.contentDocument;<br>if(ifm != null &amp;&amp; subWeb != null) {<br>   ifm.height = subWeb.body.scrollHeight;<br>   ifm.width = subWeb.body.scrollWidth;<br>}<br>}<br></script><br>以<strong>数据作为驱动</strong>的机器学习，正在快速的在各个领域，替代传统的<strong>基于规则</strong>的方法。那么有没有某个领域目前还无法替代呢？<br>答案是肯定的。我们来看一个例子。</p>
+<blockquote>
+<p>我的一个朋友做的是环境方面的研究，具体对象是使用微生物处理工厂排放的污水。这就需要对污水中的生态环境进行建模。我们假设特征（X值）是水的温度，PH值，以及各种元素的含量等等，目标（Y值）是某种微生物的活性。<br><a id="more"></a><br><img src="http://oonaavjvi.bkt.clouddn.com/CVD02.png" alt="数据驱动的方法"></p>
+</blockquote>
+<p>乍一看，这个例子完全可以用最时髦的机器学习的方法来做，比如说神经网络什么的。然而现状是：</p>
+<ul>
+<li>对每一份污水对水样我们都要用十分昂贵对器材进行有限的分析，大概一次最多只能获得300条数据。</li>
+<li>水中的微量元素有上千种，也就是变量，或者说输入的维度，或者特征，有上千个。</li>
+</ul>
+<p>我们直观的感受，数据太少了，机器学习模型根本无法收敛。那这个问题通常是怎么处理的呢？</p>
+<h2 id="传统方法是怎么做的？"><a href="#传统方法是怎么做的？" class="headerlink" title="传统方法是怎么做的？"></a>传统方法是怎么做的？</h2><p>在各种机器学习论文中，被爆的体无完肤的传统方法到底是什么方法？可能现在都没有人感兴趣了。其实现在的“机器学习”这个概念里，除了深度学习，基本上都是和传统的最优化，运筹学相通的。比方说：决策树，模拟退火，蚁群算法，GA，EDA，PSO之类的。<br>传统最优化领域里面，有一个万金油叫做“动态规划（Dynamic programming）”，一些比较保守的老教授非常喜欢这个东西。我们看一下百度对他的定义。</p>
+<blockquote>
+<p>动态规划(dynamic programming)是运筹学的一个分支，是求解决策过程(decision process)最优化的数学方法。20世纪50年代初美国数学家R.E.Bellman等人在研究多阶段决策过程(multistep decision process)的优化问题时，提出了著名的最优化原理(principle of optimality)，把多阶段过程转化为一系列单阶段问题，利用各阶段之间的关系，逐个求解，创立了解决这类过程优化问题的新方法——动态规划。</p>
+</blockquote>
+<p><img src="http://oonaavjvi.bkt.clouddn.com/CVD03.jpg" alt="动态规划"></p>
+<p>动态规划就是典型的基于规则（Rule base）的，回到我们的例子中，污水里每一种元素是一个方块，连线可以表示他们之间的关系，有一个公式可以表示这种关系。比方说H+离子和PH值就是相关的。阶段可以表示谁和谁会先发生反应，谁和谁后发生反应。最后对于我们的研究对象，可以表示为一个目标函数（Target function），我们一般是要求他的最大值或者最小值。<br>朋友告诉我，即使温度或者PH值发生一丁点改变，反应的方程式或者顺序都会有很大变化。在这个例子中，这种传统的方法某种程度上更加接近科学的本质，因为这种生物化学的反应，在大自然中本来就是客观的，我们的研究只是去发现它。而用机器学习来做，把数据直接扔给黑箱更像是在偷鸡。</p>
+<h2 id="反思一下"><a href="#反思一下" class="headerlink" title="反思一下"></a>反思一下</h2><p>我举这个例子并不是想说机器学习不好，只是想说它并不是万金油。那些在各种论文中被爆的体无完肤的“传统方法”之所以存在是有他的必要性的。只是因为研究对象不同，我们就要应用相对应的方法。<br>那机器学习，尤其是深度学习的优势在哪里呢？这几年深度学习之所以火了，很大的原因归功于它在<strong>计算机视觉</strong>和<strong>自然语言处理</strong>领域的应用。他们对应的传统方法是什么呢？</p>
+<ul>
+<li>在计算机视觉领域，表情识别和人脸识别曾经都是使用基于规则的方法的，他们通过计算五官的大小，和他们之间的距离等等，来对人脸或者表情进行分类。京都大学情报学院在这方面做得非常优秀，他们使用一些力学模型对时系列的表情进行识别。我之前做的paper survey涉及到这方面，感兴趣可以读一下。<a href="https://xhxt2008.github.io/2017/11/22/paper-survey-kyoto/">Paper survey about Timing-Based Facial Expression Recognition of Kyoto University by Prof. Kawashima</a></li>
+<li>在自然语言处理领域，词语预测，句子纠错，机器翻译等等曾经用的都是基于规则的方法。使用的方法包括形式语言自动机理论，用例翻译等等。和我们大学学过的一门叫做《编译原理》的课程有点类似，都是基于某种规则（语法）的。</li>
+</ul>
+<p>在深度学习应用之前，传统方法在这两个领域的表现都不佳。我们人类的大脑可以快速的区分两张人脸，即使他们相差得很小。一张照片有若干个像素点构成，如何通过计算这些像素点来让计算机区分两张脸呢？我们相信规则是有的，但是很大程度上无法做到，因为过于复杂。<br>人脸尚且有五官之间距离等可以测算，那对象识别呢？比方说识别一张图片是猫还是狗。找到这种规则来区分几乎是不可想象的。</p>
+<p>在自然语言处理领域，自然语言天生就不是形式语言（如编程语言），虽有语法，但是例外却很多。再加上现在的网络用语，不断有新的，奇怪的东西加入。基于用例的翻译用武之地并不太多。</p>
+<h2 id="那我们人脑又是如何实现的呢？"><a href="#那我们人脑又是如何实现的呢？" class="headerlink" title="那我们人脑又是如何实现的呢？"></a>那我们人脑又是如何实现的呢？</h2><p>推荐莫烦的视频说得非常通俗易懂<a href="https://www.bilibili.com/video/av15997699" target="_blank" rel="external">科普: 人工神经网络 VS 生物神经网络
+</a>。</p>
+<iframe src="//player.bilibili.com/player.html?aid=16938887&cid=27691025&page=1" id="iframepage" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" onload="iFrameHeight()"> </iframe>
+
+<p>简单说，生物神经网络是通过神经元细胞突触的链接完成电信号的传递，进行语言理解图像识别甚至思维的。神经元之间的连接可以通过后天的训练用进废退。人工神经网络充其量只能算是对生物神经网络一种粗糙的模仿。</p>
+<p>有人说人工神经网络是一种基于传统数理模型的东西。实际上它也确实是基于数理模型的。不过我想换个角度解读它，<strong>人工神经网络是仿生的</strong>。它之所以有效，是因为它在一定程度上模仿了生物的神经系统，因此，他才会在像视觉，语言理解等方面接近或者达到人类的水平。</p>
+<p>所以我们大胆假设，人工神经网络在一些人类本身并不擅长，或者存在固定的客观规则，或者规则并不是太复杂的情况下。将会是不合适或者不经济的。</p>
+<p>说了这么多，作为结论我想说。上帝的归上帝，恺撒的归凯撒，没有不好的学习算法，只有不合适的学习算法。</p>
+<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ul>
+<li><a href="https://www.bilibili.com/video/av15997699" target="_blank" rel="external">科普: 人工神经网络 VS 生物神经网络</a></li>
+<li><a href="http://vision.kuee.kyoto-u.ac.jp/~hiroaki/index-j.html" target="_blank" rel="external">京都大学大学院情報学研究科 知能情報学専攻</a></li>
+<li><a href="https://www.kitakyu-u.ac.jp/subject/graduate/env/" target="_blank" rel="external">北九州市立大学国際環境工学研究科</a></li>
+</ul>
+<hr>
+<p style="border-left-color:#008000; border-left-style: solid; border-left-width: 5px; background-color:#fafafa; padding-left:5px;"><span style="color: #808080; font-size: 12px;">本文原始链接：<a href="https://xhxt2008.github.io/2018/05/11/VC-dimension/">简单易懂，什么是VC维</a><br>作者：<a href="https://xhxt2008.github.io/">Tsukiyo</a><br>本文基于 <a href="https://creativecommons.org/licenses/by-nc-nd/3.0/cn/deed.zh" target="_blank" rel="external">署名-非商业性使用-禁止演绎 3.0 中国大陆许可协议 (CC BY-NC-ND 3.0 CN)</a> 发布，欢迎转载，但是必须保留本文的署名<a href="https://xhxt2008.github.io/">Tsukiyo</a>及链接。如果要用于商业目的，请联系作者。<br></span></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;script type=&quot;text/javascript&quot; language=&quot;javascript&quot;&gt;&lt;br&gt;function iFrameHeight() {&lt;br&gt;var ifm= document.getElementById(“iframepage”);&lt;br&gt;var subWeb = document.frames ? document.frames[“iframepage”].document : ifm.contentDocument;&lt;br&gt;if(ifm != null &amp;amp;&amp;amp; subWeb != null) {&lt;br&gt;   ifm.height = subWeb.body.scrollHeight;&lt;br&gt;   ifm.width = subWeb.body.scrollWidth;&lt;br&gt;}&lt;br&gt;}&lt;br&gt;&lt;/script&gt;&lt;br&gt;以&lt;strong&gt;数据作为驱动&lt;/strong&gt;的机器学习，正在快速的在各个领域，替代传统的&lt;strong&gt;基于规则&lt;/strong&gt;的方法。那么有没有某个领域目前还无法替代呢？&lt;br&gt;答案是肯定的。我们来看一个例子。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我的一个朋友做的是环境方面的研究，具体对象是使用微生物处理工厂排放的污水。这就需要对污水中的生态环境进行建模。我们假设特征（X值）是水的温度，PH值，以及各种元素的含量等等，目标（Y值）是某种微生物的活性。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="研究" scheme="https://xhxt2008.github.io/categories/%E7%A0%94%E7%A9%B6/"/>
+    
+    
+      <category term="机器学习" scheme="https://xhxt2008.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="深度学习" scheme="https://xhxt2008.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="神经网络" scheme="https://xhxt2008.github.io/tags/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
+    
+      <category term="动态规划" scheme="https://xhxt2008.github.io/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+    
+  </entry>
   
   <entry>
     <title>Combining multiple feature selection methods for stock prediction Union, intersection, and multi-intersection approaches</title>
