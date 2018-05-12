@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xhxt2008.github.io/"/>
-  <updated>2018-05-10T20:16:13.776Z</updated>
+  <updated>2018-05-12T09:14:15.465Z</updated>
   <id>https://xhxt2008.github.io/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>简单易懂，什么是VC维</title>
+    <title>通俗易懂，什么是VC维</title>
     <link href="https://xhxt2008.github.io/2018/05/11/VC-dimension/"/>
     <id>https://xhxt2008.github.io/2018/05/11/VC-dimension/</id>
     <published>2018-05-11T05:50:03.000Z</published>
-    <updated>2018-05-10T20:16:13.776Z</updated>
+    <updated>2018-05-12T09:14:15.465Z</updated>
     
     <content type="html"><![CDATA[<p>因为研究涉及到过拟合（overfitting），了解到VC维这个概念。VC维已经不是一个新鲜事物了，机器学习教材里面把他列为“进阶知识”。关于VC维介绍普遍比较晦涩难懂，我觉得也没必要用数学语言来定量了解这个概念，抽象的理解VC维的物理意义我觉得就够用了。毕竟据说VC维由于没办法很好的解释深度学习，已经是一个比较边缘化的知识了。</p>
 <h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><blockquote>
