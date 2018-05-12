@@ -1,5 +1,5 @@
 ---
-title: 简单易懂，什么是VC维
+title: 通俗易懂，什么是VC维
 date: 2018-05-11 14:50:03
 toc: true
 tags: 
