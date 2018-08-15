@@ -1719,7 +1719,7 @@ em.search-keyword {
 .post-copyright {
     font-size: 12px;
     color: #808080;
-    line-height: 1.77;
+    line-height: 2;
     text-align: justify;
     font-family: "PingFangSC-Regular", Helvetica, "Helvetica Neue", "Segoe UI", "Hiragino Sans GB", "Source Han Sans CN", "Microsoft YaHei", "STHeiti", "WenQuanYi Micro Hei", sans-serif !important;
     word-break: normal;
@@ -1728,9 +1728,6 @@ em.search-keyword {
     border-left: 5px solid #008000;
     background-color: #FaFaFa;
     list-style: none;
-    li {
-        margin: 8px 0;
-    }
 }
 .post-copyright a{
     color: #01579f
