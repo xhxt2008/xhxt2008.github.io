@@ -798,12 +798,5 @@ OP强烈地暗示，花火跟这个白衣少女是一个人。
 
 花火到底是幸还是不幸？她没有跟最喜欢的大哥哥在一起，也失去了麦(男主)。但是呢？她身边有一群美好的人们，在她寂寞的时候安慰她，在她快要坠入深渊的时候，一巴掌把她打醒。**最终让花火靠自己的力量站了起来，靠自己的双脚前进**。
 
----
 
-<div align="center"><h1>希望这部作品能够带给大家勇气</h1></div>
-
-<p style="border-left-color:#008000; border-left-style: solid; border-left-width: 5px; background-color:#eeeeee; padding-left:5px;"><span style="color: #808080; font-size: 12px;">本文原始链接：[深挖剧情（三观正直），如何正确观看《人渣的本愿》](https://xhxt2008.github.io/2017/05/02/kuzunohonkai/)    
-作者：[Tsukiyo](https://xhxt2008.github.io/)    
-本文基于 [署名-非商业性使用-禁止演绎 3.0 中国大陆许可协议 (CC BY-NC-ND 3.0 CN)](https://creativecommons.org/licenses/by-nc-nd/3.0/cn/deed.zh) 发布，欢迎转载，但是必须保留本文的署名[Tsukiyo](https://xhxt2008.github.io/)及链接。如果要用于商业目的，请联系作者。
-</span></p>
 
