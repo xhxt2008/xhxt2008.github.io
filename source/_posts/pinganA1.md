@@ -42,10 +42,39 @@ Name: acc_now_delinq, dtype: int64
 ![Y值正负例比较](http://oonaavjvi.bkt.clouddn.com/pinanA008.png)
 
 #### 年份对贷款量对影响
+
+```python
+>>> plt.figure(figsize=(12,8))
+>>> sns.barplot('year', 'loan_amnt', data=all_df,  palette='tab10')
+>>> plt.title('Issuance of Loans', fontsize=16)
+>>> plt.xlabel('Year', fontsize=14)
+>>> plt.ylabel('Average loan amount issued', fontsize=14)
+
+```
+
 ![年份对贷款量对影响](http://oonaavjvi.bkt.clouddn.com/pinanA003.png)
 
+贷款量随年份逐年增加，上面的短线事贷款量的方差。
+
 #### loan_status对Y值对影响
+
+```python
+>>> td1=train_df[train_df['acc_now_delinq'] == 1].groupby(['loan_status', 'acc_now_delinq']).size()
+>>> td2=train_df[train_df['acc_now_delinq'] == 0].groupby(['loan_status', 'acc_now_delinq']).size()
+>>> a = td2.values
+>>> b = td1.values.astype(float)
+>>> values= b/a
+>>> td3=pd.Series(values, index=index)
+
+>>> fig, ax1= plt.subplots(nrows=1, ncols=1, figsize=(14,6))
+>>> cmap = plt.cm.coolwarm_r
+>>> td3.unstack().plot(kind='bar', stacked=True, colormap=cmap, ax=ax1, grid=False)
+>>> ax1.set_title('Type of Loans by Grade', fontsize=14)
+```
+
 ![loan_status对Y值对影响](http://oonaavjvi.bkt.clouddn.com/pinanA004.png)
+
+贷款状态对违约的影响，我们可以清楚看到处在LATE状态下的违约率明显偏高。Changed off字段下则完全没有违约问题。
 
 #### 各个特征相对于Y值的协方差
 
