@@ -2,4 +2,5 @@
 git add .
 git commit -m"$1"
 git push origin hexo
-hexo d -g
+hexo g
+hexo d
