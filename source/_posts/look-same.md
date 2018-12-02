@@ -19,9 +19,9 @@ This study is about what extend Chinese, Japanese and Korean faces can be classi
 - Some suggest that the main differences derive from mannerism and fashion. There also exist quite a few websites that put up Asian face classification chall-enges, which prove the difficulty of distinguishing them.
 
 - Randomly shuffled 
-![image](http://oonaavjvi.bkt.clouddn.com/look01.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkenzn2mtj20b6056t9c.jpg)
 - Grouped
-![image](http://oonaavjvi.bkt.clouddn.com/look02.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkenzn2mtj20b6056t9c.jpg)
 
 ## Related Literature 
 - (Farfade, Saberian, and Li 2015; Levi and Hassner 2015; Fu, He, and Hou 2014; Wang, Li, and Luo 2016) have both achieved very high accuracy in face detection, gender and race classification.
@@ -30,7 +30,7 @@ This study is about what extend Chinese, Japanese and Korean faces can be classi
 ## Data Collection and Pre-processing 
 - We have two main data sources: Twitter and the CelebA dataset. We derive from Twitter the labeled Chinese, Japanese and Korean images, which are later used as input to the Resnet. We use CelebA to train the facial attribute classifiers. These classifiers are then used to classify the labeled Twitter images. 
 - Twitter Images 
-![image](http://oonaavjvi.bkt.clouddn.com/look03.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkenzsb6pj20e802u74j.jpg)
 - CelebA Images, 
 The CelebA dataset contains 202,599 images taken from ten thousand individuals. In this work, we follow Liu.’s practice in dividing the training, developing, and testing dataset. We use OpenCV to locate faces in each subset and eventually have 148,829 images for training, 18,255 images for development, and 18,374 images for testing.
 
@@ -41,18 +41,18 @@ The CelebA dataset contains 202,599 images taken from ten thousand individuals. 
 
 ### Face Classification 
 - We split our dataset into development set, validation set, and test set ( 8: 1: 1) and experiment with different architectures from shallow networks (3-5 layers) to the 16-layer VGG and 50-layer ResNet. In our experiments, all networks would converge (Figure 4), but we observe that accuracy of 75.03% with Resnet shows the best result. 
-![image](http://oonaavjvi.bkt.clouddn.com/look04.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkenzljehj209905x3ym.jpg)
 - In Table 2, we report the confusion matrix for the testing images. Note that all the three peoples look equally “confusing” to the computer: the off-diagonal elements are roughly equal. The result we achieve answers in a definitive manner that Chinese, Japanese and Koreans are distinguishable. But it also suggests that this is a challenging task, which leads to our experiment on facial attribute classificatio
-![image](http://oonaavjvi.bkt.clouddn.com/look05.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo0e64hj20ew05tq3z.jpg)
 
 ### Attribute Classification 
 We construct a separate neural network for each of the 40 attributes in the CelebA dataset. The neural nets all share the same structure.
-![image](http://oonaavjvi.bkt.clouddn.com/look06.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo5yjo8j20fo07vtac.jpg)
 
 ### Female
-![image](http://oonaavjvi.bkt.clouddn.com/look07.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkenzugmwj20e1070mxp.jpg)
 ### Male
-![image](http://oonaavjvi.bkt.clouddn.com/look08.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo0ajj0j20e1070wf0.jpg)
 
 In Figures, we report the percentage of individuals that possess the corresponding facial attributes.
 1. Bangs are most popular among Japanese and least popular among Chinese. 
@@ -73,4 +73,6 @@ Our work is built on the assumption that Twitter users, celebrity followers in p
 - In this paper, we have demonstrated that Chinese, Japanese and Koreans do look different. By assembling a large data set of labeled images and experimenting with different neural network architectures, we have achieved a remarkable accuracy 75.03%, almost twice as high as the human average accuracy. 
 - We have also examined 40 facial attributes of the three populations in an effort to identify the important cues that assist classification. Our study has shown that Chinese, Japanese and Koreans do differ in several dimensions but overall are very similar. 
 - Our work, which complements existing APIs such as Microsoft Cognitive Services and Face++, could find wide applications in tourism, e-commerce, social media marketing, criminal justice and even counter-terrorism.
+
+
 

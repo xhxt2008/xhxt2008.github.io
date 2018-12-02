@@ -15,24 +15,24 @@ categories: 研究
 
 ## プロセスとしては「１」：
 １.	特徴抽出。マイクやカメラでキャプチャーしたデー タを特徴抽出することで時系列特徴ベクトル(観測ベク トル)が得られる「２」、って書きましたけど、特徴抽出の方法に対して、全く説明されていません。私なりに考えたですけど、このように目や鼻と口をはっきり分別できるっていう時点で、幾何学的な特徴抽出と思われます。
-![image](http://oonaavjvi.bkt.clouddn.com/kyoto%20face1.png)
- <!-- more -->
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeordxksj20o10ezwlb.jpg)
+ <!more -->
 ２.	線形システムの階層的クラスタリング。適当な基準で比較的短い区間に分節化し，分節化された各区間で，それぞれ線形システムを同定する。そして、全てのシステムのKL距離（Kullback- Leibler (KL) divergence）を元付き、クラスタリングをやりつづ。（ここは離散事象系を意味するステップです、時間と関係なく、クラスタリングします）
 ３.	EM アルゴリズムによるパラメタ調整。一段階目で得られた線形システムの個数を，この段階 では固定し，EM アルゴリズムを適用する.一段階目の 線形システムのクラスタリングによって，各線形システ ムのパラメタは大まかに推定されている.これにより， EM アルゴリズムの初期値依存性が解決されることになる.
- ![image](http://oonaavjvi.bkt.clouddn.com/kyoto%20face2.png)
+ ![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeod6qz5j20no09iq6b.jpg)
 このステップは一番大事です、詳しくは「２、３」で説明されました、まだよく理解していません。抽象的に理解すると：笑い出すという動きは、どうやって線形システムで描写できますか。例えば、目を細めにして、その同時に、口があけまし、口の両端は上になど。時間とともに線的人の表情をまとめる。そのパラメーター調整はEMアルゴリズムで学習します。
 
 ## 応用として：
 このシステムは静止画像ではなく、動画に応用しています。作り笑いと心からの笑いを区別できます（口は笑いましたけど、目はまだわらていません）（違う線形システム？）。ロボット視覚で応用できます。 
-![image](http://oonaavjvi.bkt.clouddn.com/kyoto%20face3.png)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeovnmzuj20mx0f2wme.jpg)
 ## 感想：
 この研究は長年に渡して、力学系モデリングをベースにして、面白くて、役に立てる研究と思います。
 私のプランでは、データ科学をベースにする、学習方法の改善、あるいは、新し応用を見つけ。具体的には、まだいろいろ調べて、考え中ですけれど、一応先生に報告します。
 
 ## 参考文献
 1. http://vision.kuee.kyoto-u.ac.jp/~hiroaki/publication/Kawashima_2010_ISCIE.pdf
-2. http://vision.kuee.kyoto-u.ac.jp/~hiroaki/publication/Kawashima_2004_IBIS.pdf
-3. http://vision.kuee.kyoto-u.ac.jp/~hiroaki/publication/Kawashima_2005_IEICE-EA.pdf
-4. http://vision.kuee.kyoto-u.ac.jp/~hiroaki/research/05-hyojyofu.html
+2.	http://vision.kuee.kyoto-u.ac.jp/~hiroaki/publication/Kawashima_2004_IBIS.pdf
+3.	http://vision.kuee.kyoto-u.ac.jp/~hiroaki/publication/Kawashima_2005_IEICE-EA.pdf
+4.	http://vision.kuee.kyoto-u.ac.jp/~hiroaki/research/05-hyojyofu.html
 
 

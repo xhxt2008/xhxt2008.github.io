@@ -9,21 +9,12 @@ tags:
 - 动态规划
 categories: 研究
 ---
-<script type="text/javascript" language="javascript">   
-function iFrameHeight() {   
-var ifm= document.getElementById("iframepage");   
-var subWeb = document.frames ? document.frames["iframepage"].document : ifm.contentDocument;   
-if(ifm != null && subWeb != null) {
-   ifm.height = subWeb.body.scrollHeight;
-   ifm.width = subWeb.body.scrollWidth;
-}   
-}   
-</script>
+
 以**数据作为驱动**的机器学习，正在快速的在各个领域，替代传统的**基于规则**的方法。那么有没有某个领域目前还无法替代呢？
 答案是肯定的。我们来看一个例子。
 > 我的一个朋友做的是环境方面的研究，具体对象是使用微生物处理工厂排放的污水。这就需要对污水中的生态环境进行建模。我们假设特征（X值）是水的温度，PH值，以及各种元素的含量等等，目标（Y值）是某种微生物的活性。
 <!-- more -->
-![数据驱动的方法](http://oonaavjvi.bkt.clouddn.com/CVD02.png)
+![数据驱动的方法](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkenzufv4j20cu085mx8.jpg)
 
 乍一看，这个例子完全可以用最时髦的机器学习的方法来做，比如说神经网络什么的。然而现状是：
 - 对每一份污水对水样我们都要用十分昂贵对器材进行有限的分析，大概一次最多只能获得300条数据。
@@ -33,10 +24,10 @@ if(ifm != null && subWeb != null) {
 
 ## 传统方法是怎么做的？
 在各种机器学习论文中，被爆的体无完肤的传统方法到底是什么方法？可能现在都没有人感兴趣了。其实现在的“机器学习”这个概念里，除了深度学习，基本上都是和传统的最优化，运筹学相通的。比方说：决策树，模拟退火，蚁群算法，GA，EDA，PSO之类的。
-传统最优化领域里面，有一个万金油叫做“动态规划（Dynamic programming）”，一些比较保守的老教授非常喜欢这个东西。我们看一下百度对他的定义。
+传统最优化领域里面，有一个论文灌水万金油叫做“动态规划（Dynamic programming）”，一些比较保守的老教授非常喜欢这个东西。我们看一下百度对他的定义。
 > 动态规划(dynamic programming)是运筹学的一个分支，是求解决策过程(decision process)最优化的数学方法。20世纪50年代初美国数学家R.E.Bellman等人在研究多阶段决策过程(multistep decision process)的优化问题时，提出了著名的最优化原理(principle of optimality)，把多阶段过程转化为一系列单阶段问题，利用各阶段之间的关系，逐个求解，创立了解决这类过程优化问题的新方法——动态规划。
 
-![动态规划](http://oonaavjvi.bkt.clouddn.com/CVD03.jpg)
+![动态规划](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkenytt4xj20bk0av3z2.jpg)
 
 动态规划就是典型的基于规则（Rule base）的，回到我们的例子中，污水里每一种元素是一个方块，连线可以表示他们之间的关系，有一个公式可以表示这种关系。比方说H+离子和PH值就是相关的。阶段可以表示谁和谁会先发生反应，谁和谁后发生反应。最后对于我们的研究对象，可以表示为一个目标函数（Target function），我们一般是要求他的最大值或者最小值。
 朋友告诉我，即使温度或者PH值发生一丁点改变，反应的方程式或者顺序都会有很大变化。在这个例子中，这种传统的方法某种程度上更加接近科学的本质，因为这种生物化学的反应，在大自然中本来就是客观的，我们的研究只是去发现它。而用机器学习来做，把数据直接扔给黑箱更像是在偷鸡。
@@ -55,7 +46,7 @@ if(ifm != null && subWeb != null) {
 ## 那我们人脑又是如何实现的呢？
 推荐莫烦的视频说得非常通俗易懂[科普: 人工神经网络 VS 生物神经网络
 ](https://www.bilibili.com/video/av15997699)。
-<iframe src="//player.bilibili.com/player.html?aid=16938887&cid=27691025&page=1" id="iframepage" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" onload="iFrameHeight()" > </iframe>
+![人工神经网络 VS 生物神经网络](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkep08by1j20if0ajdga.jpg)
 
 简单说，生物神经网络是通过神经元细胞突触的链接完成电信号的传递，进行语言理解图像识别甚至思维的。神经元之间的连接可以通过后天的训练用进废退。人工神经网络充其量只能算是对生物神经网络一种粗糙的模仿。
 

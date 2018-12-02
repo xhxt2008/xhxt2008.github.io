@@ -8,7 +8,8 @@ tags:
   - 评论
 categories: 日志
 ---
-![人渣的本愿](http://oonaavjvi.bkt.clouddn.com/main1.jpg)
+
+![人渣的本愿](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkepsuphsj218g16p4f6.jpg)
 
 《人渣的本愿》完结已经有两个月了，想看的应该早就看完了。这部动画描写了很多滥情的戏码，但是表达了一个非常积极正面的主题。这部动漫对情感问题的刻画入微，短短12话的内容可以说做到了面面俱到，是十分优秀的作品。但是，笔者观察到网上充满了对这部动画的曲解，和不公平的评论，也有一些好一点的，比如lex的[【Lex】三观炸裂？男默女泪？小评《人渣的本愿》](http://www.bilibili.com/video/av9501531/)。说的是不错的，但是太过照顾一部分人的心情了。另外一些称赞的声音也完全没有说到点子上。故作此文。
 
@@ -23,7 +24,7 @@ categories: 日志
 ### 花火有多可爱
 
 看过这部动漫的人，多半是花火的同情者，理由多是花火很可爱。我们来看一下作者是怎么说的。
-![人渣的本愿](http://oonaavjvi.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170503011729.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeoevuo4j20rv0hcq6c.jpg)
 > 1. 被花火瞪着的男生感觉心里美滋滋
 > 2. 在电车上拍到痴汉的脸成功解救闺蜜
 > 3. 花火带球过人下面的男生眼睛都看直了
@@ -35,7 +36,7 @@ categories: 日志
 ###### 其实这一点是非常真实的，在现实中，有人统计过，追求者最多的女生往往不是那种“女神”级别的。比起**漂亮**、**美丽**的女生，___可爱___的、身高稍微有点___矮___、性格比较___直率___的女生受到追求的机会更大。（原因可能是，男生觉得这种的比较容易接近，难度会低一些？）
 
 #### 除此之外？
-![image](http://oonaavjvi.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170503012200.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeog9gf4j20u20isq6a.jpg)
 
 > 花火在第一话里拒绝了一个男生
 
@@ -43,7 +44,7 @@ categories: 日志
 这里也伤到了一部分观众的心了吧。
 
 #### 但是呢？
-![image](http://oonaavjvi.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170503134503.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeomc4gcj20ta0ijgox.jpg)
 > 花火质问男主为什么不明确的拒绝他的青梅竹马
 
 这部动漫对于人物的描写，细节多的令人惊讶。看似随意的一件小事，实际上为后文埋下了伏笔。这里便给出了花火之前不留情面的理由了，并不是单纯的___性格差___，因为她
@@ -54,13 +55,13 @@ categories: 日志
 在这里可以看出，花火在这里虽然想法还存在幼稚的地方，但是基本的方向判断是正确的。可以说，是善良的。
 
 ### 花火为什么喜欢老师？
-![image](http://oonaavjvi.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170503211733.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo59nd0j20su0lrmze.jpg)
 老师的家庭缺少母亲，女主的家庭缺少父亲，于是在某种程度上，老师（大哥哥）在花火的**童年**充当了父亲的角色，并且成为了花火**憧憬**的初恋对象。
 
 ###### 这部动画的插叙很多，一些问题的重要细节和背景都是中间穿插着交代的，乍一看很容易让人觉得有点矫情。
 
 #### 喜欢到什么程度？
-![image](http://oonaavjvi.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170503135326.png)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkepqra0lj20tl0hgdsp.jpg)
 >帅呆了！  
 
 花火自己是这么说的。这部动画里，老师（大哥哥）更多的是一个“老实人”的形象，与**帅**字并不怎么沾边。
@@ -68,7 +69,7 @@ categories: 日志
 ###### 有一个词叫做爱慕，憧憬的感情很容易滋生恋爱。可能因为憧憬，花火把老师的印象美化了。可能幼稚，可能失真，但是没有人能否定花火对他的“大哥哥”的恋爱。
 
 #### 花火的恋爱观
-![image](http://oonaavjvi.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170503140055.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeoh8sfij20er0yjaei.jpg)
 > 花火因为跟一个帅哥（男主）谈恋爱，被认为经验丰富，同学约她出去进行恋爱相谈，为一个在发小和学长之间摇摆的女生出谋划策。她却不能对对方的想法产生共鸣。
 
 在现实生活中，这是一件很普通的事情，~~这也是现实世界的可怕之处~~。不管怎么说，花火对于大哥哥的感情是一种更加纯粹的喜欢。而不是把候选者参数化，因为对方“条件好”才要跟他在一起。
@@ -78,17 +79,17 @@ categories: 日志
 #### 延伸阅读：何谓出于寂寞的恋爱？ 
 ###### 笔者把他解释为一种**想谈恋爱的因素大于喜欢对方的因素的恋爱**。这也是现实生活中普遍存在着的。也就是说，跟你谈恋爱，可以；换一个人，也行。当事者看重的是___发生恋爱关系___，跟谁？不那么重要。
 
-![image](http://oonaavjvi.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170503014423.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeobpm31j20sv0gvwgw.jpg)
 
 ###### 不那么重要的意思并不是不重要，就好像为了秀给别人看而谈恋爱，对方就必须长得帅。
-![image](http://oonaavjvi.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170503134857.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeongyksj20ta0ip41z.jpg)
  > 男主和女主的关系一开始也属于“出于寂寞的恋爱”这一类，但是实际并不像乃莉子说的那样
 
 ##### 出于寂寞的恋爱可以有很多种
 1. 随波逐流型： 大家都有了，我也想要一个。
-2. 体现自我价值型： ![image](http://oonaavjvi.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170504201030.jpg)  
+2. 体现自我价值型： ![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeogkr8ej211y0lctc1.jpg)  
 > 喜欢被人喜欢的感觉。
-3. 失恋反弹型： ![image](http://oonaavjvi.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170504201139.jpg)![image](http://oonaavjvi.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170506222843.jpg)![image](http://oonaavjvi.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170503143050.jpg)
+3. 失恋反弹型： ![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo6o00gj211y0mxwgw.jpg)![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo64x62j211y0lcgno.jpg)![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo62qh0j20tf0hejsw.jpg)
 > 分了？再找一个去啊。
 4. 被逼无奈型： 家里催我相亲了。。
 5. ~~秀给人看型： 俗称朋友圈制霸。活在别人的眼睛和评论里，常常在人前表现亲密，看起来比实际幸福。跟吃饭之前没拍照，饭就白吃了是一个道理。~~
@@ -97,7 +98,7 @@ categories: 日志
 
 
 ### 大哥哥有喜欢的人了怎么办？
-![image](http://oonaavjvi.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170505162434.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeoj67iyj211y0lcn1q.jpg)
 > 女老师让大哥哥想起了他死去的妈妈
 
 大哥哥（男老师）喜欢女老师一开始就说了，但是理由在十分后面的地方才交待的。而且这个理由也有点敷衍的意思？反正我是不服的。女老师跟他妈妈很像，感情他妈妈也是个婊子？ 可能是受制于篇幅吧，这个动画里，男老师的地位有点路人。
@@ -105,13 +106,13 @@ categories: 日志
 不过根据经验来看，婊子玩腻了也总有人自告奋勇接盘。而且这也不是这个故事的重点，或许可以解释的更清楚，但是这也没什么问题。
 
 #### 这该如何是好！
-![image](http://oonaavjvi.bkt.clouddn.com/rz020.jpg)
-![image](http://oonaavjvi.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170504213526.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo4jnfhj20si0he3zu.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeohmkbbj211y0rn41w.jpg)
 > 女主爱的执著
 
 ###### 大多数动漫过低的估计了人们对喜欢的人的执着，也过高的估计了两厢情愿的概率。这部动画就说了几个注定不能成功的单相思的故事。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz021.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeoie817j20ms12e77m.jpg)
 > 不光是女主，大家都很执着，并且痛苦
 
 ##### 有歌云：
@@ -119,7 +120,7 @@ categories: 日志
 
 ###### 这不是在鼓励人们把单相思坚持下去吗？
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz031.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo7fpzuj20t60hd764.jpg)
 > 花火听着大哥哥开心的聊着关于女老师的事情（注意表情）
 
 ###### 你可以选择坚持，坚持就需要付出，但是恋爱这回事，付出跟回报就从来没有成正比过。没有什么你牺牲的多，对方就该选择你这回事。 那我们应该坚持到什么程度呢？到有了竞争对手为止？收到对方明确的拒绝为止？到对方有男女朋友位置？到结婚为止？到生了孩子为止？或者，到自己遇到下一段真正的感情为止？
@@ -133,22 +134,22 @@ categories: 日志
 ### 花火为什么要跟麦在一起？
 
 上面这个语境实在太悲伤了。刚刚升入高中的花火还没有**勇气**独自承受这些，她也选择进行一场，___出于寂寞的恋爱___。
-![image](http://oonaavjvi.bkt.clouddn.com/rz022.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeojf2wsj20st0h40w8.jpg)
 > 男主和女主看着各自追求的人，进行职场恋情。
 
 #### 麦是一个怎样的人？
-![image](http://oonaavjvi.bkt.clouddn.com/rz026.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeojdafjj211y0t7goy.jpg)
 > 在花火最脆弱的时候，男主没有选择乘人之危
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz027.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeorrf68j211y0q2q82.jpg)
 > 为了打破乃莉子对他的幻想，故意表现人渣
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz028.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeojszf1j211y0rngp9.jpg)
 > 面对乃莉子的死缠烂打，麦差点就要犯错了，不过在最后一刻还是停了下来。
 
 麦（男主）是一个有原则，有底线的___男孩___，甚至是有些善良的。当然你要是问我，他的底线怎么都在床上体现了？我也。。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz040.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeolrkpaj20ms0petcx.jpg)
 > 麦劝女主多交些女性朋友
 
 总之，麦这个人是有作为男主角的品质的，虽然经验丰富，但是并不滥情。如果能跟女主配成一对的话，也不是不能接受。
@@ -158,7 +159,7 @@ categories: 日志
 #### 麦为什么喜欢女老师？
 
 女老师好在哪笔者不是很懂，姑且把作者给的解释贴出来。
-![image](http://oonaavjvi.bkt.clouddn.com/rz029.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeoyv2n5j211y0mitbc.jpg)
 > 因为男主得不到女老师，所以喜欢
 
 虽然笔者不是很懂女老师好在哪，但是这种心情是很普遍的。
@@ -167,7 +168,7 @@ categories: 日志
 此外，这里提到了很有意思的一点，男主说：
 > 我想改变你
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz030.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo7l9jyj211y0mxwgo.jpg)
 > 男主知道女老师经常乱搞，仍然喜欢女老师，但是希望改变他。
 
 ###### 这一点后面还会提到，我会详细阐释。
@@ -175,18 +176,18 @@ categories: 日志
 #### 花火为什么选择麦（男主）？
 
 既然是处于寂寞的恋爱，不是谁都行吗？为什么花火选择了跟麦组成一对？仅仅是像乃莉子说的一样，因为麦长得帅？
-![image](http://oonaavjvi.bkt.clouddn.com/024.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo4ngn1j20sb0jbwgw.jpg)
 > 花火跟麦组成一对的时候，她打趣的问麦会不会真的喜欢上她。麦的回答很干脆。
 
 她是认真的吗！？被帅哥喜欢上不好吗？我们来回忆一下，关于花火我们知道了什么。
-![image](http://oonaavjvi.bkt.clouddn.com/rz023.jpg)¥
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeojmjobj211y0lcgpz.jpg)
 > 花火从头到尾没有缺少过追求者
 
 花火从来不缺少追求者，但她的心里只有他的“大哥哥”，她对于追求者是无奈地，___在这个时间点___，甚至还有些不屑。她很善良，不愿意敷衍别人的感情，不愿意伤害别人。而男主又是一个绝不会喜欢上她的人，在某些地方与她也有些相似。
-![image](http://oonaavjvi.bkt.clouddn.com/rz024.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo9esjrj211y0lc40y.jpg)
 > 为了弥补得不到真爱内心产生的空虚感，花火选择了暂时跟麦在一起
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz025.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo7l5ksj211y0mxwha.jpg)
 > 如果有一方的成功，关系就结束
 
 对这两个人来说，**最美好的东西，绝对无法得到。** 这件事情，令人感到窒息般的绝望。___他们既不愿意放弃，又不想伤害别人___。选择了互相为对方消化这份绝望。
@@ -208,20 +209,20 @@ categories: 日志
 
 #### 《人渣的本愿》中唯一的人渣
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz032.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeokw547j20hg0u5djd.jpg)
 > 女老师单纯的想毁掉花火的恋爱，对男老师并无兴趣
 
 当然，能被外力毁掉的恋爱，内部很可能也有一些问题。比方说这里，男老师对花火本身就没什么意思。 但是女老师的人品有问题，这点是洗不干净的。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz033.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo7exxoj20tc0hamyz.jpg)
 > 在女老师的设计下，花火刚好撞上“大哥哥”向女老师表白的瞬间
 
 要说三观惊奇，女老师确实三观惊奇。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz034.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo80a8lj20hj0uuad1.jpg)
 > 花火找女老师当面对质的时候，女老师的表现
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz035.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo8bb2wj20sp0ir76h.jpg)
 > 女老师的这番话，戳到了花火的痛处
 
 真爱型恋爱与寂寞型恋爱是有优劣之分的，这一点花火也清楚。 发生的事情就是发生了，不管过程再怎么无奈，花火和麦的关系在外人看来就是不清不楚的。这一点，在决定要开始这段关系的时候，就应该做好觉悟的。
@@ -230,7 +231,7 @@ categories: 日志
 花火现在知道了女老师根本不喜欢男老师，为什么不找到“大哥哥”告一状？她把这件事情忍下来，憋在心里不是才比较奇怪吗？
 
 其实，作者借了男主之口，回答过这个问题了。
-![image](http://oonaavjvi.bkt.clouddn.com/rz036.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeokdngcj20ms12eael.jpg)
 > 乃莉子到男主（麦）面前告了花火一状，麦的反应
 
 乃莉子这一状告的并没有挽回男主对她的青睐，相反，这其实还为她在男主心里减了分。试想，要是花火去“大哥哥”面前告了一状，然后剧情演变成主角们互相勾心斗角，那这部番真的没什么可看的了。
@@ -239,7 +240,7 @@ categories: 日志
 
 
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz037.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeomcmcij20tk0y178a.jpg)
 
 这里没什么好解释的了，作者的就差在女老师脸上写上“婊子”两个字了。花火还没有见识过这种人，这打破了她的世界观。
 
@@ -247,14 +248,14 @@ categories: 日志
 
 在笔者看来，其实女老师的所作所为，确实对花火的世界观构成震撼，使它摇摇欲坠。然而压死骆驼的最后一根稻草，其实是花火唯一的好朋友——小绘，的变故。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz038.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeoob1vwj20iz16nn0r.jpg)
 > 小绘在花火家留宿，跟花火同床共枕的时候，终于没忍住，把真心话抖了出来
 
 而且这个地方有个细节，小绘已经看出来，花火对男主不是真心的。
 
 ###### 正是因为花火与麦的关系是___出于寂寞___的，才会有空子可钻。 笔者想，作者一定是想借此表达，出于寂寞恋爱的危险性。所以，这部动漫的主题是非常正面的。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz039.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeoap4wrj211y0oh0v4.jpg)
 
 > 小绘在一定能够程度上已经黑化了
 
@@ -265,17 +266,17 @@ categories: 日志
 ##### 我们来分析花火现在的心情
 
 她亲眼目睹了从小喜欢到大的“大哥哥”向别人表白，并且那个人还是个人渣。
-![image](http://oonaavjvi.bkt.clouddn.com/rz041.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo8tdb5j211y0lc0ue.jpg)
 > 女老师特地向花火通报了这事
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz042.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeomiyhsj20hj0uw78d.jpg)
 > 为了不把痛苦传递到麦身上，花火想自己忍下来
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz043.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeom8zqyj211y0ng785.jpg)
 > 小绘是花火唯一的朋友
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz044.jpg)
-![image](http://oonaavjvi.bkt.clouddn.com/rz051.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo9w729j20t40niwhl.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeosssspj20ms1f8gp5.jpg)
 > 曾经
 
 如果这个时候，闺蜜能够成为花火的支柱，花火可能就能少走些弯路。然而实际情况是，闺蜜非但没有成为花火的靠山，却诱导着花火向更加黑暗的深渊走去。
@@ -288,12 +289,12 @@ categories: 日志
 ### 花火的改变
 
 #### 花火现在的心情
-![image](http://oonaavjvi.bkt.clouddn.com/rz046.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo9zoqgj211y0lcq4c.jpg)
 > 逃离太阳系
 
 ###### 在大多数小说，电影，漫画里，角色都是个性鲜明，且一成不变的。而在现实生活中，没有谁，是一成不变的。这部动画中，在经历一些变故之后，于是，花火变了。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz045.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeol8pkgj211y0lcq5l.jpg)
 > 花火这里开始有以女老师为目标的想法
 
 花火被女老师夺走了太多，痛苦不堪，因为女老师是个婊子。那如果花火放弃她的原则，是不是就能把失去的夺回来了呢？
@@ -302,46 +303,46 @@ categories: 日志
 ###### 人是社会性动物，环境对人的影响力是巨大的。 对于一个孩子来说，除了家里的长辈之外，影响力最大的就是学校里的老师和同学了。在成长的过程中，或多或少的会对这些人进行模仿，依样学样。 人在改变的过程中，有时候是分不清对错的。
 
 #### 过程
-![image](http://oonaavjvi.bkt.clouddn.com/rz050.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeooql9qj20t40jwmz8.jpg)
 > 花火要黑化了
 
 很多人看到这里都要弃了吧，腹黑的作者没有给女主及时送上一个救世主，一个能够影响到她，并且给她带来正能量的人。男主和“大哥哥”心里都是女老师，而闺蜜为了能够把花火留在身边不择手段。
 
 不过这才是这部动画的主题，**人是不能够被打倒的，就算是花火这样的弱不禁风的女孩，也要一步一脚印从深渊和泥潭中，靠自己的力量走出来。**
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz047.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeoqth4pj211y0ohq6y.jpg)
 > 花火为“大哥哥”痛过了，这里便理解了闺蜜的痛，心生同情，放任与闺蜜非正常的关系发展了下去
 
 出于___同情___的恋爱关系，对对方也是一种**伤害**。这里不得不说的一点是，花火除了___同情___之外，为了弥补失恋的寂寞产生的空虚，实际上也夹带的利用了闺蜜的私心。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz048.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeort1q8j211y0lc423.jpg)
 > 花火跟麦提出正式交往的时候，脑子里却想着以此跟女老师较劲
 
 这里mark一下，这是花火对不起麦的地方。
 
 #### 愈演愈烈
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz055.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeobuipjj211y0lcmyk.jpg)
 > 花火无法战胜由失恋带来的寂寞感
 
 ###### 有实验证明，失恋能够带来切实的痛感，能够在很短的时间打倒一个强大的人，这实在令人感到不可思议。
 
-![image](http://oonaavjvi.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170504133406.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo60s9sj211y0lcmzi.jpg)
 > 花火可能已经是自暴自弃了，幸运的是男主并没有乘人之危
 
 ###### 失恋会让人产生一种类似于___溺水___的感觉，每次呼吸都有凛冽的海水灌进肺里，所有飘过的东西，哪怕是一片树叶都要紧紧的抱住，汲取他的温暖。
 
 
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz049.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeooasdkj211y0lc0v2.jpg)
 > 花火开始戴耳环了
 
 耳环有象征意义，花火想要___变坏___。第一次戴耳环跟完全不喜欢的人渣男约会，这一话是这部动漫最黑暗的部分。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz054.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkep2qm8wj20ms0rudkx.jpg)
 > 花火开始考虑一些本来没必要考虑的东西
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz056.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeoroew4j20ms13k78v.jpg)
 > 花火也弄明白了一些本不用弄明白的东西
 
 这里花火明白了，她与女老师决定性的差距。女老师在情场是一个“愉快犯”，她以被男人追捧、被女人嫉妒为乐趣。而花火正是为了跟女老师较劲，取得某种心理平衡，挽回自尊，才踏入这片___沼泽___。所以她一开始就输了。
@@ -352,16 +353,16 @@ categories: 日志
 
 ##### 那，花火下一步，是不是要把自己变成一个___情场愉快犯___呢？
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz057.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkep38m1dj20uc0todlk.jpg)
 > 花火开始分析自己的心态和处境
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz119.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkep6gyu8j211y0oh410.jpg)
 > 小绘曾是花火唯一的朋友
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz058.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeotwwvkj211y0q2wi5.jpg)
 > 花火意识到自己的软弱
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz059.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeotk7rmj20uc0y377p.jpg)
 > 花火终于明白了自己变得软弱的理由
 
 ###### 恋爱，就是要把内心最柔软的部分暴露出来。有的心，浇灌的是爱的养料，被小心呵护着成长。有的心，浇灌的是锋利的匕首，被无情的践踏。
@@ -373,10 +374,10 @@ categories: 日志
 #### 我们好好聊一聊。
 
 笔者要强调一点！观众朋友们很多时候有一个误区，认为这部动画的目的就是告诉你，不要当好人，做人的终极目的就是成为人渣，人渣心理斗争也不容易，人渣是可以被原谅的。然而，对于花火的黑化，作者的态度
-![image](http://oonaavjvi.bkt.clouddn.com/rz052.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeookty4j20hg15edie.jpg)
 > 花火内心的正义感化身成她原来的样子把她数落了一番
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz053.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeophzi2j211y0lcacp.jpg)
 > 作者把黑化的花火的心态描绘成癫狂的状态
 
 
@@ -397,7 +398,7 @@ categories: 日志
 
 花火面前的路有两条，要么任凭被自己的懦弱淹没，像女老师一样，让虚伪的追捧和嫉妒充实自己。要么...
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz060.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeoszs8oj20ms1f8whp.jpg)
 > 花火决定鼓起勇气
 
 ###### 人跌倒的时候可能有很多理由，但是爬起来却不需要太多理由。
@@ -405,14 +406,14 @@ categories: 日志
 ### 小小的正能量们
 
 #### 最可爱的乃莉子
-![image](http://oonaavjvi.bkt.clouddn.com/rz061.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkep4748rj20te1f0dm7.jpg)
 > 乃莉子从一开始就用拙劣的手法，三番五次想拆散男主和女主
 
 最开始，乃莉子这个角色给人感觉很像一般后宫漫中的龙套角色。但是作者在后面却浓墨重彩的描写了她。
 
 ###### 普通的后宫动漫中，经常有后宫们互相争风吃醋的桥段。实际上，就算有这种事，也是伴随着剧烈的痛苦的。这点非常不真实。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz062.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeovswcxj20st1usdku.jpg)
 > 虽说花火并不是出于恶意，但是却做了跟女老师一样的事
 
 花火听了这些却无法反驳，这就好像在说她和大哥哥一样。
@@ -423,19 +424,19 @@ categories: 日志
 
 女老师的情况就不一样了，女老师为了让花火痛苦，甚至委屈自己去勾搭一个一点都不喜欢，甚至有些厌倦的男人。虽说男老师不喜欢花火不是女老师的错，但是女老师这种损己不利人的行为实在可恶。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz063.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeoum3xij20ms0rqwj1.jpg)
 > 乃莉子嘲讽花火今天是一个人，并且表明自己对感情会坚持到最后
 
 乃莉子是个好女孩，我们希望世界上能够多一些这样的人。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz065.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkep7bryvj20ms1f8afh.jpg)
 > 原来乃莉子也为自己的感情寻找过替代品
 
 没关系，知错就改还是好孩子。
 
 发生在自己身上的事，才能够刻骨铭心，才能转换成经验和教训，**让自己成为更好的人**。乃莉子虽然年纪小，爱情观却很正直成熟。不过啊，这句对不起别对空气说啊，要对该说的人说。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz064.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeotuje2j211y16ltdn.jpg)
 > 被稀里糊涂的骂了一通，花火的表情却好像想通了什么
 
 原来，**失恋**让花火脆弱到，需要依靠身边的一切。想都没想过可以**靠自己走下去**。
@@ -444,24 +445,24 @@ categories: 日志
 
 #### 长头发的表弟
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz066.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeow3e6mj211y0qwjv4.jpg)
 > 曾经追过小绘的表弟出现了
 
 与乃莉子相比，表弟的戏份就显得比较仓促了。可能也是由于篇幅的问题吧，我们对表弟没有一个饱满的认识。不过他的出现确实是为了推动剧情向正面发展而设计的。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz067.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeoxggcjj20uc0y4wi6.jpg)
 > 表弟由于过于直接被嫌弃了
 
 可以看出，表弟是一个很简单的人。喜欢一个人表现的非常直接，对于喜欢的人的恋爱对象，很坦率的也喜欢。
 
 这里可能大家要问了，为什么花火不能坦率地喜欢上女老师呢？抛开性别血缘不谈（不谈不是说不重要，这部作品是一个本格的伦理剧，作者只是把这些元素当做噱头来卖，作者并没有着太多笔墨在这上面），如果女老师是一个足够优秀的人，并且也足够的爱男老师，这对于花火来说，也更好接受吧。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz068.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeox1ordj211y0osq6w.jpg)
 > 表弟说的太直白了，这下小绘就没有犹豫的空间了
 
 小绘与花火的失恋旅行，笔者也相信小绘是以**结束这段畸形的关系**为原因约的花火，但是她真的有这么坚强吗？ 这里，表弟的出现就显得非常有必要了。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz070.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeoxs6jij20uc0y3gq7.jpg)
 > 表弟对花火也是直奔主题
 
 ###### 这部动漫是非常正面的，表弟不过是借作者口，把话说了出来而已，笔者的观点并不是空口无凭的。
@@ -470,22 +471,22 @@ categories: 日志
 
 #### 与小绘和解
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz071.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeoypt9nj211y0q2jvf.jpg)
 > 小绘想要单方面结束关系
 
 只有这样的话，事情也算解决了，但是最后，只有小绘一个人承受了痛苦，而且她与花火可能再也做不成朋友了。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz072.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeoy6lyej20ms1g8wj7.jpg)
 > 花火不想失去这个朋友，但是小绘听后歇斯底里般的爆发了
 
 花火这个要求其实非常任性，不信你可以想一想，身边分手后还能当朋友的，有几个。
 
 不过呢，小绘这番话也是十分任性的。花火是没有义务设身处地为小绘着想的。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz073.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeowvyj5j211y16on22.jpg)
 > 花火深刻认识到了自己一时的懦弱，对小绘造成了多大的伤害
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz074.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeozlztej20uc10mjvl.jpg)
 > 两个人意识流般的对话，是十分美好的结局
 
 可能因为小绘是女生吧，分手时还能有这般待遇。这是一段刻骨铭心的感情结束后，最好的结果。
@@ -498,21 +499,21 @@ categories: 日志
 
 #### 麦与乃莉子
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz076.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkep49hrkj20qk0z1aev.jpg)
 > 乃莉子这次明知道麦在敷衍自己，还是答应跟她约会了
 
 抱歉一下让时光倒流了，乃莉子是一个世界观很正直的人。原本，她是一个一定要等到麦回心转意，才会跟他正大光明的在一起的女孩。但是这一次，乃莉子还是被爱情打败了。
-![image](http://oonaavjvi.bkt.clouddn.com/rz077.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeoni5e0j211y0lcdh3.jpg)
 > 乃莉子明知道这样做是不对的
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz078.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkepid0opj20qk1cw7a9.jpg)
 > 乃莉子在约会的过程中下了决心，让这次约会成为最后并且永远珍藏的回忆
 
 *反正都是最后一次了，尽量制造一些美好的回忆吧*。乃莉子带着这样的想法，打扮得漂漂亮亮的开始了与麦最后的约会。
 乃莉子是如此的喜欢麦，以至于觉得这一生都不会再爱了。但是即使如此，她仍然下决心为这段无法实现的恋情画上句点。
 
 但是...
-![image](http://oonaavjvi.bkt.clouddn.com/rz079.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkep5fo90j211y16lq7s.jpg)
 > 她的眼泪决堤般的流了出来
 
 
@@ -523,12 +524,12 @@ categories: 日志
 
 ###### 征服一个男人，比起展示各种才能，逻辑思维，或者对他有多体贴。可能几滴眼泪就能解决问题。 尤其是平时性格很坚强，独立的女生，在喜欢的男生面前如果能表现出，脆弱，需要帮助的一面，可能起到事半功倍的效果。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz080.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeoyt74pj211y0lctbg.jpg)
 > 乃莉子懂得自己可以用眼泪骗取同情，不过这部动漫中她还是第一次流眼泪。
 
 乃莉子决定为了触碰最喜欢的人，而放弃原则
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz082.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkep6d8bvj20qk18sjwc.jpg)
 > 由于麦最终守住了底线，乃莉子也看开了
 
 这点前面提到过，麦终究不是人渣。之所以会有今天，是因为乃莉子没有自己想象的强大。
@@ -538,19 +539,19 @@ categories: 日志
 
 #### 麦与花火的新的约定
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz083.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkepa53hxj20uc110wj2.jpg)
 > 暑假的尾声，两人身着白衣，在山丘上交换了约定
 
 这个场景是非常写意的，这一话在《人渣的本愿》中，也是非常关键的转折。花火在这一话里鼓起了勇气，麦在这一话里守住了底线。没看到这一话就弃了的人是十分可惜的。
 
 #### 花火与男老师（大哥哥）
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz085.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkep5cye0j20uc0y3dja.jpg)
 > 花火终于对大哥哥表白了
 
 花火这里连用了一串排比，表达对大哥哥深深的恋爱。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz084.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkepbhrerj20uc0yqgpc.jpg)
 > 大哥哥轻轻的抱住了花火，和花火一起哭得像个孩子。花火多年的单相思结束了
 
 花火或许早就该这么做，她花了这么长的时间才鼓起表白的**勇气**。之所以花火明明知道大哥哥不喜欢她，还要最后表一个白，是因为她需要为自己多年的单相思做一个了断。好让自己跟麦有一个全新的开始。
@@ -561,33 +562,33 @@ categories: 日志
 
 #### 麦与女老师
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz086.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeoyv2n5j211y0mitbc.jpg)
 > 前面提到过，男主知道女老师喜欢乱搞，他想改变她。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz087.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkep7aqo7j20uc0y4tca.jpg)
 > 麦对花火爽约了
 
 不过这一次与之前不同，花火已经鼓起过勇气了。
 
 ##### 为什么会这样呢？
-![image](http://oonaavjvi.bkt.clouddn.com/rz089.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkep9a6jgj20uc10x43c.jpg)
 > 麦读懂了女老师的寂寞
 
 对于女老师的心态，作者给出了这样的解释。___她是幼稚而孤独的人___。笔者想这并不能成为她，玩弄别人感情的理由，但是这里，麦已经深深的喜欢上她了。 在知道女老师的幼稚与寂寞之后，却越发的觉得可爱可怜。希望成为那个，能够使女老师为之改变的人。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz088.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeoyhqknj211y0mx410.jpg)
 > 麦知道，女老师有一天会变好，他希望成为改变女老师的人。
 
 然而问题就出在这里，在任何情况下，我们都没有**权力**，和**能力**去改变另一个人。
 麦的想法是对的，但是做法太幼稚了。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz090.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkepf4ch3j20qk0wldky.jpg)
 > 麦是幼稚的，但是他发现，女老师被一个不是自己的男人改变了。他意识到那个人才是女老师命中注定的。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz091.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkep98fb2j211y0mx77n.jpg)
 > 麦发现，改变之后的女老师，如此美丽。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz093.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkepasjw8j20uc0y4tco.jpg)
 > 干脆利落，麦放弃了
 
 一段美好的感情，我们总是不愿意破坏的。女老师的未婚夫该是一个多么美好的人，是他让女老师变成了一个更好的人。而这是麦做梦都想做到的事，但是麦又有什么资格插手这段感情呢？
@@ -603,26 +604,26 @@ categories: 日志
 前面提到了，因为女老师像男老师死去的妈妈，所以男老师对女老师一见钟情。但是。。
 
 ##### 女老师真的对男老师动心了吗？
-![image](http://oonaavjvi.bkt.clouddn.com/rz095.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkep0pme6j211y0lcgo5.jpg)
 > 女老师一开始觉得男老师很无聊
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz094.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkepgh7odj20ms16g0xy.jpg)
 > 后来女老师越发觉得男老师很奇怪
 
 **还真动心了**！女老师一开始，根本不喜欢男老师，甚至还有点厌恶，她就是为了让花火痛苦才勾搭的男老师。但是男老师，用耐心和善意逐渐征服了他。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz096.jpg)
+![image](hhttp://ww1.sinaimg.cn/large/6b8ee255gy1fxkepddeprj20qk0yeaf1.jpg)
 > 被以前玩过的男生当面拆穿，女老师决定向男老师坦白，然后断掉跟他的关系
 
-###### 这里有一个细节，女主能清楚的认识自己的所作所为。并且觉得如果被人知道，就不会被喜欢了。这或许说明她的内心还有基本的道德标准概念。
+###### 这里有一个细节，女老师能清楚的认识自己的所作所为。并且觉得如果被人知道，就不会被喜欢了。这或许说明她的内心还有基本的道德标准概念。
 
 然而。。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz097.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkepabayej20qk18stc2.jpg)
 > 男老师毫不犹豫的接纳了她
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz098.jpg)
-> 这是怎样的精神
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkepmdr7yj211y186wjk.jpg)
+> 这是怎样的精神！
 
 笔者看到这个地方的时候也十分惊讶，男老师的行为着实令人跌破眼镜。但是，我们没有资格去judge别人的感情，在这里，男老师就是有这么喜欢女老师，以至于可以接受女老师经常乱搞的过去，和可以出轨的未来。
 
@@ -635,7 +636,7 @@ categories: 日志
 ##### 关于改变一个人
 
 人是没有资格去改变别人的，但是，**爱情**着实可以**改变**一个人。
-![image](http://oonaavjvi.bkt.clouddn.com/rz099.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkepi7amsj20uc0zg43q.jpg)
 > 这番话花火并没有说过，而是在男主（麦）的脑海中，托花火之口说出的
 
 男主最终也意识到，到底应该怎么做。男主觉得女老师乱搞是不对的，想要改变她，这是好事。
@@ -643,10 +644,10 @@ categories: 日志
 
 正确的做法是，让自己变成一个更好的人，用自己的行为，为对方树立典范。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz100.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkepjv1thj211y186dl4.jpg)
 > 男老师接纳女老师的一切
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz101.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkepahkluj20qk19ywid.jpg)
 > 女老师被男老师不图回报的善意所震撼
 
 这么一来，麦和男老师就高下立判了。麦是一个还不错的小伙子，但是与男老师相比，尚且稚嫩。麦无力给女老师带来灵魂上的冲击，也就永远无法影响到她，而被女老师主导着节奏，越来越迷茫。他输的应该是心服口服的。
@@ -655,19 +656,19 @@ categories: 日志
 
 #### 我们来清算一下花火与麦的关系
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz103.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkepb30a5j20qk18sae7.jpg)
 > 花火发现自己对麦已经产生了新的感情
 
 花火从小就喜欢“大哥哥”，这种喜欢起源于**憧憬**。但是花火与大哥哥真的合适吗？ 没有人知道，花火对大哥哥的喜欢或许已经成为了一种执着。
 
 花火跟麦的关系，最初是___出于寂寞___的恋爱。但是他们俩实在太像了，又同时足够优秀。或许，真的他们俩在一起更合适一点，只是，他们出现在对方的生命中的时间，晚了那么一点点，被大哥哥大姐姐们捷足先登。又或者，可能早了一点点，因为这个时候他们还不够成熟，会犯一些错误。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz104.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkepaw3cqj20uc10sq7h.jpg)
 > 在麦的内心独白中，发出声音的总是花火的面孔
 
 麦也并不讨厌花火，他们是以一种互相利用的关系在一起的。但是他们彼此，对初恋太过执着了，执着到可能，看不清自己真正的内心。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz102.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkepdqo2uj20ms1f80wv.jpg)
 > 花火打算跟麦好好开始，但是麦爽约了
 
 前面提到过，他们约定互相对初恋做一个了断后，好好的在一起，但是麦到最后一刻还是放弃不了女老师。
@@ -675,10 +676,10 @@ categories: 日志
 
 花火在鼓起勇气之后，又一次哭了。但是我们不要忘记
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz048.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeort1q8j211y0lc423.jpg)
 > 花火还利用过麦呢
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz105.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkepjr1p5j20uc0y4grb.jpg)
 > 前面提到过，这点花火对不起麦
 
 很多人在这里骂男主___渣男___，但是他们俩确实是互相伤害过的。花火对男主的伤害也并不轻，公平的说，他们俩做的是半斤对八两。
@@ -690,7 +691,7 @@ categories: 日志
 剧情终于进入了尾声，短短12话的剧情，能够有如此丰富的内容，能说这部作品不优秀吗？
 ##### ---三个月后---
 #### 花火的成长
-![image](http://oonaavjvi.bkt.clouddn.com/rz106.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkepjmhjrj20qk18safk.jpg)
 > 花火学会了认真对待他人的感情
 
 这一段与第一话形成强烈的呼应，有些事情，只有亲身经历之后才能明白。恋爱的**刻骨铭心**和表白的**勇气**。
@@ -700,7 +701,7 @@ categories: 日志
 
 #### 大家的成长
 ##### 小绘
-![image](http://oonaavjvi.bkt.clouddn.com/rz075.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkep1um4aj20qk185n24.jpg)
 > 小绘换了发型，三个月以来没有跟花火有过交流
 
 花火真的不想失去小绘这个朋友啊。可能还会隐隐作痛，三个月的时间让小绘放下了。好了，这下花火和小绘终于做回了朋友，这条线终于可以说是happy end了。
@@ -709,21 +710,21 @@ categories: 日志
 
 ##### 乃莉子
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz107.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkepdqdl0j211y16l78f.jpg)
 > 学园祭的表演，乃莉子美呆了
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz108.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeplgbz4j20uc1f8wjl.jpg)
 > 花火又想起了，或者说作者又强调了本动画的主题
 
 乃莉子并没有放弃麦，但她也开始学会不那么依赖他。
 
 ##### 女老师
-![image](http://oonaavjvi.bkt.clouddn.com/rz109.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkephdcr5j20ms14itd4.jpg)
 > 女老师祝福了花火，并且试图道歉
 
 这个地方非常有意思，而且很多人没有看懂。 女老师把抛花硬塞给了花火，意思分明就是祝愿花火早日找到真爱。最后一句看似调侃的话，隐含着：
 > 男老师是我抢来的   
-男老师我是不会让给你的   
+男老师我是不会让给你的  
 祝你幸福
 
 的意思。
@@ -735,17 +736,17 @@ categories: 日志
 
 #### 花火与麦怎么办？
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz110.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkepfr52jj20ms1f2n0z.jpg)
 > 官方梳理了男女主角的关系
 
 虽然这段感情的开始是出于寂寞的，但是两个人之间确实产生了真情。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz111.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkepdfmdgj211y16lq6p.jpg)
 > 花火想叫住麦，而欲言又止
 
 虽然之前有麦对花火的爽约，这里花火显然打算原谅麦。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz112.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkepjdrbpj211y1rvjxi.jpg)
 > 麦拒绝了花火？
 
 ##### 错了！
@@ -754,22 +755,22 @@ categories: 日志
 麦认为他现在没有资格跟花火在一起。
 
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz113.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkepfoq9rj20qk19ywjc.jpg)
 > 两人进行了很长很长的谈话，挑选措辞，互相勉励
 
 不是两个人不够恩爱，只能怪他们在不恰当的时候相遇了。两个人互相为对方舔舐过伤口，也互相辜负。不是说犯的错误不能被原谅，而是一些伤口需要被时间抚平。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz114.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkep3oulkj211y0lc76b.jpg)
 > 花火与麦没有在一起
 
 男老师和女老师走到了一起，花火与麦算是正式失恋了。这一次，他们没有选择用身体安慰对方，而是仔细挑选着措辞，用话语安慰。他们真的成长了。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz115.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkepnh04hj211y16ldlq.jpg)
 > 最后终于解释了ED的含义
 
 花火和麦，他们要出发去找真的东西。或许有一天，待时光抚平了哀叹，他们还会相遇，我们也是这么希望的。但是那种可能性，就好像两条平行线交叉的概率。
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz116.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkep4n4zkj211y0lctbo.jpg)
 > 人总是要为年轻付出一些代价，只有这样才能够成长。
 
 ##### ---花火与麦End---
@@ -779,14 +780,14 @@ categories: 日志
 到这里，动画版12话的内容就结束了。看到这里的朋友们，不知道有没有这样的想法。《人渣的本愿》在看似滥情的外表下，说的是一个非常积极向上的，关于**勇气**和**成长**的故事。对于情感问题的讨论，这部动画可以说是做到了面面俱到。笔者虽然愚钝，也解读出了这么多东西。
 
 ##### 回过头来，我们看一看OP
-![image](http://oonaavjvi.bkt.clouddn.com/rz117.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkepnhy4fj211y16l0yf.jpg)
 > 开场抱着一束玫瑰花的花火，和一个挥舞着玫瑰花的，跟花火有同样发型的白衣少女
 
 OP强烈地暗示，花火跟这个白衣少女是一个人。
 
 ##### 最后一话，公布了白衣少女的身份
 
-![image](http://oonaavjvi.bkt.clouddn.com/rz118.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkep7wq7mj211y0lcact.jpg)
 > OP中的白衣少女其实是曾经的女老师
 
 ##### 这是想告诉我们什么？
@@ -794,9 +795,14 @@ OP强烈地暗示，花火跟这个白衣少女是一个人。
 这部作品中没有明说，笔者猜测，作者想说的可能是。真与假，善于恶，好与坏，很多时候就隔着一层纸。我们说女老师是这部作品中唯一一个人渣，但是如果她能早一点遇到男老师呢？她的身边如果能有一群给她带来正能量的朋友呢？或许她也不至于走上歧途，或者能够更早的醒悟过来。
 
 那花火呢？ 或许在这部作品中，如果哪里出了一点问题，花火会不会堕落，成为女老师一样的情场愉快犯呢？
-![image](http://oonaavjvi.bkt.clouddn.com/rz049.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeooasdkj211y0lc0v2.jpg)
 
 花火到底是幸还是不幸？她没有跟最喜欢的大哥哥在一起，也失去了麦(男主)。但是呢？她身边有一群美好的人们，在她寂寞的时候安慰她，在她快要坠入深渊的时候，一巴掌把她打醒。**最终让花火靠自己的力量站了起来，靠自己的双脚前进**。
+
+---
+
+> ## 希望这部作品能够带给大家勇气 
+
 
 
 

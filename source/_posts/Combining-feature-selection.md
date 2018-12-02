@@ -8,7 +8,6 @@ tags:
 - 未翻译
 - 英文
 categories: 研究
-mathjax: true
 ---
 
 ## Abstract
@@ -20,7 +19,7 @@ Stock investments are a very popular investment activity around the world. In li
 That is, the chosen feature selection method is supposed to select usable features for stock prediction. However, using different feature selection methods is likely to produce different results Therefore, if we could apply a number of different feature selection methods and then combine the selection results, we can not only understand the most important and representative variables that all the feature selection methods ‘agree’, but also further improve prediction performances over using one single feature selection methods. 
 
 ## Related work 
-![Related work](http://oonaavjvi.bkt.clouddn.com/FS01.png)
+![Related work](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkepwajznj215o0gy4d1.jpg)
 
 ## Literature review 
 ### Stock price theory 
@@ -39,34 +38,34 @@ In many research problems, such as pattern recognition, it is important to choos
 
 ### Principal Component Analysis (PCA) 
 Principal Component Analysis (PCA) is a multivariate statistical technique. It aims at reducing the dimensionality of a dataset with a large number of interrelated variables. In particular, it extracts a small set of factors or components that are constituted of highly correlated elements, while retaining their original characters. After performing PCA, the uncorrelated variables which are called components, will replace the original variables. 
-![Principal Component Analysis](http://oonaavjvi.bkt.clouddn.com/FS02.png)
+![Principal Component Analysis](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkenyuw81j20ts0dhjsr.jpg)
 
 ### GA-SVM
 The main idea of Genetic Algorithms (GA) is from Darwin's theory of evolution from natural selection in the survival of the fittest. GA attempts to computationally mimic the processes by which natural selection operates.
-![GA-SVM](http://oonaavjvi.bkt.clouddn.com/FS03.jpg)
+![GA-SVM](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkenzjpnjj20fr0c8aaw.jpg)
 
 ### Classification and Regression Trees (CART) 
 The Classification and Regression Trees (CART) is a statistical technique that can select from a large number of explanatory variables those that are most important in determining the response variable to be explained. The decision trees produced by CART are strictly binary, containing exactly two branches for each decision tree. The root node t is separated into two samples based on some condition. The samples that fit the condition will be separated into the left nodes (tl), and the others will be separated into the right nodes (tr). 
 In particular, a decision tree is based on the entropy theory that the attribute (or feature) with the highest information gain (or greatest entropy reduction) is chosen as the test attribute for the non-leaf node 
-$$g\left ( Y,A \right )=H\left ( Y \right )-H\left ( Y|A \right )$$
+$g\left ( Y,A \right )=H\left ( Y \right )-H\left ( Y|A \right )$
 
 Related work only applies one chosen feature selection method to filter out irrelevant variables. This motivates us to collect all relevant variables used for stock prediction in literature and then combining multiple feature selection methods to identify more representative variables for improving prediction performances. 
 
 ## Experimental design 
 ### The first experimental stage
-![The first experimental stage](http://oonaavjvi.bkt.clouddn.com/FS04.jpg)
+![The first experimental stage](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkenz2fsrj208o0a4gmb.jpg)
 ### The second experimental stage 
-![The second experimental stage](http://oonaavjvi.bkt.clouddn.com/FS05.jpg)
+![The second experimental stage](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo0f4ppj20a60br0tm.jpg)
 
 ## Results 
 ### Single feature selection methods 
-![Single method](http://oonaavjvi.bkt.clouddn.com/FS06.png)
-![Single method](http://oonaavjvi.bkt.clouddn.com/FS07.png)
+![Single method](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeodedmdj20q709fjva.jpg)
+![Single method](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeoerrm1j20q308kn0g.jpg)
 Figures show the rate of prediction accuracy of the four different MLP models based on the one quarter and other-quarter based testing datasets respectively. As we can see, the results are slightly different if different testing datasets are considered. 
 We can find the models with feature selection are obviously better. And They have similar effects
 ### Multiple feature selection methods 
-![Multiple method](http://oonaavjvi.bkt.clouddn.com/FS08.png)
-![Multiple method](http://oonaavjvi.bkt.clouddn.com/FS09.png)
+![Multiple method](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeoepkscj20q50acdk9.jpg)
+![Multiple method](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeoczzt6j20q709ntd0.jpg)
 
 The results indicate that the intersection between PCA and GA outperforms the other combination approaches over the one quarter based testing dataset. On the other hand, combining multiple feature selection methods by the multi-intersection approach performs the best based on the other-quarter based testing dataset. However, the rates of prediction accuracy by both combination approaches over the two testing datasets do not have a big difference, i.e. less than 0.3%. 
 

@@ -37,7 +37,7 @@ google_analytics: ## Your Google Analytics tracking id, e.g. UA-42425684-2
 baidu_analytics: e5af71dc023cd2b9b7691d458518d79a ## Your Baidu Analytics tracking id, e.g. 8006843039519956000
 show_category_count: true ## If you want to show the count of categories in the sidebar widget please set the value to true.
 toc_number: true ## If you want to add list number to toc please set the value to true.
-shareto: false ## If you want to use the share button please set the value to true, you must have hexo-helper-qrcode installed.
+shareto: true ## If you want to use the share button please set the value to true, you must have hexo-helper-qrcode installed.
 busuanzi: true ## If you want to use Busuanzi page views please set the value to true.
 widgets_on_small_screens: false ## Set to true to enable widgets on small screens.
 canvas_nest:
@@ -84,6 +84,12 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
 links:
   - title: STONEX
     url: https://www.sitixi.com
+  - title: Miruku
+    url: https://mirukuchan.github.io/
+  - title: Stefenson
+    url: https://stefenson.github.io 
+  - title: Gunx
+    url: http://gunx.info/
 
 timeline:
   - num: 1

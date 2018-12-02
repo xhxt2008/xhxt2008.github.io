@@ -14,11 +14,11 @@ categories: 研究
 表情認識（Face Expression Recognition）は、成熟した技術でした。表情認識確かに国籍認識と共通点が多かったです。
 ## まずは顔に表す感情の定義として。
 普通六つの分類があります：楽しく、悲しく、怒る、驚く、嫌い、怖い。
-	そして、表情認識のプロセスは、主に：
+	そして、表情認識のプロセスは、主に：
 -	前の処理。サイズ、明るさ、仕草の平均化。
 -	特徴の抽出。
 -	分類。
-<!-- more -->
+
 ## 特徴の抽出の方法にしては：
 1.	幾何学的特徴、人の五官の位置を探して、それぞれの大きさ、距離、形状などを用いて、表情を識別します。
 2.	PCAやICA。総体的に特徴を抽出方法
@@ -41,7 +41,7 @@ categories: 研究
 5.	アルゴリズム的な革新
 
 ## 基礎な表情認識は携帯アプリまであります。（Polygram）
- ![image](http://oonaavjvi.bkt.clouddn.com/%E5%9B%BE%E7%89%87%201.jpg)
+ ![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkepvsnlzj20hf0v1qp1.jpg)
 Polygramは自撮りをシェアするアプリで、他の観客の写真を見る時の気分を認識できます。画像に示しているのは驚きの表情。
 
 ## 自分の考え：
@@ -62,6 +62,8 @@ Polygramは自撮りをシェアするアプリで、他の観客の写真を見
 6.	Mihai Gavrilescu, “Study on using individual differences in facial expressions for a face recognition system immune to spoofing attack”, 2016
 7.	Chao-Kuei Hsieh, “An Optical Flow-Based Approach to Robust Face Recognition Under Expression Variations”, 2010
 8.	Jacob Whitehill, “he Faces of Engagement: Automatic Recognition of Student Engagementfrom Facial Expressions”, 2014
+
+
 
 
 

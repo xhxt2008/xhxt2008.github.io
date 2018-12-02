@@ -12,7 +12,6 @@ categories: 研究
 ---
 ## Abstract
  By identifying the opinion leaders, companies or governments can manipulate the selling or guiding public opinion, respectively. Additionally, detecting the influential comments is able to understand the source and trend of public opinion formation. However, mining opinion leaders in a huge social network is a challenge task because of the complexity of graph processing and leadership analysis. In this study, a novel algorithm, OLMiner, is proposed to efficiently find the opinion leaders from a huge social network.
-<!-- more -->
 ## Introduction
 ### Opinion leaders
 In a social network, the opinion leader means the influential person who may be an expert in a specific domain and have lots of people following his/her comments or ideas. opinion leaders are usually the information generator and message senders who familiar with the media by a secondary transmission. 
@@ -35,13 +34,12 @@ In a social network, the opinion leader means the influential person who may be 
 ### Opinion Analysis And Mining 
 - Opinion Observer system: An opinion Observer system could analyze and compare the consumer opinions among competing products. Opinion Observer also uses language pattern mining method to extract product features from the Pros and Cons in a specific type of reviews. CopeOpi is an opinion mining system.
 - Thesauruses: When mining opinion or analyzing sentiment, many thesauruses are generally utilized for measuring the orientation or the property of comment, such as WordNet and General Inquire for English lexicon, HowNet and NTUSD for Chinese lexicon. 
-
 ###  Opinion Leader Mining 
 - Opinion leaders are domain-sensitive
 - There are many papers modified PageRank algorithm to find opinion leaders, such as OpinionRank, LeaderRank and Dynamic OpinionRank. 
 
 ## Proposed Algorithm: OLMiner
-![image](http://oonaavjvi.bkt.clouddn.com/OLM1.png)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkepg87fqj21050jgtj6.jpg)
 1. We first check the size of input data to decide running on a single computer or cloud environment. 
 2. Then, OLMiner utilizes the post-and-follow relationships among individuals to quickly construct a social network. When calculating the similarity (weight) of edge, we also consider the average time of posted article to tune the similarities among individuals. 
 3. Then, for detecting opinion leaders, we propose an efficient algorithm to find out community structure and extract qualified community. 
@@ -61,36 +59,36 @@ Output: OL: a set of opinion leaders
 06. OL  Leader_Selection (Candi_set, k);
 07. output OL;
 
-### 1. granularity checking
+#### 1. granularity checking
 check the size of input data to decide running on a single computer or cloud environment. 
-### 2. Social Network Construction
+#### 2. Social Network Construction
 - We segment 24 hours into four sections:
-![image](http://oonaavjvi.bkt.clouddn.com/OLM02.png)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo3o4x4j20lg07m77g.jpg)
 
 
 - Given a set of articles A and a set of users U, to build a social network **G(V, E, W)**.
 - If users u, v∈U have reply-article-relation in A, an edge (u, v) exists in E.
 - Set of adjacent nodes of a node u is defined as **adj(u)**.
 - The similarity **sim(u, v)** is defined as the common adjacent users of u and v, 
-![image](http://oonaavjvi.bkt.clouddn.com/OLM03.png)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo12eq0j20ih03pq46.jpg)
 - The weight **w(u, v)** of edge (u, v) in E.
-![image](http://oonaavjvi.bkt.clouddn.com/OLM04.png)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo12yduj20im05fdh6.jpg)
 
-### 3. Community Structure Detection
-![image](http://oonaavjvi.bkt.clouddn.com/OLM05.jpg)
+#### 3. Community Structure Detection
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo2ebalj20go09ywfl.jpg)
 1. Firstly, capture the community structure of social network to reduce the execution time for finding opinion leaders. 
 2. Then, we use 2nd-stage clustering to analyze the characteristics of uses and shrink the size of the candidate set.
 3. Finally, we pick k users have better leadership quality from candidate set as opinion leaders. 
-#### Modularity gain 
+##### Modularity gain 
 - Given a social network G = (V, E, W) and its clustering result C = {c1, c2, …, cp}, the modularity function is defined as:
-![image](http://oonaavjvi.bkt.clouddn.com/OLM06.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo0g6soj208202bglk.jpg)
 - OLMiner utilizes the modularity gain as the terminated criteria.
-#### Significant Community
+##### Significant Community
 - The set of significant community Cs is defined as follows:
-![image](http://oonaavjvi.bkt.clouddn.com/OLM07.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo10pnej2088020q2t.jpg)
 
-### 4. Opinion Leader Candidate Generation
-![image](http://oonaavjvi.bkt.clouddn.com/OLM08.jpg)
+#### 4. Opinion Leader Candidate Generation
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo0xjtvj20g4073t9x.jpg)
 Different from others, we use kmean clustering to build the candidate set, the kmean clustering can effectively shrink the size of candidate set.
 - Candidate Generation Algorithm(kmean)
 
@@ -111,33 +109,22 @@ Output: Candi_set: a candidate set
 13. …
 
 - Given a clustering result CKi = {cki1, cki2, ..., ckin} in a significant community ci, the score of ckij is evaluated as, 
-![image](http://oonaavjvi.bkt.clouddn.com/OLM09.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo1rt93j20g403smxj.jpg)
 
-### 5. Opinion Leader Selection
+#### 5. Opinion Leader Selection
 - First, we use the total number of nodes in significant communities to decide how many opinion leaders are allocated to each significant community.
-![image](http://oonaavjvi.bkt.clouddn.com/OLM10.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo1cei8j208i02ejra.jpg)
 - Then, we first sort the clusters in decreasing order based on the score of cluster (line 4, Algorithm 5). Then, OLMiner picks the nodes in high-score cluster until we reach the number of desired opinion leaders k
 
 ## EXPERIMENTAL RESULTS
-![image](http://oonaavjvi.bkt.clouddn.com/OLM11.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo1nb1uj20gk04xjrw.jpg)
 - The content of dataset include the subjects of article, article content, author, reply content, and the time of publish or reply articles.
 - We compare OLMiner with att_clustering which use a clustering method only based on the characteristics of individuals to find opinion leaders. 
 - we use the influence spread as metric
-![image](http://oonaavjvi.bkt.clouddn.com/OLM12.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo34wxcj20dg07it92.jpg)
 - The result of OLMiner is better than att_clustering.
-![image](http://oonaavjvi.bkt.clouddn.com/OLM13.jpg)![image](http://oonaavjvi.bkt.clouddn.com/OLM14.jpg)
+![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo1ffcej20a306bq35.jpg)![image](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo1iy7vj20a006bglt.jpg)
 By our observation, the influence of att_clustering increase slowdown when n is greater than 130. We can clearly point out that influence overlapping problem is serious in this criterion. The steady increase of influence of OLMiner indicates that the proposed method can effectively reduce the impact of influence overlapping problems and discover opinion leaders with better qualities. 
 
 ## CONCLUSION
 Recently, opinion leader discovery has drawn much attention due to its widespread applicability. In this paper, we develop a novel algorithm, OLMiner, which integrates network structure and leadership quality analysis methods to efficiently find opinion leaders in a large social network. We utilize the two-stage clustering methods to significantly reduce the impact of influence overlapping problem in social network. OLMiner also utilizes the sentiment analysis to distinguish the opinion trend of discovered opinion leaders. Finally, to mention the practicability, we perform the proposed algorithm on real datasets. The experimental results show that OLMiner could detect more qualified opinion leaders under different criteria and effectively solve the influence overlapping problem.
-
-
-
-
-
-
-
-
-
-
-

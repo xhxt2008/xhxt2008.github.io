@@ -23,7 +23,7 @@ mathjax: true
 ### 特征的理解
 
 由于初赛时间充裕，我们可以逐个（64个）对特征进行分析，进而选择最好的处理方法。首先为了便于理解我们翻译了主办方提供的特征说明[文档](https://github.com/xhxt2008/LoanPrediction/blob/master/files/DataDictionary_cn.xlsx)。其中acc_now_deling是我们的Label，下面的都是提供的特征。有些特征的理解需要一些金融知识，我们这些外行只有强行看懂了。
-![特征说明](http://oonaavjvi.bkt.clouddn.com/pinanA001.png)
+![特征说明](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeoaeexxj210w0bitaf.jpg)
 
 ### 特征的分析
 
@@ -39,7 +39,7 @@ mathjax: true
 Name: acc_now_delinq, dtype: int64
 ```
 
-![Y值正负例比较](http://oonaavjvi.bkt.clouddn.com/pinanA008.png)
+![Y值正负例比较](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo26dwdj20s80k8wf9.jpg)
 
 #### 年份对贷款量对影响
 
@@ -52,7 +52,7 @@ Name: acc_now_delinq, dtype: int64
 
 ```
 
-![年份对贷款量对影响](http://oonaavjvi.bkt.clouddn.com/pinanA003.png)
+![年份对贷款量对影响](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo5d5wqj21620r8q4z.jpg)
 
 贷款量随年份逐年增加，上面的短线事贷款量的方差。
 
@@ -72,7 +72,7 @@ Name: acc_now_delinq, dtype: int64
 >>> ax1.set_title('Type of Loans by Grade', fontsize=14)
 ```
 
-![loan_status对Y值对影响](http://oonaavjvi.bkt.clouddn.com/pinanA004.png)
+![loan_status对Y值对影响](http://ww1.sinaimg.cn/large/6b8ee255gy1fxkeo5it1rj219e0p2taz.jpg)
 
 贷款状态对违约的影响，我们可以清楚看到处在LATE状态下的违约率明显偏高。Changed off字段下则完全没有违约问题。
 
