@@ -16,17 +16,17 @@
 <li>对于测试集来说，测试集要有足够的代表性，不能偏差太大。</li>
 <li>对于学习算法来说，要足够复杂，以表达特征（X值）与学习目标（y值）之间的逻辑关系。</li>
 </ol>
-<p><img src="/image/vc01.jpg" alt="可学习的条件"></p>
+<p><img src="/images/VC-dimension/vc01.jpg" alt="可学习的条件"></p>
 <p>台大教授林轩田把他归纳成两点：</p>
 <ol>
 <li>我们能否使测试集的误差与训练集足够接近？</li>
 <li>我们能否使训练集上的误差足够小？</li>
 </ol>
 <p>笔者认为，前者可能更加好懂，但不是那么严谨吧。在<a href="https://xhxt2008.github.io/2018/05/07/deep-learning/" target="_blank" rel="noopener">上一篇博客</a>中，那个关于水环境的例子。例子中我们认为数据条数太少，结果无法收敛，也就是说不符合训练集上误差足够小这一条。</p>
-<p><img src="/image/vc02.jpg" alt="模型复杂度与拟合的关系"><br>另外模型过于复杂或者过于简单，也会分别导致不符合条件1，2的情况。这也就是所谓的过拟合与欠拟合，网上的介绍很多，具体不在这里展开了。</p>
+<p><img src="/images/VC-dimension/vc02.jpg" alt="模型复杂度与拟合的关系"><br>另外模型过于复杂或者过于简单，也会分别导致不符合条件1，2的情况。这也就是所谓的过拟合与欠拟合，网上的介绍很多，具体不在这里展开了。</p>
 <p>从这里我们可以尝试得出一个结论：模型的可学习型，只与数据量与模型复杂度有关。与具体的研究对象，输入数据（X）的分布都无关。</p>
 <h2 id="回到VC维"><a href="#回到VC维" class="headerlink" title="回到VC维"></a>回到VC维</h2><p>从上面的推论，我们知道了可学习性与<strong>数据量</strong>和<strong>模型的复杂度</strong>有关。但只是泛泛但知道了，如何定量的计算和表达这种关系就需要引入VC维但概念了。网上关于VC维的介绍非常晦涩难懂，我们直接跳过公式先来看结论。详细请看：<a href="http://www.flickering.cn/machine_learning/2015/04/vc维的来龙去脉/" target="_blank" rel="noopener">VC维的来龙去脉</a></p>
-<p><img src="/image/vc03.jpg" alt="VC维"></p>
+<p><img src="/images/VC-dimension/vc03.jpg" alt="VC维"></p>
 <p>在这张图里，纵轴是错误率（1-精度），横轴是VC维，out-of-sample指的是测试集错误率，越小越好。in-sample-error指的是训练集错误率。</p>
 <p>我们可以看出：</p>
 <ol>
